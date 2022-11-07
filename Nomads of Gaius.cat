@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f7d9-3bf6-e646-75c2" name="Nomads of Gaius" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="542b-2809-baa0-0d13" name="Ogre Freebellies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0a8f-dccd-7263-ac8d" name="Ogre Freebellies" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Ferocious Charge</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0d1f-9282-7c7d-344f" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="86dd-314c-9036-52f5" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7364-8554-e0b7-1c37" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fed-6826-0b78-e184" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c456-0a0e-031e-62d8" name="Gorlug Crowncrusher" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a872-a32e-f6e6-40a0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ec11-52b3-cb0b-96a3" name="Gorlug Crowncrusher" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">9</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">5+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+Enhanced Save	
+Hatred	
+Spell Smiter (2)	
+Veteran</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d67a-518c-bd14-6de7" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
+        <infoLink id="4163-176a-32e1-19c6" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="e438-dbc6-f91e-8bf0" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+        <infoLink id="0ed7-012d-48b7-0eb0" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="d142-e615-5a71-806f" name="Spell Smiter (X)" hidden="false" targetId="8b9c-1616-5104-a39b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a477-608f-6465-1816" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="3310-5759-a5a2-4135" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b5a6-8e28-9ec2-b3a8" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="4d40-4d07-4837-4b9f" value="1.0">
+              <conditions>
+                <condition field="selections" scope="c456-0a0e-031e-62d8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d40-4d07-4837-4b9f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="991e-5c16-8a71-294b" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="62.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da93-c1e8-7301-32b1" name="Kragg Chainbreaker" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b7d8-ccf0-99c2-339e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5310-0b62-aa75-51a8" name="Kragg Chainbreaker" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">9&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">5+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+Collateral Damage	
+Enhanced Save	
+Heavy Hitters	
+Tough Fighters	
+Veteran</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1326-b4fe-bb57-cfd2" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="7ec0-28a2-db84-aeaa" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="0124-c8ab-c6d6-c23a" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="9021-e647-ecba-9a99" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="ccbe-2bbd-da35-b5c9" name="Tough Fighters" hidden="false" targetId="0df7-7fa7-2eb8-1475" type="rule"/>
+        <infoLink id="a0c6-e711-bc22-342e" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="23d3-0c53-a35c-4393" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="7a8b-cd16-e5c6-642d" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="88af-df5b-3721-035c" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="a0e4-0089-9016-2505" value="1.0">
+              <conditions>
+                <condition field="selections" scope="da93-c1e8-7301-32b1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e4-0089-9016-2505" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0569-4904-7f95-f3fa" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="86.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f24a-5d90-5959-38f6" name="Old Ironskin, Gutbearer" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6025-cfbd-1b3c-9548" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="16e9-ccdd-7687-c938" name="Old Ironskin, Gutbearer" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">10&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">14</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Enhanced Save	
+Ferocious Charge	
+Heavy Hitters	
+Lances	
+Stubborn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4837-fc32-d0ba-888e" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="607c-f3e9-3f2d-96c0" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="6382-90a7-5fb1-b6ee" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="5eec-f55b-1c69-f6c5" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="c7b3-da65-02c4-0541" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="2a41-80c3-a759-ca8d" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c258-cff5-bd4c-911e" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="2539-a725-ff17-bed7" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5e14-a104-fbea-4265" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="78bd-b5bd-2d5e-2fde" value="1.0">
+              <conditions>
+                <condition field="selections" scope="f24a-5d90-5959-38f6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78bd-b5bd-2d5e-2fde" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f4b8-7fd1-8c1a-3ed2" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="81.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a210-0d35-1551-259d" name="Torgar the Thundermuncher" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="99de-5dc1-7d3e-ad60" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fc83-d409-c5e0-ccd9" name="Torgar the Thundermuncher" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">9</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+Ferocious Charge	
+Stubborn
+Wizard Level: 2 (Lore of Lighting)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6b95-858b-7d90-f5e1" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="9f4a-9995-353e-6fae" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="7797-4ad9-551e-d648" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4dc0-453f-71eb-c00e" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="a1c5-5984-8ef2-7f58" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="adf6-464d-f763-164e" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="84a0-c5e5-5737-2a3b" value="1.0">
+              <conditions>
+                <condition field="selections" scope="a210-0d35-1551-259d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84a0-c5e5-5737-2a3b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3751-905e-cc6f-c715" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5236-53b1-97ce-a682" name="Firetiger Po" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5434-dc80-0988-009f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="99d7-ebe8-076a-e297" name="Firetiger Po" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">7</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
+Ferocious Charge	
+Range (18&quot;)	
+Sharp Shooters</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2d36-71ad-d966-8ff3" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="9656-08ce-fbb4-ee38" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="9cda-ea39-084e-4804" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="db67-179c-c693-0d65" name="Sharpshooters" hidden="false" targetId="c342-3ab1-434d-edc6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2103-8c2c-df1d-622e" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="066b-d4e7-3cbd-cfe9" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e9ba-9bd6-c0cb-cb33" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="e9f5-917e-a6f4-2860" value="1.0">
+              <conditions>
+                <condition field="selections" scope="5236-53b1-97ce-a682" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f5-917e-a6f4-2860" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d915-a583-6079-62c4" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d560-6722-ca06-9163" name="Tyrantbreakers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="04a4-005d-e105-b9b4" name="Ogre Freebellies" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+Ferocious Charge</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="991f-c618-921b-6a2c" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="1719-c03b-5c74-2cfb" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="11b6-e3c7-6b88-8cee" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cdbb-9718-4c8e-f4ed" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e3-e02f-c077-82a6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="51.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5743-a87d-0d56-46ec" name="Ogre Punishers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="253e-971f-a23b-4344" name="Ogre Punishers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">11</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">6+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Fanatical	
+Heavy Hitters</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f67-b1e2-a944-4429" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
+        <infoLink id="0464-4395-7e2f-fb48" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f9d8-b5c4-54c2-871b" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3783-baf2-0dae-7217" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f195-032f-c1a7-717c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6524-bf4c-f159-e06a" name="Ogre Beastkin" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6940-6e6e-36f0-241b" name="Ogre Beastkin" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">6+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Ferocious Charge	
+Lances</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0fa1-9de8-ae40-22b8" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="ce67-637f-eb6d-6b88" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="fb13-37bc-9cbf-1db1" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6f9c-69ec-4438-da9d" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b939-7f98-8ac9-2dff" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ae5-bbfc-64ac-fa2f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="29.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fad-e0ae-0169-98a5" name="Free Goblin Militia" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d673-b08d-f9c6-e7a6" name="Free Goblin Militia" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">5&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">6+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">7+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">10+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="406e-fda0-527e-27c0" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f766-cda0-d91f-a39b" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccc5-6e4b-1624-df57" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1663-7b96-d0ad-03ed" name="Ogre Powderguts" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="13f9-e4df-e0bd-7fa2" name="Ogre Powderguts" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">7</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">5+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">7</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
+Ferocious Charge	
+Range (12&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1041-4445-041e-e597" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="2bdf-6b5b-8953-ddca" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="2fb6-dce7-b775-d58e" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3d6b-b86d-89c6-6539" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="57e0-f55f-2ead-fbda" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b2-b8d9-88d0-fb55" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dfa4-1220-71d3-6272" name="Rhinok Stompers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="52d6-8744-8c47-1019" name="Rhinok Stompers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">9&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Ferocious Charge	
+Heavy Hitters	
+Lances</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9720-29ce-34e6-8cd9" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="6cc3-a81b-3d3b-32db" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="65b5-cbd5-eb85-8616" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="5a22-f327-1ccf-4477" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b032-2073-a9d9-eaf1" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1b29-4867-e58e-76de" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="453e-f04e-4d5f-47ea" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="67.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28ac-b96c-6958-4cb3" name="Gunagor Stormstrider" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d1ee-9f1a-9bc5-9e65" name="Gunagor Stormstrider" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">10&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">2</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Ferocious Charge	
+Heavy Hitters	
+Range (12&quot;)	
+Stubborn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ffd4-e341-3c1e-961c" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="e995-21f0-4bf2-b8b7" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="3ca9-2248-80a4-13ea" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="4fc5-5fbc-464c-ce25" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="893e-9e9c-a5ba-69ec" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="645d-a123-3ef9-4ec1" name="New CategoryLink" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ebd1-022b-6457-2609" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27e7-45d0-cea5-4926" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="71.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a67-4381-175d-d991" name="Deathbelch Boomblasters" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="798e-f520-bc5c-95f1" name="Deathbelch Boomblasters" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">3</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">2</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">6+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)	
+Range (48&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9e8c-8797-62cb-af26" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="5059-130a-bca1-d321" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7834-70f7-e2ec-fbbe" name="Artillery" hidden="false" targetId="44ae-0c2a-7543-24a6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7ccf-e54c-df89-6279" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3796-831e-9532-e7d2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="37.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b42b-796f-5ee0-5ea9" name="Hellrain Boomblasters" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8290-9345-a585-887d" name="Hellrain Boomblasters" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Clash" typeId="284f-60a6-2ff0-607e">3</characteristic>
+            <characteristic name="Sustain" typeId="54d6-39ab-3e85-1ad2">2</characteristic>
+            <characteristic name="Melee Accuracy" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Shots" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
+            <characteristic name="Ranged Accuracy" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="Defence Save" typeId="9913-7593-75a8-6357">6+</characteristic>
+            <characteristic name="Stamina" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Leadership" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (48&quot;)	
+Volley Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7e7b-77c5-dcbe-be0c" name="Volley Fire" hidden="false" targetId="88c8-fd15-2ebc-ae06" type="rule"/>
+        <infoLink id="0ef1-47f7-5619-8985" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="25b4-f7f0-6a08-9a08" name="Artillery" hidden="false" targetId="44ae-0c2a-7543-24a6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b05d-dd82-05b9-2925" name="Company" hidden="false" collective="false" import="true" targetId="3d16-9032-a369-0452" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e18-b061-eb94-5ce0" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="36.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3d16-9032-a369-0452" name="Company" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a5-c714-1bb5-332f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="acd0-3aff-bdeb-f0bc" name="Company Types" hidden="false" collective="false" import="true" targetId="c28c-6d59-553b-3e7d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
