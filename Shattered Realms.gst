@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="6" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="7" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="75cb-9d69-801f-1667" name="Shattered Realms Core Rulebook" shortName="Core Rules" publisher="Shattered Realms Core Rulebook" publicationDate="2022"/>
   </publications>
@@ -64,7 +64,18 @@
     <categoryEntry id="44ae-0c2a-7543-24a6" name="Artillery" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="b161-ba72-949a-7953" name="Standard Force Organisation" publicationId="75cb-9d69-801f-1667" hidden="false"/>
+    <forceEntry id="b161-ba72-949a-7953" name="Standard Force Organisation" publicationId="75cb-9d69-801f-1667" hidden="false">
+      <categoryLinks>
+        <categoryLink id="e469-71e8-7a45-233f" name="Core Batallion" hidden="false" targetId="00c8-0b76-a7a3-083c" primary="false"/>
+        <categoryLink id="1e07-f197-676a-7d8f" name="Faction Ability" hidden="false" targetId="e353-3a9e-80d1-7fb9" primary="false"/>
+        <categoryLink id="f03d-b9d2-3e6a-1caf" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+        <categoryLink id="91f9-be9a-0c58-dd8f" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+        <categoryLink id="d2f5-c43c-3b47-9edb" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="false"/>
+        <categoryLink id="e57e-dbdc-9ebe-6149" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="false"/>
+        <categoryLink id="3d79-8267-e652-34cf" name="War Machine" hidden="false" targetId="ec46-b709-bc88-858b" primary="false"/>
+        <categoryLink id="54ab-b5c2-b53e-97be" name="Artillery" hidden="false" targetId="44ae-0c2a-7543-24a6" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <entryLinks>
     <entryLink id="72cb-f780-ad2c-97ea" name="Infantry Battalion" hidden="false" collective="false" import="true" targetId="b547-2678-c1aa-d383" type="selectionEntry">
@@ -89,6 +100,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="d35f-6f1d-3257-f77f" name="New CategoryLink" hidden="false" targetId="00c8-0b76-a7a3-083c" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="9a58-36ee-3cb2-7472" name="Cavalry Batallion" hidden="false" collective="false" import="true" targetId="296c-95dd-ea8c-0515" type="selectionEntry">
       <profiles>
@@ -111,6 +125,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="66d3-b50d-9f01-ac61" name="New CategoryLink" hidden="false" targetId="00c8-0b76-a7a3-083c" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="00ee-a98b-81dc-eb97" name="Heavy Batalllion" hidden="false" collective="false" import="true" targetId="59a9-be05-f9c5-8029" type="selectionEntry">
       <profiles>
@@ -134,6 +151,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="a1bc-48cd-3182-e548" name="New CategoryLink" hidden="false" targetId="00c8-0b76-a7a3-083c" primary="true"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <rules>
