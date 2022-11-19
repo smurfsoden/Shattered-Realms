@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="6" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="cd0a-e10c-e7e0-3455" name="Elven Spearmen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9cfd-6329-e2fa-e801" name="Elven Spearmen" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Lockstep	
+Spear Wall</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bbbd-0385-ed11-58ee" name="Spear Wall" hidden="false" targetId="719f-c6a0-d88f-b530" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fc30-148b-9b02-1b61" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d49a-b69f-9f9c-8778" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="197f-8006-cb10-75b8" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="806c-e960-ac0f-e9f9" name="Pengoldir&apos;s Archers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f1-e241-272d-979e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="25c7-5824-968d-71b9" name="Pengoldir&apos;s Archers" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">5</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
+Range (24&quot;)	
+Sharp Shooters	
+Veteran	
+Volley Fire
+Wizard Level 4 (Lore of Light)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ee6b-bc84-2a16-d74c" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="ebe3-2f40-dcc8-a854" name="Volley Fire" hidden="false" targetId="88c8-fd15-2ebc-ae06" type="rule"/>
+        <infoLink id="811a-5575-4741-34ac" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="6244-b4c1-26ae-ad0d" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+        <infoLink id="f718-b7bc-97ca-90f5" name="Sharpshooters" hidden="false" targetId="c342-3ab1-434d-edc6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="151f-cdb6-27c4-b054" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+        <categoryLink id="6568-711e-90fa-bb15" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9178-35ed-64d1-e5f0" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="6ab6-8429-a1a0-b48f" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="d94c-b432-0545-701a" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="fdd5-ec37-9762-3dc0" value="1.0">
+              <conditions>
+                <condition field="selections" scope="806c-e960-ac0f-e9f9" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd5-ec37-9762-3dc0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="297a-2453-ad29-ef79" name="Lore of Light" hidden="false" collective="false" import="true" targetId="91e8-dcfc-9654-28f2" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="344d-6d3a-76ad-582b" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f225-96d6-e56f-00d1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="89.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="22ed-bbf0-9ec5-b312" name="Elven Lizard Cavalry" publicationId="75cb-9d69-801f-1667" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2e64-d1fb-a096-4f86" name="Elven Lizard Cavalry" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">9&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Lances	
+Rough Riders	</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ab6c-4194-1a43-6e95" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="2987-1b6d-b2b3-f382" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="f7e6-fc96-3a1e-a4fa" name="Rough Riders" hidden="false" targetId="ec66-b293-2fdb-6247" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ead5-a54e-09be-3122" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
+        <categoryLink id="6206-de2f-3bd6-04f6" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b249-cfb4-6343-6931" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89e-f992-a75c-c30b" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3af7-7c5e-49a4-b39d" name="Elven Archers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="aabd-154b-b8e8-49e7" name="Elven Archers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">4</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (18&quot;)
+Volley Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2e3d-8242-6f0f-2799" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="c859-28a8-779e-5b5a" name="Volley Fire" hidden="false" targetId="88c8-fd15-2ebc-ae06" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="599b-d143-41df-e41a" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7294-6b87-ccf2-95b5" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea68-d299-17b1-88b0" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5526-7208-7535-f68d" name="Great Lizard" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="76d3-38b2-c136-8d76" name="Great Lizard" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+
+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Fanatical	
+Heavy Hitters</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9b33-24d3-7d06-c253" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
+        <infoLink id="f664-40af-cff1-13e4" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="22ea-45b8-f6e5-abe4" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d482-7a12-7381-1e81" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ee7f-e5eb-d2ab-3e70" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18c8-bb03-5549-51f7" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="64.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8abc-d382-b357-8596" name="Amlunganel, Dragon Queen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adab-7ea4-27f6-824d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2000-c63a-8342-b83d" name="Amlunganel, Dragon Queen" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">6</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">5+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (48&quot;)	
+Armour Piercing (Ranged) (2)	
+Collateral Damage	
+Enhanced Save	
+Fearless	
+Wizard Level: 3 (Lore of Air)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3748-bbf3-6839-2e75" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="b21a-38f2-2881-6dbf" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="d8ee-fbaa-6059-85fc" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
+        <infoLink id="4765-ffbf-a1ca-1814" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="e743-041e-6c4d-8676" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="c92c-2d5f-4417-3a3b" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6ea5-efd0-0522-b4e2" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="1a31-607c-b872-92ed" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7f1f-73a9-632c-3737" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="9ec8-0ad7-5fcf-fe31" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="241c-020a-b420-e0de" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="9579-6e7c-12ab-9591" value="1.0">
+              <conditions>
+                <condition field="selections" scope="8abc-d382-b357-8596" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9579-6e7c-12ab-9591" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ffd5-627c-818a-1127" name="Lore of Air" hidden="false" collective="false" import="true" targetId="afd3-bd5a-6829-d13c" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d2f-1211-d7cc-f2f2" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="420b-9a06-bfd4-18b8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="92.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a6c-b2f9-b3dc-bfdb" name="Hunnapaur&apos;s Thunder Cavalry" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e9d-0a35-caf9-30db" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="979e-4f71-7ffb-7214" name="Hunnapaur&apos;s Thunder Cavalry" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">9&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Ferocious Charge	
+Lances	
+Stubborn
+Wizard Level: 2 (Lore of Lighting)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e220-454a-4497-77c1" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="801b-3f63-54eb-25ce" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="a4bd-e927-8293-043c" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="277d-f59e-d7a4-8d92" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cb9e-f5c5-ae30-8675" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="b74c-d3ab-314e-f66f" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="711d-e6ae-bbef-1457" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="7227-d7e4-9b0b-9c04" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="ec75-28e4-e448-e923" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="8965-c66d-c73c-12f5" value="1.0">
+              <conditions>
+                <condition field="selections" scope="5a6c-b2f9-b3dc-bfdb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8965-c66d-c73c-12f5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0703-0a48-1a78-6285" name="Lore of Lighting" hidden="false" collective="false" import="true" targetId="5fb4-d61c-c160-b82a" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88c4-bfcb-3020-b9f5" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b856-82e3-f6e0-357e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="72.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42d6-ebd7-352b-daa5" name="The Covædhel" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a80d-ba44-f1d1-8c0f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d694-ce69-1138-5de0" name="The Covædhel" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">8</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">8</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)	
+Collateral Damage	
+Enhanced Save	
+Fearless	
+Range (48&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1bb3-7dfc-c325-43ae" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="37f9-151c-e879-c09c" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="4a8e-ea0d-515e-9754" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="ccb7-0561-1a34-145b" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+        <infoLink id="877d-e0ae-8932-eb25" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1254-7c43-6b90-5edc" name="New CategoryLink" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="1181-869f-d5c9-a81a" name="Artillery" hidden="false" targetId="44ae-0c2a-7543-24a6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b75b-bea8-fb7a-6c05" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="78c3-c8dd-583f-55cc" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="9650-041b-18dc-14a3" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="e45e-1c17-f44b-bae1" value="1.0">
+              <conditions>
+                <condition field="selections" scope="42d6-ebd7-352b-daa5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e45e-1c17-f44b-bae1" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36c5-dbbf-36cf-cd63" name="Celenathel Blademistresses" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a9-53d4-1a17-cc03" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4d69-8036-9354-1bef" name="Celenathel Blademistresses" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Enhanced Save	
+Lances	
+Terrifying Charge	
+Tough Fighters	
+Wizard Level 1 (Lore of Fire)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6177-7f5c-07db-0a3a" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="df57-0500-0ef0-c014" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="3fa2-2780-12df-1ade" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="784e-348c-89d3-5465" name="Terrifiying Charge" hidden="false" targetId="706a-0581-8431-26d1" type="rule"/>
+        <infoLink id="2fd7-8b1c-1b49-b97d" name="Tough Fighters" hidden="false" targetId="0df7-7fa7-2eb8-1475" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="449a-bc0f-976f-a9f4" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+        <categoryLink id="5810-6ddf-0ef5-aea5" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b2f1-c54e-5167-010a" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="4439-1d02-1166-7725" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="6b9f-fd68-a5a3-58ca" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="4062-6bde-3b3e-7f64" value="1.0">
+              <conditions>
+                <condition field="selections" scope="36c5-dbbf-36cf-cd63" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4062-6bde-3b3e-7f64" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e21b-6954-fc85-2b98" name="Lore of Fire" hidden="false" collective="false" import="true" targetId="9dc7-1de2-87d1-fe25" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1730-4c10-1614-ed31" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddde-5a82-760d-fcf1" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="66.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="348c-a876-db38-11b8" name="Angrenhûn&apos;s Swordmasters" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1cb-3451-bf20-cdf0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="337c-8bcc-1010-b5ff" name="Angrenhûn&apos;s Swordmasters" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+Bold	
+Hatred
+Wizard Level: 2 (Lore of Metal)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="030f-9c32-3a83-6c38" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="a7bb-75f1-773c-f0b4" name="Bold" hidden="false" targetId="d136-6738-e249-71f1" type="rule"/>
+        <infoLink id="5d61-c88d-f2e0-b768" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fae7-9af1-c811-cf06" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="0e17-285e-fd38-c2b7" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b268-dc88-f0ce-7965" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="b080-01e5-0c0c-d849" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="3f6e-f20a-e211-b028" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="5924-5d1c-397a-3d11" value="1.0">
+              <conditions>
+                <condition field="selections" scope="348c-a876-db38-11b8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5924-5d1c-397a-3d11" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2718-0689-7e5b-9f70" name="Lore of Metal" hidden="false" collective="false" import="true" targetId="f2cd-3ae0-1c96-b85c" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6059-5670-714d-37d0" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba6-e3c5-9d1d-ad5c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="68.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a87-3718-224b-d161" name="Taugcair&apos;s Sworn Swords" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c70-5bbe-a634-5694" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2757-6964-5cec-36ef" name="Taugcair&apos;s Sworn Swords" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+Bold	
+Hatred
+Wizard Level: 2 (Lore of Water)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a1f8-cbc0-4b12-2440" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
+        <infoLink id="3e6d-11df-73eb-8d17" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+        <infoLink id="abd7-a6eb-8477-5ad8" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b5ff-5f87-93e4-672e" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="1d4c-88d6-ec15-ed94" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b285-5d1c-ceee-9870" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="4d15-59b8-b44a-8e0f" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="4aad-451f-101d-5440" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="4e81-4389-ce45-9015" value="1.0">
+              <conditions>
+                <condition field="selections" scope="9a87-3718-224b-d161" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e81-4389-ce45-9015" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dad6-e2e1-9bae-9322" name="Lore of Water" hidden="false" collective="false" import="true" targetId="f52a-8c49-acda-8b6f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d69-d4b0-01b3-653a" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f0-55b7-25bf-152c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="62.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d700-a1dd-d0a8-fcf2" name="Dolotherin on Great Lizard" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d1e-5e3f-e740-8b3b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="90fa-7f12-4325-e763" name="Dolotherin on Great Lizard" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+Fanatical	
+Heavy Hitters	
+Wizard Level: 4 (Lore of Darkness)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9282-1cb8-d489-b7e0" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="f2a0-9e1b-faad-23d4" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
+        <infoLink id="8204-918a-eda3-1c51" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="751e-e62d-f69c-eb0b" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="2d91-69c7-5ecb-8656" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e6fc-9721-53d8-0aed" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="9387-42ec-578e-dbc5" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="0be2-0c9c-9c85-778e" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="120a-285e-2068-94d7" value="1.0">
+              <conditions>
+                <condition field="selections" scope="d700-a1dd-d0a8-fcf2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="120a-285e-2068-94d7" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9aa5-8c46-9019-0b50" name="Lore of Darkness" hidden="false" collective="false" import="true" targetId="a689-1ef0-e82e-c106" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3db-6c47-1bbe-7c56" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d56-f3c5-19fd-a30b" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="92.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bf2-3d25-d209-06f1" name="Golodh&apos;s Wild Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4b6-27cb-589a-dd67" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5651-10a9-07fa-fbb8" name="Golodh&apos;s Wild Warriors" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Enhanced Save	
+Ferocious Charge	
+Valiant	
+Wizard Level: 3 (Lore of Spirit)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="da43-ad5c-5a36-3044" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="b2bb-1af1-752e-c714" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="204d-1850-f8be-7097" name="Valiant" hidden="false" targetId="ff0e-f196-2843-7cdc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4ea1-6166-1701-17ac" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+        <categoryLink id="8e22-6b0f-8c87-b134" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4835-1477-7f86-b592" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="6e0e-7981-23bc-ce16" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="6ff4-f0ec-c011-aa40" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="156e-0e93-a78d-4be6" value="1.0">
+              <conditions>
+                <condition field="selections" scope="2bf2-3d25-d209-06f1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="156e-0e93-a78d-4be6" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5852-e4b3-4ad9-9f18" name="Lore of Spirit" hidden="false" collective="false" import="true" targetId="1ccc-bdaa-71a0-ea26" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10e-cd7f-a409-dc70" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23fe-8fc2-85ff-7dfe" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93ad-ebcf-15e5-ddd1" name="Elven Wild Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="23b6-bd8b-4f72-0b24" name="Elven Wild Warriors" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Ferocious Charge	
+Valiant</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bd5f-9b74-7421-d9e4" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="5cb2-29f7-cd49-0219" name="Valiant" hidden="false" targetId="ff0e-f196-2843-7cdc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="687b-6c19-a423-de3c" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bece-8d3b-be3a-3620" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8830-543d-63a1-549f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="301e-0b59-9820-a9be" name="Elven Swordmasters" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7bbf-d370-f3aa-612e" name="Elven Wild Warriors" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+Hatred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5fb8-d4f3-3763-2130" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="c3a8-d2d7-ea0f-d5c0" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4301-0291-9dc6-1752" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="480b-fd27-b2f8-2980" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796b-d271-c62b-7272" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e472-9e84-1e02-ed26" name="Elven Crossbows" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8474-3a4b-a055-6358" name="Elven Archers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
+Primary Volly	
+Range (12&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0690-7a41-939b-5f6e" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="1ba2-6672-9275-a30a" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="07b2-0c47-7142-115c" name="Primary Volley" hidden="false" targetId="76ef-f7ca-32e2-0b61" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dd82-fef7-716d-16bd" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f435-5caf-87c7-223c" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589c-48db-7353-e573" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="50e9-197a-2ae5-06ae" name="Hawk Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9ef9-f523-f7fb-ec56" name="Hawk Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">2</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
+Fly	
+Range (12&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2f3e-9313-e140-8e78" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
+        <infoLink id="d1b4-3ba8-3687-9e6f" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="8904-4b3d-0762-189c" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0248-2dc6-f708-bfe7" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="144d-bfca-2507-d4af" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e0-402c-57f1-74ce" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="100a-0534-6555-bec6" name="Elven Light Cavalry" publicationId="75cb-9d69-801f-1667" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5000-fc80-8959-dcdb" name="Elven Light Cavalry" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">10&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">4</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Primary Volly	
+Range (12&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e29e-62e6-1348-224f" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="05ed-8b06-d5e7-91b0" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="e186-43e0-92f4-6d96" name="Rough Riders" hidden="false" targetId="ec66-b293-2fdb-6247" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5524-3b28-1a81-9683" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
+        <categoryLink id="ae41-2e8e-d8b7-595e" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c744-12dc-3b49-3ee7" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4a-b4e3-771a-74ed" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a07d-ee8f-3dda-6d6a" name="Elven Curupeng" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ef00-b0b2-6a2d-cbd1" name="Elven Curupeng" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">3</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">3</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
+Collateral Damage	
+Range (48&quot;)	
+Wizard Level: 2 (Any Spell Lore)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ee65-ec5e-16db-70cb" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="e04b-8723-897d-ffb5" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="ea55-2418-a69e-e955" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="47fa-02de-da04-0ae1" name="New CategoryLink" hidden="false" targetId="44ae-0c2a-7543-24a6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5904-3250-2024-a33c" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ba-b452-b067-b5db" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="322e-627d-f7f5-053c" name="Spell Lore" hidden="false" collective="false" import="true" targetId="cb73-d106-8138-da8b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="52.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54c0-35dd-97d5-800a" name="Covæhel" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="feda-0ddc-a7cd-3949" name="Magical Convergence" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
+          <characteristics>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">In the magic phase of a Covæhel player is the active player roll 3D6 when rolling for winds of magic and discard the lowest result. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9588-4cf8-83ba-3d3e" name="New CategoryLink" hidden="false" targetId="e353-3a9e-80d1-7fb9" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="7beb-7066-315d-f0ef" name="Company" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2852-aeac-e2c1-657a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="aa50-ee82-c0ae-614a" name="Company Types" hidden="false" collective="false" import="true" targetId="c28c-6d59-553b-3e7d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

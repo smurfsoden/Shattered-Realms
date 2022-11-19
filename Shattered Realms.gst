@@ -44,38 +44,27 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="0b00-57c4-47ed-c013" name="Infantry" hidden="false"/>
-    <categoryEntry id="8737-330e-057e-db66" name="Cavalry" hidden="false"/>
-    <categoryEntry id="ec46-b709-bc88-858b" name="War Machine" hidden="false"/>
-    <categoryEntry id="44ae-0c2a-7543-24a6" name="Artillery" hidden="false"/>
-    <categoryEntry id="58da-637c-e127-2ebb" name="Monster" hidden="false"/>
-    <categoryEntry id="6174-6f39-5c1d-861e" name="Unique" hidden="false"/>
-    <categoryEntry id="00c8-0b76-a7a3-083c" name="Core Batallion" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83f9-e07c-f8f1-5daa" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8056-f50e-472f-befc" type="max"/>
-      </constraints>
-    </categoryEntry>
     <categoryEntry id="e353-3a9e-80d1-7fb9" name="Faction Ability" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27b9-13b1-a7ab-8183" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1722-f283-8533-825c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d54e-7848-f4c6-622e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b0c-d881-c623-e159" type="min"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="00c8-0b76-a7a3-083c" name="Core Batallion" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d254-e17b-32a6-fc6c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bec-92e2-56a4-4b8a" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="6174-6f39-5c1d-861e" name="Unique" hidden="false"/>
+    <categoryEntry id="0b00-57c4-47ed-c013" name="Infantry" hidden="false"/>
+    <categoryEntry id="8737-330e-057e-db66" name="Cavalry" hidden="false"/>
+    <categoryEntry id="58da-637c-e127-2ebb" name="Monster" hidden="false"/>
+    <categoryEntry id="ec46-b709-bc88-858b" name="War Machine" hidden="false"/>
+    <categoryEntry id="44ae-0c2a-7543-24a6" name="Artillery" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="b161-ba72-949a-7953" name="Standard Force Organisation" publicationId="75cb-9d69-801f-1667" hidden="false">
-      <categoryLinks>
-        <categoryLink id="bd32-f67d-b7dc-95b7" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
-        <categoryLink id="a1c5-a8c1-2686-eeba" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="false"/>
-        <categoryLink id="8cf3-86df-8c18-99d4" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
-        <categoryLink id="ac0c-b4c1-24ac-f63e" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="false"/>
-        <categoryLink id="3775-1f0c-395d-a83a" name="Artillery" hidden="false" targetId="44ae-0c2a-7543-24a6" primary="false"/>
-        <categoryLink id="ffa4-f5d2-3df3-8653" name="Core Batallion" hidden="false" targetId="00c8-0b76-a7a3-083c" primary="false"/>
-        <categoryLink id="07e0-2308-fe38-9d53" name="War Machine" hidden="false" targetId="ec46-b709-bc88-858b" primary="false"/>
-        <categoryLink id="697b-8c04-0e92-267b" name="Faction Ability" hidden="false" targetId="e353-3a9e-80d1-7fb9" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
+    <forceEntry id="b161-ba72-949a-7953" name="Standard Force Organisation" publicationId="75cb-9d69-801f-1667" hidden="false"/>
   </forceEntries>
   <entryLinks>
     <entryLink id="72cb-f780-ad2c-97ea" name="Infantry Battalion" hidden="false" collective="false" import="true" targetId="b547-2678-c1aa-d383" type="selectionEntry">
@@ -299,9 +288,6 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="346c-e5c1-75ad-2cd3" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7721-8be2-d8d8-df77" type="min"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="452f-b161-045f-758b" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
-      </categoryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
       </costs>
@@ -316,9 +302,6 @@ Heavy Support: 0-1</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="4cfc-8d41-3d0d-747b" name="Core Company" hidden="false" targetId="00c8-0b76-a7a3-083c" primary="true"/>
-      </categoryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
       </costs>
@@ -333,9 +316,6 @@ Infantry Support: 0-1</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="bcc4-9730-e7aa-4ea0" name="New CategoryLink" hidden="false" targetId="00c8-0b76-a7a3-083c" primary="true"/>
-      </categoryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
       </costs>
@@ -348,9 +328,6 @@ Infantry Support: 0-1</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="23e7-edf0-8202-2f21" name="New CategoryLink" hidden="false" targetId="00c8-0b76-a7a3-083c" primary="true"/>
-      </categoryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
       </costs>
@@ -856,6 +833,9 @@ Infantry Support: 0-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b79c-ce16-acc8-0574" name="1 - Cascading Fire Cloak " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -869,6 +849,9 @@ Infantry Support: 0-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d7e9-025f-8605-1c85" name="2 - Flaming Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -882,6 +865,9 @@ Infantry Support: 0-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9024-2c19-a2da-79dc" name="3 - Fire Blade " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -895,6 +881,9 @@ Infantry Support: 0-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6fcd-b5ee-a096-fb87" name="4 - Flaming Torrent " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -908,6 +897,9 @@ Infantry Support: 0-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3e31-2ba9-00e9-1e2b" name="5 - Ring of Fire" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -921,6 +913,9 @@ Infantry Support: 0-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="955a-2b95-b00b-c106" name="6 - Raging Inferno" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -942,6 +937,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="51b1-9f3f-35e7-13fe" name="Lore Attribute - Kindling" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -955,6 +953,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -972,6 +973,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="df7c-0c48-6d01-205e" name="0 - Jet Stream " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -985,6 +989,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1650-6420-f997-a1b0" name="1 - Rejuvenation" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -998,6 +1005,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6569-3eec-2ac8-c214" name="2 - Torrential Downpour " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1011,6 +1021,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="78d0-706c-db7d-c9f2" name="3 - Low Fog " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1024,6 +1037,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2234-bb19-6819-80b4" name="4 - Tidal Surge " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1037,6 +1053,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1715-9bde-4dab-e135" name="5 - Flash Flood " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1050,6 +1069,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a224-dc5c-493f-dd47" name="6 - Wall of Water " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1071,6 +1093,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1088,6 +1113,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b5e1-fd4c-06b9-feae" name="0 - Silver Scraps " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1101,6 +1129,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="282c-f05f-f3e4-c5ba" name="1 - Rust" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1114,6 +1145,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9b04-7cbb-402e-033f" name="2 - Sharpened Blades " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1127,6 +1161,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ea20-baa8-566e-0f26" name="3 - Enhanced Armour " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1140,6 +1177,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d142-6729-8597-aae4" name="4 - Burden of Steel " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1153,6 +1193,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="474a-d0a6-abc6-acd6" name="5 - Seal and Weld " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1166,6 +1209,9 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0872-c96f-1ca4-74d6" name="6 - Slab Shield " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1187,6 +1233,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1204,6 +1253,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a33d-5dda-af77-101f" name="0 - Lightning Bolt " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1217,6 +1269,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="add9-853d-e45e-2895" name="1 - Lightning Blast " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1230,6 +1285,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="825f-f53d-d39b-3c51" name="2 - Starfall" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1243,6 +1301,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="347d-224c-e0b3-e0a2" name="3 - Thundershock" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1256,6 +1317,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a144-2d62-383d-eb54" name="4 - Halo of Clouds " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1269,6 +1333,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6bcf-ceed-4d19-16bf" name="5 - Storm Caller " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1282,6 +1349,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="218b-fc84-87e8-e651" name="6 - Thundercloud" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1303,6 +1373,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1320,6 +1393,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0c70-739f-a21c-5359" name="0 - Smite" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1333,6 +1409,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c082-e5a7-b670-e64a" name="1 - Light of Courage " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1346,6 +1425,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4e76-02db-35bc-667a" name="2 - Binding Cage " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1359,6 +1441,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="dd48-d7ac-d304-1691" name="3 - Protective Shine" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1372,6 +1457,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="484d-1178-770f-361c" name="4 - Banishment" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1385,6 +1473,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a690-0eb1-e4ae-c5a3" name="5 - Lightspeed" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1398,6 +1489,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="155a-c5c8-152e-98fc" name="6 - Searing White Light " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1419,6 +1513,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1436,6 +1533,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d346-db8d-4ef0-fb74" name="0 - Dash of the Wind " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1449,6 +1549,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f5d0-132f-f9d3-c1f2" name="1 - Chilling Bite " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1462,6 +1565,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9636-fe6a-b1ff-d504" name="2 - Howling Gale " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1475,6 +1581,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cdf5-4d08-af59-f63c" name="3 - Guiding Winds " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1488,6 +1597,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9923-4aa7-0003-0922" name="4 - Calming Zephyr " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1501,6 +1613,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4143-f41c-2444-d523" name="5 - Blazing Winds" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1514,6 +1629,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8ca7-066c-47e0-97ee" name="6 - Transporting Vortex " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1535,6 +1653,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1552,6 +1673,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="031f-3da2-a9af-381f" name="0 - Distressing Visions " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1565,6 +1689,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="befa-bb9c-efe7-fb6c" name="1 - Shadow Step" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1578,6 +1705,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a115-d44a-8c3b-c042" name="2 - Enfeebling Foe " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1591,6 +1721,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c221-e573-0f6d-5709" name="3 - Death’s Shadow " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1604,6 +1737,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c9a4-be42-05f5-86b6" name="4 - Mindrazors" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1617,6 +1753,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d9b1-2f86-9358-6618" name="5 - The Withering" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1630,6 +1769,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3ce0-1f6a-0658-e11e" name="6 - Pit of Shades " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1651,6 +1793,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1668,6 +1813,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4c11-ecb5-0bfa-426f" name="0 - Reinforce the Mind " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1681,6 +1829,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5920-1291-e625-4724" name="1 - Exorcism" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1694,6 +1845,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a3d6-cc7e-dd21-985a" name="2 - Distracting Visions" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1707,6 +1861,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="17af-f98d-2feb-e320" name="3 - Inspiring Visage " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1720,6 +1877,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fb31-6159-4a81-628a" name="4 - Voices of Doubt" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1733,6 +1893,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7849-75dd-b0ac-ad2e" name="5 - Echoes of the Ancestors" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1746,6 +1909,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e8b8-7202-7b4c-0b81" name="6 - Spirits of the Lost " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1776,6 +1942,9 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
           <infoLinks>
             <infoLink id="e610-e6f7-55ea-c8d8" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1789,41 +1958,65 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
           <entryLinks>
             <entryLink id="bd6c-44f2-5050-c52b" name="Lore of Air" hidden="false" collective="false" import="true" targetId="afd3-bd5a-6829-d13c" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a4d1-473f-cb84-527e" name="Lore of Darkness" hidden="false" collective="false" import="true" type="upgrade">
           <entryLinks>
             <entryLink id="fa14-f8ba-92ab-640f" name="Lore of Darkness" hidden="false" collective="false" import="true" targetId="a689-1ef0-e82e-c106" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3492-3413-bc57-f54e" name="Lore of Fire" hidden="false" collective="false" import="true" type="upgrade">
           <entryLinks>
             <entryLink id="7e3d-7881-3799-b642" name="Lore of Fire" hidden="false" collective="false" import="true" targetId="9dc7-1de2-87d1-fe25" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ec83-4e5d-3bd4-10eb" name="Lore of Light" hidden="false" collective="false" import="true" type="upgrade">
           <entryLinks>
             <entryLink id="8714-fab3-a1e3-ed1d" name="Lore of Light" hidden="false" collective="false" import="true" targetId="91e8-dcfc-9654-28f2" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="438d-3964-111f-ae07" name="Lore of Lighting" hidden="false" collective="false" import="true" type="upgrade">
           <entryLinks>
             <entryLink id="d568-4f24-8f14-3da3" name="Lore of Lighting" hidden="false" collective="false" import="true" targetId="5fb4-d61c-c160-b82a" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cbb0-cb65-c3cd-4274" name="Lore of Metal" hidden="false" collective="false" import="true" type="upgrade">
           <entryLinks>
             <entryLink id="3d61-c945-70aa-bf4e" name="Lore of Metal" hidden="false" collective="false" import="true" targetId="f2cd-3ae0-1c96-b85c" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e9d0-fe5f-9501-22b1" name="Lore of Spirit" hidden="false" collective="false" import="true" type="upgrade">
           <entryLinks>
             <entryLink id="abe1-28db-1a4e-ddd5" name="Lore of Spirit" hidden="false" collective="false" import="true" targetId="1ccc-bdaa-71a0-ea26" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d046-2004-3572-583d" name="Lore of Water" hidden="false" collective="false" import="true" type="upgrade">
           <entryLinks>
             <entryLink id="ee2a-1d52-1912-e89b" name="Lore of Water" hidden="false" collective="false" import="true" targetId="f52a-8c49-acda-8b6f" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
