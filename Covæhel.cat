@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="6" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="8" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cd0a-e10c-e7e0-3455" name="Elven Spearmen" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -33,7 +33,7 @@ Spear Wall</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="34.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="806c-e960-ac0f-e9f9" name="Pengoldir&apos;s Archers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -98,7 +98,7 @@ Wizard Level 4 (Lore of Light)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="89.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22ed-bbf0-9ec5-b312" name="Elven Lizard Cavalry" publicationId="75cb-9d69-801f-1667" page="" hidden="false" collective="false" import="true" type="unit">
@@ -137,7 +137,7 @@ Rough Riders	</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="43.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3af7-7c5e-49a4-b39d" name="Elven Archers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -154,13 +154,15 @@ Rough Riders	</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (18&quot;)
-Volley Fire</characteristic>
+Volley Fire
+Sharpshooter</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="2e3d-8242-6f0f-2799" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
         <infoLink id="c859-28a8-779e-5b5a" name="Volley Fire" hidden="false" targetId="88c8-fd15-2ebc-ae06" type="rule"/>
+        <infoLink id="4d8a-d235-62c5-cf59" name="Sharpshooters" hidden="false" targetId="c342-3ab1-434d-edc6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="599b-d143-41df-e41a" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
@@ -180,7 +182,7 @@ Volley Fire</characteristic>
       <profiles>
         <profile id="76d3-38b2-c136-8d76" name="Great Lizard" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+
@@ -212,7 +214,7 @@ Heavy Hitters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="64.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8abc-d382-b357-8596" name="Amlunganel, Dragon Queen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -278,7 +280,7 @@ Wizard Level: 3 (Lore of Air)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="92.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a6c-b2f9-b3dc-bfdb" name="Hunnapaur&apos;s Thunder Cavalry" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -341,7 +343,7 @@ Wizard Level: 2 (Lore of Lighting)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="72.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="42d6-ebd7-352b-daa5" name="The Covædhel" hidden="false" collective="false" import="true" type="unit">
@@ -464,7 +466,7 @@ Wizard Level 1 (Lore of Fire)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="66.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="348c-a876-db38-11b8" name="Angrenhûn&apos;s Swordmasters" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -525,7 +527,7 @@ Wizard Level: 2 (Lore of Metal)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="68.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a87-3718-224b-d161" name="Taugcair&apos;s Sworn Swords" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -586,7 +588,7 @@ Wizard Level: 2 (Lore of Water)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="62.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d700-a1dd-d0a8-fcf2" name="Dolotherin on Great Lizard" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -647,7 +649,7 @@ Wizard Level: 4 (Lore of Darkness)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="92.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bf2-3d25-d209-06f1" name="Golodh&apos;s Wild Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -749,7 +751,7 @@ Valiant</characteristic>
     </selectionEntry>
     <selectionEntry id="301e-0b59-9820-a9be" name="Elven Swordmasters" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7bbf-d370-f3aa-612e" name="Elven Wild Warriors" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+        <profile id="7bbf-d370-f3aa-612e" name="Elven Swordmasters" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
@@ -780,7 +782,7 @@ Hatred</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="48.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e472-9e84-1e02-ed26" name="Elven Crossbows" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -856,7 +858,7 @@ Range (12&quot;)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="31.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="100a-0534-6555-bec6" name="Elven Light Cavalry" publicationId="75cb-9d69-801f-1667" page="" hidden="false" collective="false" import="true" type="unit">
@@ -894,7 +896,7 @@ Range (12&quot;)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="32.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a07d-ee8f-3dda-6d6a" name="Elven Curupeng" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -934,7 +936,7 @@ Wizard Level: 2 (Any Spell Lore)</characteristic>
         <entryLink id="322e-627d-f7f5-053c" name="Spell Lore" hidden="false" collective="false" import="true" targetId="cb73-d106-8138-da8b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="52.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54c0-35dd-97d5-800a" name="Covæhel" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">

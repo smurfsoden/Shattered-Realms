@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4e65-9913-8077-f339" name="Free Kingdoms" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4e65-9913-8077-f339" name="Free Kingdoms" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="2f11-5133-59e7-da93" name="Ser Chronus&apos; Steam Chariott " publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -58,7 +58,7 @@ Stubborn</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="92.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ed1-82d8-bda3-7179" name="The Land Ship" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -159,7 +159,7 @@ Heavy Hitters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="58.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="999e-9514-ae55-e1e8" name="Ser Jacquelyn&apos;s Gunner Riders" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -219,7 +219,7 @@ Sharp Shooters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="52.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfa2-0dea-7136-1a00" name="Men at arms" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -253,7 +253,7 @@ Sharp Shooters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="26.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="642b-4c57-aab2-e8d5" name="Pikemen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -287,7 +287,7 @@ Sharp Shooters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="24.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfe8-8d51-db77-db21" name="Greatswords " publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -323,7 +323,7 @@ Hatred</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="28.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20c5-2e80-12e7-166a" name="Gunners" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -360,7 +360,7 @@ Range (18&quot;)
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="29.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ee9-bb74-9ee6-bfdd" name="Mounted Gunners " publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -396,7 +396,7 @@ Range (12&quot;)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="31.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc06-f01a-7931-8c02" name="Mounted Handgunners" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -434,7 +434,7 @@ Sharp Shooters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="33.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3db-e868-885f-55d7" name="Steam Tankettes" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -476,7 +476,7 @@ Terrifying Charge</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="57.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8dde-2c95-c5a2-d7a9" name="Steam Fortress" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -641,7 +641,7 @@ Spear Wall</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="28.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4435-e575-6617-62b3" name="Drill Sergeant Karrik&apos;s Halberdiers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -755,7 +755,7 @@ Range (48&quot;)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="62.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

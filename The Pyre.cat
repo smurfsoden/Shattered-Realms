@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fff5-ec42-ab5c-977f" name="The Pyre" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fff5-ec42-ab5c-977f" name="The Pyre" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9ba9-f97f-d998-fcf2" name="King Dane Al-Khatour, The Everlasting Flame" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -58,7 +58,7 @@ Spell Smiter (2)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="101.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e885-dfd3-54c6-a9b8" name="Tyros the Firebrand Cataphracts" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -114,7 +114,7 @@ Veteran</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="63.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0ff-640d-e27b-bddf" name="Urion the Spellthief" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -208,7 +208,7 @@ Steady</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="48.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4b9-86d2-8a62-6e76" name="Drokir Drakewardens" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -248,7 +248,7 @@ Veteran</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="73.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64f2-309a-4ded-ece2" name="Drokir Rage-Blooded" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -288,7 +288,7 @@ Hatred</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="39.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0fce-4b2f-b433-0b7d" name="Drokir Cataphracts" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -326,7 +326,7 @@ Veteran</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="49.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c66-8035-55a4-04a8" name="Drokir Crossbowmen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -362,7 +362,7 @@ Steady</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="37.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4208-1ab7-5d91-acef" name="Drokir Thunderbearers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -400,7 +400,7 @@ Steady</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="37.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46c3-8685-b5cd-e4b3" name="Drokir Ancestor-Class War Golem" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -442,7 +442,7 @@ Range (12&quot;)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="67.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4351-3f80-62e2-e8e7" name="Drokir Cannon" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -480,7 +480,7 @@ Sharp Shooters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="38.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="887e-2204-7f65-426c" name="Drokir Firespiter" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -518,7 +518,7 @@ Range (24&quot;)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="33.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66c5-d266-b6fc-8972" name="The Pyre" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">

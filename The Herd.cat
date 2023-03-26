@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c62b-8006-9c6b-a809" name="The Herd" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c62b-8006-9c6b-a809" name="The Herd" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="fa5f-f3e3-7280-6774" name="Apex" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -65,7 +65,7 @@ Wizard Level: 3 (Lore of Fire)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="138.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="140.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3658-3c5f-62e6-1aa2" name="Astrid on Horse" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -121,7 +121,7 @@ Tough Fighters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="57.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7c3-397f-3d1e-974a" name="Astrid Iskrem" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -175,15 +175,15 @@ Veteran</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="54.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74db-d5f3-971f-b35d" name="Jason &quot;Big Dick&quot; Samona" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="74db-d5f3-971f-b35d" name="Erik  Hamunderson" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5764-aace-156e-5614" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ef85-81c1-cb8c-8d93" name="Jason &quot;Big Dick&quot; Samona" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+        <profile id="ef85-81c1-cb8c-8d93" name="Erik  Hamunderson" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">9&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
@@ -233,7 +233,7 @@ Tough Fighters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="53.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="312d-ea99-4b91-6976" name="Vidarr Olegson" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -351,15 +351,15 @@ Tough Fighters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="89.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a4b-9fac-90e4-f834" name="Silmie Iskonge" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8a4b-9fac-90e4-f834" name="Silmir Iskonge" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c8e-f599-1182-13ef" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e982-77ba-dd5b-ac51" name="Silmie Iskonge" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+        <profile id="e982-77ba-dd5b-ac51" name="Silmir Iskonge" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">9</characteristic>
@@ -374,6 +374,7 @@ Tough Fighters</characteristic>
 Heavy Hitters	
 Terrifying Charge	
 Tough Fighters
+Armour Piercing (1) (melee)
 Wizard Level: 2 (Lore of Metal)</characteristic>
           </characteristics>
         </profile>
@@ -383,6 +384,7 @@ Wizard Level: 2 (Lore of Metal)</characteristic>
         <infoLink id="1610-b2a0-4e27-70b4" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
         <infoLink id="3e24-c5d4-8baf-6f9c" name="Terrifiying Charge" hidden="false" targetId="706a-0581-8431-26d1" type="rule"/>
         <infoLink id="8a1b-2124-a051-24e8" name="Tough Fighters" hidden="false" targetId="0df7-7fa7-2eb8-1475" type="rule"/>
+        <infoLink id="9d9a-7564-922a-1da2" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="44ac-3df7-65fd-6098" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
@@ -450,7 +452,7 @@ Lockstep</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="26.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d67-b4ec-f629-d4b0" name="Archers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -486,7 +488,7 @@ Volley Fire</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="18.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8f9-5015-26f4-dbe5" name="Spearmen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -524,7 +526,7 @@ Spear Wall</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="28.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2848-a762-72ed-4608" name="Berzekers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -600,7 +602,7 @@ Veteran</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="44.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f49-3874-09c7-d3ac" name="Jomfruskjord" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -638,7 +640,7 @@ Stubborn</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="46.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b44-ca6a-5654-c4f8" name="Branval Chosen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -678,7 +680,7 @@ Fanatical</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="48.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5182-8411-3824-450d" name="Berzekers Cavalry" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -718,7 +720,7 @@ Fanatical</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="36.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f51d-0586-f26d-b9f1" name="Valkyries" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -758,7 +760,7 @@ Stubborn</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="49.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7797-f6ff-f13f-82eb" name="Hill Giants" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -796,14 +798,14 @@ Heavy Hitters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="38.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7642-1d6a-0c48-aafe" name="Ice Giants" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0303-92b8-f344-87e7" name="Ice Giants" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
@@ -841,7 +843,7 @@ Wizard Level: 1 (Lore of Metal)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="67.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6801-f25b-93a4-bf71" name="Fire Giants" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -890,7 +892,7 @@ Wizard Level: 1 (Lore of Fire)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="81.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a46-2d27-71f8-c9f0" name="Da Rocklobba" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -930,7 +932,7 @@ Volley Fire</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="33.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6471-a1d6-be05-b6a8" name="The Herd" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">

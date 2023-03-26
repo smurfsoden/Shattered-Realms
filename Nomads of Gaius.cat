@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7d9-3bf6-e646-75c2" name="Nomads of Gaius" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f7d9-3bf6-e646-75c2" name="Nomads of Gaius" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="542b-2809-baa0-0d13" name="Ogre Freebellies" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -32,7 +32,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="34.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c456-0a0e-031e-62d8" name="Gorlug Crowncrusher" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -86,7 +86,7 @@ Veteran</characteristic>
         <entryLink id="991e-5c16-8a71-294b" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="62.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da93-c1e8-7301-32b1" name="Kragg Chainbreaker" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -142,7 +142,7 @@ Veteran</characteristic>
         <entryLink id="0569-4904-7f95-f3fa" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="86.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f24a-5d90-5959-38f6" name="Old Ironskin, Gutbearer" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -198,7 +198,7 @@ Stubborn</characteristic>
         <entryLink id="f4b8-7fd1-8c1a-3ed2" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="81.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a210-0d35-1551-259d" name="Torgar the Thundermuncher" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -255,7 +255,7 @@ Wizard Level: 2 (Lore of Lighting)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="58.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5236-53b1-97ce-a682" name="Firetiger Po" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -343,7 +343,7 @@ Ferocious Charge</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="51.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5743-a87d-0d56-46ec" name="Ogre Punishers" hidden="false" collective="false" import="true" type="unit">
@@ -393,7 +393,7 @@ Heavy Hitters</characteristic>
             <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
             <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
-            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
 Ferocious Charge	
@@ -417,7 +417,7 @@ Lances</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="29.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4fad-e0ae-0169-98a5" name="Free Goblin Militia" hidden="false" collective="false" import="true" type="unit">
@@ -486,7 +486,7 @@ Range (12&quot;)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="38.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfa4-1220-71d3-6272" name="Rhinok Stompers" hidden="false" collective="false" import="true" type="unit">
@@ -526,7 +526,7 @@ Lances</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="67.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28ac-b96c-6958-4cb3" name="Gunagor Stormstrider" hidden="false" collective="false" import="true" type="unit">
@@ -568,7 +568,7 @@ Stubborn</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="71.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a67-4381-175d-d991" name="Deathbelch Boomblasters" hidden="false" collective="false" import="true" type="unit">
@@ -604,7 +604,7 @@ Range (48&quot;)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="37.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b42b-796f-5ee0-5ea9" name="Hellrain Boomblasters" hidden="false" collective="false" import="true" type="unit">
@@ -640,7 +640,7 @@ Volley Fire</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="36.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28a2-0bad-ae49-6d2e" name="Nomads of Gaius" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">

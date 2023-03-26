@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9441-aa80-9992-75e6" name="Keltara" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9441-aa80-9992-75e6" name="Keltara" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b07e-1fe3-06af-7d23" name="Astrilius the Radiant" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -59,7 +59,7 @@ Wizard Level: 4 (Lore of Light)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="99.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b35a-dbd3-0db3-40e0" name="Inpelius the Brave" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -154,7 +154,7 @@ Wizard Level: 4 (Lore of Spirit)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="28.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="871d-4646-5bef-6726" name="Harpies" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -228,7 +228,7 @@ Heavy Hitters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="39.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4f5-82ba-2441-3b90" name="Centaur Militia" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -268,7 +268,7 @@ Rough Riders</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="27.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1bb-04a3-1578-1d08" name="Centaur Hunters" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -306,7 +306,7 @@ Volley Fire</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="28.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7bc-93bb-77ff-7f3b" name="Centaur Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -360,7 +360,7 @@ Rough Riders</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="54.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2430-098c-4e96-1639" name="Unicorns" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -399,7 +399,7 @@ Wizard Level: 1 (Lore of Light)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="34.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a84a-3faa-0545-95c6" name="Tree Giants" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -436,7 +436,7 @@ Wizard Level: 1 (Lore of Spirit)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="53.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ab9-df0c-5384-f69b" name="Old Oaky" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -475,7 +475,7 @@ Wizard Level: 2 (Lore of Spirit)</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="72.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
