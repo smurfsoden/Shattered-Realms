@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7d9-3bf6-e646-75c2" name="Nomads of Gaius" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f7d9-3bf6-e646-75c2" name="Nomads of Gaius" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="542b-2809-baa0-0d13" name="Ogre Freebellies" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -645,7 +645,7 @@ Volley Fire</characteristic>
     </selectionEntry>
     <selectionEntry id="28a2-0bad-ae49-6d2e" name="Nomads of Gaius" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4a10-3e7b-87f1-20ff" name="Knowing your ABCs" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
+        <profile id="4a10-3e7b-87f1-20ff" name="Unstoppable Charge" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
             <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">When a Nomads of Gaius unit completes a charge move place a dice showing the unmodified number from the charge dice. In the following Combat Phase a Nomads of Gaius unit that completed the charge may automatically hit the number of attacks shown on the dice.</characteristic>
           </characteristics>

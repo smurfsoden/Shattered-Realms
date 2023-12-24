@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="8" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="11" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="75cb-9d69-801f-1667" name="Shattered Realms Core Rulebook" shortName="Core Rules" publisher="Shattered Realms Core Rulebook" publicationDate="2022"/>
   </publications>
@@ -82,21 +82,22 @@
       <profiles>
         <profile id="535e-282e-956a-36b4" name="Rapid Support" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-2 Cavalry Units
-0-1 Infantry Units
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-4 Cavalry Units
+0-1 Infantry or Cavalry Units
 0-1 Monster Units</characteristic>
           </characteristics>
         </profile>
         <profile id="84a6-4177-2696-3b08" name="Heavy Support" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-2 Artillery, Monster or War Machine Units
-0-1 Infantry Units
-0-1 Artillery Units</characteristic>
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1 Artillery, Monster or War Machine Units
+0-3 Monster or War Machine Units
+0-2 Artillery Units</characteristic>
           </characteristics>
         </profile>
         <profile id="775b-dd28-56a1-378b" name="Infantry Company" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">2-4 Infantry Units</characteristic>
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">2-5 Infantry Units
+0-1 Infantry or Artillery Units</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -108,20 +109,21 @@
       <profiles>
         <profile id="4a58-ad71-67e0-4e2d" name="Cavalry Company" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">2-3 Cavalry Units
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">2-5 Cavalry Units
 0-1 Cavalry or Monster Units</characteristic>
           </characteristics>
         </profile>
         <profile id="cbb4-7482-8f16-3320" name="Rapid Support" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-2 Cavalry Units
-0-1 Infantry Units
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-4 Cavalry Units
+0-1 Infantry or Cavalry Units
 0-1 Monster Units</characteristic>
           </characteristics>
         </profile>
         <profile id="7960-3efc-5391-c712" name="Infantry Support" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-4 Infantry Units</characteristic>
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-5 Infantry Units
+0-1 Infantry or Artillery Units</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -133,21 +135,22 @@
       <profiles>
         <profile id="dd69-58b2-5c88-e507" name="Infantry Support" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-4 Infantry Units</characteristic>
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-5 Infantry Units
+0-1 Infatry or Artillery Units</characteristic>
           </characteristics>
         </profile>
         <profile id="9c29-b369-764c-4158" name="Rapid Support" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-2 Cavalry Units
-0-1 Infantry Units
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-3 Cavalry Units
+0-1 Cavalry or Infatry Units
 0-1 Monster Units</characteristic>
           </characteristics>
         </profile>
         <profile id="43dc-12d6-b62d-93cc" name="Heavy Support" hidden="false" typeId="618a-6773-e421-babf" typeName="Company Organisation">
           <characteristics>
-            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1-2 Artillery, Monster or War Machine Units
-0-1 Infantry Units
-0-1 Artillery Units</characteristic>
+            <characteristic name="Company Requirments" typeId="bce6-73b2-49a4-b9d3">1 Artillery, Monster or War Machine Units
+0-3 Monster or War Machine Units
+0-2 Artillery Units</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -176,13 +179,13 @@
       <description>Roll an additional dice when making leadership checks and discard the highest</description>
     </rule>
     <rule id="9748-55c9-00a5-8b41" name="Commander" hidden="false">
-      <description>Allows a unit that is not unique to be taken as the Commander of a battalion</description>
+      <description>Allows a unit that is not unique to be taken as the Commander of a battalion.</description>
     </rule>
     <rule id="27e9-47a4-f4e7-aaa2" name="Enhanced Save" hidden="false">
       <description>The defence saves of this unit cannot be modified by the Armour Piercing special rule</description>
     </rule>
     <rule id="c4ff-cc37-b904-b86e" name="Fanatical" hidden="false">
-      <description>Grants both Ferocious Charge and Terrifying Charge</description>
+      <description>Grants both the Ferocious Charge and Terrifying Charge special rules.</description>
     </rule>
     <rule id="082b-cf49-c48d-5dd9" name="Fearless" hidden="false">
       <description>Automatically passes Break tests</description>
@@ -191,7 +194,7 @@
       <description>Re-roll hit rolls when charging</description>
     </rule>
     <rule id="11f8-4592-7848-3a9b" name="Fly" hidden="false">
-      <description>When performing any movement (including charges) may increase its movement value to 12&quot; and ignore interviewing terrain or models (friendly or enemy) provided it does not end the move on an enemy unit or impassable terrain</description>
+      <description>When performing a normal movement or charge you may increase its movement value to 12&quot; and ignore interviewing terrain or models (friendly or enemy) provided it does not end the move on an enemy unit or impassable terrain. You cannot march when using fly.</description>
     </rule>
     <rule id="f0c1-ad27-e692-713d" name="Hatred" hidden="false">
       <description>Re-roll hit rolls when using clash value in a combat</description>
@@ -375,7 +378,7 @@ Infantry Support: 0-1</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e43-3f17-311b-d38c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8946-15a7-b00b-dc79" name="Infantry Company: Infantry Unit 2-4" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8946-15a7-b00b-dc79" name="Infantry Company: Infantry Unit 2-5" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -410,6 +413,40 @@ Infantry Support: 0-1</characteristic>
                 <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="ad73-0837-c4b3-11c1" name="Infantry Company: 0-1 Artillery or Infantry Units" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec46-b709-bc88-858b" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="58da-637c-e127-2ebb" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8737-330e-057e-db66" type="notInstanceOf"/>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8946-15a7-b00b-dc79" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="f136-ab51-0798-d51c" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="da7e-c250-c3f5-94ee" value="0.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f136-ab51-0798-d51c" type="max"/>
+                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da7e-c250-c3f5-94ee" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad98-1bb4-b1be-e6b5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ec02-6666-ea46-04db" name="Rapid Support" hidden="true" collective="false" import="true">
@@ -437,7 +474,7 @@ Infantry Support: 0-1</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a990-a0d2-927c-d09a" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c77c-6930-7818-dbe3" name="Rapid Support: Cavalry Unit 1-2" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c77c-6930-7818-dbe3" name="Rapid Support: 1-4 Cavalry Units" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -460,7 +497,7 @@ Infantry Support: 0-1</characteristic>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="increment" field="ccc1-29a9-d5cd-8b75" value="2.0">
+                <modifier type="increment" field="ccc1-29a9-d5cd-8b75" value="4.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="296c-95dd-ea8c-0515" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
@@ -606,7 +643,7 @@ Infantry Support: 0-1</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="befb-d0a3-13c5-e016" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="21b9-ee71-6277-9404" name="Heavy Support: 1-2 Artillery Monster or War Machine" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="21b9-ee71-6277-9404" name="Heavy Support: 1 Artillery Monster or War Machine" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -626,7 +663,7 @@ Infantry Support: 0-1</characteristic>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="increment" field="be9c-0a14-075c-6f04" value="2.0">
+                <modifier type="increment" field="be9c-0a14-075c-6f04" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="59a9-be05-f9c5-8029" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
@@ -653,17 +690,16 @@ Infantry Support: 0-1</characteristic>
                 <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6350-be59-4f90-82ab" name="Heavy Support: Infantry Unit 0-1" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6350-be59-4f90-82ab" name="Heavy Support: 0-3 Monster or War Machine Units" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec46-b709-bc88-858b" type="notInstanceOf"/>
                         <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="44ae-0c2a-7543-24a6" type="notInstanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8737-330e-057e-db66" type="notInstanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="58da-637c-e127-2ebb" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b00-57c4-47ed-c013" type="notInstanceOf"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="21b9-ee71-6277-9404" type="atLeast"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8737-330e-057e-db66" type="notInstanceOf"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -674,7 +710,7 @@ Infantry Support: 0-1</characteristic>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="increment" field="e573-eecf-8c04-c0d5" value="1.0">
+                <modifier type="increment" field="e573-eecf-8c04-c0d5" value="3.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="59a9-be05-f9c5-8029" repeats="1" roundUp="false"/>
@@ -690,7 +726,7 @@ Infantry Support: 0-1</characteristic>
                 <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f49a-69aa-67a0-e23d" name="Heavy Support: 0-1 Artillery" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f49a-69aa-67a0-e23d" name="Heavy Support: 0-2 Artillery" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -705,7 +741,7 @@ Infantry Support: 0-1</characteristic>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="increment" field="c6c8-71f8-879f-bb44" value="1.0">
+                <modifier type="increment" field="c6c8-71f8-879f-bb44" value="2.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="59a9-be05-f9c5-8029" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
@@ -741,7 +777,7 @@ Infantry Support: 0-1</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db2d-5eb7-544e-4a52" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3fe4-aa7e-25cf-64c9" name="Cavalry Company: Cavalry Unit 2-4" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3fe4-aa7e-25cf-64c9" name="Cavalry Company: 2-5 Cavalry Units" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -761,7 +797,7 @@ Infantry Support: 0-1</characteristic>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="296c-95dd-ea8c-0515" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="increment" field="c686-94ad-a4f2-9924" value="4.0">
+                <modifier type="increment" field="c686-94ad-a4f2-9924" value="5.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="296c-95dd-ea8c-0515" repeats="1" roundUp="false"/>
                   </repeats>
@@ -771,6 +807,50 @@ Infantry Support: 0-1</characteristic>
                 <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c686-94ad-a4f2-9924" type="max"/>
                 <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e0e-9f8b-9b53-ff1b" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c494-7466-8dde-9f2f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="26dd-9da2-60ef-39bc" name="Cavalry Company: 0-1 Cavalry or Monster Units" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b00-57c4-47ed-c013" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec46-b709-bc88-858b" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="44ae-0c2a-7543-24a6" type="notInstanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="296c-95dd-ea8c-0515" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="1998-281c-d6a8-4bbb" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="296c-95dd-ea8c-0515" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="fe43-570e-e22a-1694" value="0.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="296c-95dd-ea8c-0515" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58da-637c-e127-2ebb" type="greaterThan"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8737-330e-057e-db66" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1998-281c-d6a8-4bbb" type="max"/>
+                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe43-570e-e22a-1694" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="144a-df99-d2f7-de80" type="max"/>
               </constraints>
               <costs>
                 <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
@@ -847,7 +927,7 @@ Infantry Support: 0-1</characteristic>
             <profile id="e43c-8e8f-ba10-9382" name="0 - Fire Ball" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Fireball is a magic missile with a range of 18”. If successfully cast, make D3 attacks against the target unit that hits on a 4+. If the spell was cast on a 10+ it causes D6 hits. If it was cast on an 18+ it inflicts 2D6 hits. </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Fireball is a magic missile with a range of 18”. If successfully cast, make D3 shooting attacks against the target unit that have a ranged accuracy of 4+. If the spell was cast on a 10+ it contains D6 attacks. If it was cast on an 18+ it contains D3+3 attacks. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -879,7 +959,7 @@ Infantry Support: 0-1</characteristic>
             <profile id="9d1f-449e-0cbc-9606" name="2 - Flaming Weapon " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">6+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65"> Flaming Weapon is a blessing spell with a range of 12”. Until the start of your next magic phase, attacks made by either the target unit’s ranged or melee attacks (you must choose which) have the Armour Piercing (1) special rule. If the spell is cast on a 11+ you may target a second unit in range. </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Flaming Weapon is a blessing spell with a range of 12”. Until the start of your next magic phase, attacks made by either the target unit’s ranged or melee attacks (you must choose which) have the Armour Piercing (1) special rule. If the spell is cast on a 11+ you may target a second unit in range. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -911,7 +991,7 @@ Infantry Support: 0-1</characteristic>
             <profile id="2a89-4883-9f97-43c1" name="4 - Flaming Torrent " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">8+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Flaming Torrent is a direct damage spell with a range of 18”. Roll a number of dice equal to the target units stamina characteristic. For each roll of a 3+ the unit takes one hit (roll for defence saves).  </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Flaming Torrent is a direct damage spell with a range of 18”. Roll a number of dice equal to the target units stamina characteristic. For each roll of a 3+ the unit takes one hit (roll for defence saves). </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -927,7 +1007,7 @@ Infantry Support: 0-1</characteristic>
             <profile id="77a0-7066-07d2-85f9" name="5 - Ring of Fire" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">9+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Ring of Fire is a hex spell with a range of 24”. In the following movement phase, for each inch the chosen enemy units moves it takes 1 automatic hit (roll for defence saves). This includes all normal movements made but does not include pivoting. </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Ring of Fire is a hex spell with a range of 24”. In the following movement phase, for each inch the chosen enemy units moves it takes 1 automatic hit (roll for defence saves). This includes all normal movements made but does not include pivoting or changing formation. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -943,15 +1023,9 @@ Infantry Support: 0-1</characteristic>
             <profile id="2490-87b7-0787-a6a3" name="6 - Raging Inferno" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">10+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Raging Inferno is an endless spell with a radius of 32mm had has the following profile:
-Integrity	Move	Resistance	Inferno
-0-5	4”	4+	1
-6-9	5”	4+	2
-10 (Start)	6”	4+	2
-11-15	6”	4+	3
-16-19	7”	4+	3
-20	8”	4+	4
-After Raging Inferno completes a move, roll a dice for every unit it moves over equal to the value shown in the Inferno table. On a 3+ the unit takes a hit (roll for defence saves).</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Raging Inferno is an endless spell with a radius of 32mm and can move 6” at the end of each magic phase.
+
+After Raging Inferno completes a move, roll three dice for every unit it moves over. On a 3+ the unit takes a hit (roll for defence saves).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -979,7 +1053,7 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
     </selectionEntryGroup>
     <selectionEntryGroup id="f52a-8c49-acda-8b6f" name="Lore of Water" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="8e3f-592d-74af-ac9b" name="Lore Attribute - Kindling" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8e3f-592d-74af-ac9b" name="Lore Attribute - Resurgence" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1082-a20d-187a-063f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="980e-dce8-2fc3-5191" type="max"/>
@@ -1019,7 +1093,7 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
             <profile id="0554-f631-c06c-9d87" name="1 - Rejuvenation" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Rejuvenation is a blessing with a range of 12”. Target unit immediately rallies and may perform a pivot of 180°. The unit may use this to change formation. If Rejuvenation was cast on a 10+, increase the range to 24”. If Rejuvenation was cast on a 17+, increase the range to 48”. </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Rejuvenation is a blessing with a range of 12”. Target unit immediately rallies and may perform reform and a pivot of 180°. The unit may use this to change formation. If Rejuvenation was cast on a 10+, increase the range to 24”. If Rejuvenation was cast on a 17+, increase the range to 48”. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1035,7 +1109,7 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
             <profile id="39ba-d5c7-d6fc-2503" name="2 - Torrential Downpour " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">6+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Torrential Downpour is a hex spell with a range of 24”. Target unit reduces its movement characteristic by 1 and subtracts 1 from its leadership rolls until the start of your next magic phase. If the spell is cast on an 11+ the movement is reduced by 2 and 2 is subtracted from the target unit’s leadership rolls (Roll once and apply the single result to both effects).</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Torrential Downpour is a hex spell with a range of 24”. Target unit reduces its movement characteristic by 1 and subtracts 1 from its leadership rolls until the start of your next magic phase. If the spell is cast on an 11+ the movement is reduced by 2 and 2 is subtracted from the target unit’s leadership rolls.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1067,7 +1141,7 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
             <profile id="691e-749e-f643-7cc0" name="4 - Tidal Surge " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">8+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Tidal Surge is a blessing with a range of 8”. Target unit increases its movement and clash value by 1 until the start of your next magic phase. If the spell cast on a 13+ increase the movement and clash value of the unit by 2 instead (Roll once and apply the single result to both effects).</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Tidal Surge is a blessing with a range of 8”. Target unit increases its movement and clash value by 1 until the start of your next magic phase. If the spell cast on a 13+ increase the movement and clash value of the unit by 2 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1099,15 +1173,11 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
             <profile id="4ffc-6e48-00c3-510f" name="6 - Wall of Water " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">10+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Raging Inferno is an endless spell with a radius of 32mm had has the following profile:
-Integrity	Move	Resistance	Inferno
-0-5	4”	4+	1
-6-9	5”	4+	2
-10 (Start)	6”	4+	2
-11-15	6”	4+	3
-16-19	7”	4+	3
-20	8”	4+	4
-After Raging Inferno completes a move, roll a dice for every unit it moves over equal to the value shown in the Inferno table. On a 3+ the unit takes a hit (roll for defence saves).</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Wall of Water is an endless spell that is rectangle that is 20mm by 40mm and can move 3” at the end of each magic phase.
+
+Any ranged attack or magic missile that attempts to target a unit that is, at least in part, obscured by the water wall suffers a penalty of –2 to its ranged accuracy.
+
+Any movements (friendly or enemy) that are made through the Water Wall (including charges) reduces the movement characteristic of the unit by 3 (to a minimum of 1). </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1119,7 +1189,7 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
     </selectionEntryGroup>
     <selectionEntryGroup id="f2cd-3ae0-1c96-b85c" name="Lore of Metal" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="10e5-6258-c23d-50c5" name="Lore Attribute - Kindling" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="10e5-6258-c23d-50c5" name="Lore Attribute - Through Iron, Strength" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38f-8716-e864-2b6f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43f9-b50d-ebc6-20e8" type="max"/>
@@ -1127,7 +1197,7 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
           <profiles>
             <profile id="7db0-e63b-ef2d-5e8b" name="Lore Attribute - Through Iron, Strength" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
               <characteristics>
-                <characteristic name="Description" typeId="eace-a081-5083-1d74">Every time a unit casts a spell using the Lore of Metal place a token next to the unit. When this unit is forced to make a defence save (for any reason) you may remove the token. The defence save is automatically a pass. At the start of your next magic phases (before rolling winds of magic) remove any un-used tokens from your unit.</characteristic>
+                <characteristic name="Description" typeId="eace-a081-5083-1d74">Every time a unit casts a spell using the Lore of Metal place a Steel token next to the unit. When this unit is forced to make a defence save (for any reason) you may remove the token. The defence save is automatically a pass. At the start of your next magic phases (before rolling winds of magic) remove any un-used tokens from your unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1239,15 +1309,10 @@ After Raging Inferno completes a move, roll a dice for every unit it moves over 
             <profile id="7ff3-0f68-dd90-0227" name="6 - Slab Shield " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">10+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Slab Shield is an endless spell that is rectangle that is 20mm by 120mm and is 50mm tall. It has the following profile:
-Integrity	Resistance
-0-5	3+
-6-9	3+
-10 (Start)	3+
-11-15	3+
-16-19	2+
-20	2+
-Line of sight cannot be drawn through the slab shield following usual rules for line of sight. Unit (friendly or enemy) cannot move through, over or end on the slab shield.  </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Slab Shield is an endless spell that is rectangle that is 20mm by 120mm and is 50mm tall and cannot move.
+
+Line of sight cannot be drawn through the slab shield following usual rules for line of sight. Unit (friendly or enemy) cannot move through, over or end on the slab shield.  
+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1267,7 +1332,7 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
           <profiles>
             <profile id="8b7d-c51b-36c7-1c21" name="Lore Attribute - Channeler of the Storm" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
               <characteristics>
-                <characteristic name="Description" typeId="eace-a081-5083-1d74">Whenever a wizard casts as spell from the Lore of Lighting you may target one enemy unit. That unit suffers D3 hits (roll for defence saves). You may not target the same enemy unit twice with the Lore attribute until every enemy unit has been targeted at least once.</characteristic>
+                <characteristic name="Description" typeId="eace-a081-5083-1d74">Whenever a wizard casts as spell from the Lore of Lighting you may target one enemy unit. That unit suffers 1 hit (roll for defence saves). You may not target the same enemy unit twice with the Lore attribute until every enemy unit has been targeted at least once.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1331,7 +1396,7 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
             <profile id="eda7-30ff-bb17-f964" name="3 - Thundershock" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">7+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Thundershock is a direct damage spell which targets one unit in base contact with the caster. Target unit tales a number of hits equal to the casters Stamina Characteristic (roll for defence saves)</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Thundershock is a direct damage spell which targets one unit in base contact with the caster. Target unit takes a number of hits equal to the casters Stamina Characteristic (roll for defence saves)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1363,7 +1428,7 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
             <profile id="9280-58fd-2838-ce92" name="5 - Storm Caller " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">9+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Storm Caller is a direct damage spell with a range of 12”. All enemy units in range take D3+1 hits. Roll once and apply this to all targeted units. If Storm Caller was cast on a 15+ it has a range of 18”. If it was cast on a 20+ it has a range of 24”. If it was cast on a 25+ it has a range of 30”. If it was cast on a 30+ it has a range of 36”.</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Storm Caller is a direct damage spell with a range of 12”. All enemy units in range take 2 hits (Roll for defence). Roll once and apply this to all targeted units. If Storm Caller was cast on a 15+ it has a range of 18”. If it was cast on a 20+ it has a range of 24”. If it was cast on a 25+ it has a range of 30”. If it was cast on a 30+ it has a range of 36”.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1379,15 +1444,9 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
             <profile id="ad14-eb81-2bf9-83c2" name="6 - Thundercloud" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">10+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Thunderclound is an endless spell that a square that is 40mm by 40mm. It has the following profile:
-Integrity	Resistance	Darkened skies	Lighting
-0-5	4+	3”	1
-6-9	4+	3”	D3
-10 (Start)	4+	6”	D3
-11-15	4+	6”	D6
-16-19	4+	6”	D6
-20	3+	9”	D3+3
-Enemy units with range of the Thunderclouds darkened skies suffer -1 to break tests. At the end of you magic phase roll for one enemy unit within range of the Thunderclouds darkened skies. They take a number of hits equal to the Thunderclouds lighting value (roll for defence saves). </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Thundercloud is an endless spell that a square that is 40mm by 40mm and cannot move.
+
+Enemy units with 6” of the Thunderclouds suffer a –1 penalty to any Leadership checks they make. At the end of each magic phase roll one dice for one enemy unit within 6” of the Thundercloud. On a 4+ they take D3+1 hits (roll for defence saves). </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1407,7 +1466,7 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
           <profiles>
             <profile id="d8d7-3943-348b-ed7d" name="Lore Attribute - Divine Judgement" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
               <characteristics>
-                <characteristic name="Description" typeId="eace-a081-5083-1d74">If a blessing spell from the Lore of Light targets a friendly unit then the unit may add 1 to its Leadership tests until the start of the casting players next turn. </characteristic>
+                <characteristic name="Description" typeId="eace-a081-5083-1d74">If a blessing spell from the Lore of Light targets a friendly unit place a Divinity token on it. You may remove a Divinity token to re roll any single dice rolled by the unit. A unit may have up to 3 Divinity token on it at any one time.  </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1415,15 +1474,15 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0c70-739f-a21c-5359" name="0 - Smite" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0c70-739f-a21c-5359" name="0 - Light of Courage" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa1-e70d-a3df-55db" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ca2f-8893-7a5c-6b5e" name="0 - Smite" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
+            <profile id="ca2f-8893-7a5c-6b5e" name="0 - Light of Courage " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Smite is a magic missile with a range of 18”. Target unit suffers D3 hits (roll for defence saves). If Smite was cast on a 12+ the target unit takes D3+3 hits.</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Light of Courage is a blessing with a range of 12”. Target unit immediately rallies and may perform a pivot of 180°. The unit may use this to change formation. If Light of Courage was cast on a 10+, then until the start of your next magic phase the target unit automatically passes the next Break Test it is forced to make.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1431,15 +1490,15 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c082-e5a7-b670-e64a" name="1 - Light of Courage " hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c082-e5a7-b670-e64a" name="1 - Smite " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66ab-82f7-c813-5992" type="max"/>
           </constraints>
           <profiles>
-            <profile id="096d-d286-2c96-4af7" name="1 - Light of Courage " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
+            <profile id="096d-d286-2c96-4af7" name="1 - Smite " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Light of Courage is a blessing with a range of 12”. Target unit immediately rallies and may perform a pivot of 180°. The unit may use this to change formation. If Light of Courage was cast on a 10+, then until the start of your next magic phase the target unit automatically passes the next Break Test it is forced to make.</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Smite is a magic missile with a range of 18”. Target unit suffers D3 hits (roll for defence saves). If Smite was cast on a 12+ the target unit takes D3+3 hits.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1471,7 +1530,7 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
             <profile id="5e45-e55f-d3b6-7fdb" name="3 - Protective Shine" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">7+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Protective Shine is a blessing spell with a range of 12”. Any attacks that target the target unit of this spell are resolved at -1 to hit until the start of the casting players next turn. If Protective Shine was cast on a 12+ the target effects any friendly units that are within 12” of the caster, whilst they remain within 12” of the caster.</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Protective Shine is a blessing spell with a range of 12”. Any attacks that target this unit are resolved at -1 to hit until the start of the casting players next turn. If Protective Shine was cast on a 12+ you may target 2 units with this spell. If it was cast on a 17+ you may target 3 units with this spell. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1519,15 +1578,9 @@ Enemy units with range of the Thunderclouds darkened skies suffer -1 to break te
             <profile id="b922-3be5-b57a-1520" name="6 - Searing White Light " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">10+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Searing White Light is an endless spell that has a circular base with a diameter of 25mm. It has the following profile:
-Integrity	Resistance	Move	Burn
-0-5	4+	3”	1
-6-9	4+	3”	2
-10 (Start)	4+	6”	2
-11-15	4+	6”	2
-16-19	4+	6”	3
-20	5+	9”	3
-Each time the Searing white light moves any unit it passes over (friendly or enemy) takes the burn value in stamina points (do not roll for defence). If you move over a unit that is locked in combat, all units engaged in the combat take the stamina points</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Searing White Light is an endless spell that has a circular base with a diameter of 25mm and can move 6” at the end of each magic phase. 
+
+Each time the Searing white light moves any unit it passes over (friendly or enemy) takes 1 stamina points (do not roll for defence). If you move over a unit that is locked in combat, all units engaged in the combat take the stamina points.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1563,7 +1616,7 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
             <profile id="9c71-854f-a90e-255d" name="0 - Dash of the Wind " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Dash of the wind is a blessing or hex spell with a range of 24”. Target unit may move D3” in any direction, including diagonally.</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Dash of the wind is a blessing or hex spell with a range of 24”. You may move the target unit D3” in any direction, including diagonally.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1627,7 +1680,7 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
             <profile id="414c-9930-06d9-51f7" name="4 - Calming Zephyr " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">8+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Calming Zephyr is a blessing spell with a range of 18”. Target unit gains the Stubborn special rule until the start of the casting player’s next magic phase. If the target unit is retreating it immediately rallies and may make a pivot of up to 180°.</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Calming Zephyr is a blessing spell with a range of 18”. Target unit gains the Stubborn special rule until the start of the casting player’s next magic phase. If the target unit is retreating it immediately rallies, may reform and may make a pivot of up to 180°.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1659,15 +1712,9 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
             <profile id="2365-86d1-681a-32ed" name="6 - Transporting Vortex " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">10+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Transporting Vortex is an endless spell that has two circular base with a diameter of 25mm each. They must be placed with 18” of each other. They have the shared following profile:
-Integrity	Resistance	Move	Capacity
-0-5	4+	3”	1
-6-9	4+	3”	2
-10 (Start)	4+	6”	2
-11-15	4+	6”	2
-16-19	4+	6”	3
-20	5+	9”	4
-If a friendly unit moves in base contact with one of the two Transporting Vortex bases it may be placed within base contact with the other Transporting Vortex base. You may do this with as many units as specified by the Capacity of the Endless Spell. </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Transporting Vortex is an endless spell that has two circular bases with a diameter of 25mm each and can each move 4” at the end of each magic phase.
+
+If a friendly unit moves in base contact with one of the two Transporting Vortex bases it may be placed within base contact with the other Transporting Vortex base. The placed unit can face any direction and can continue to move as normal for the remainder of their movement. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1687,7 +1734,7 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
           <profiles>
             <profile id="5836-ecf3-0522-77b2" name="Lore Attribute - Smoke and Mirrors" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
               <characteristics>
-                <characteristic name="Description" typeId="eace-a081-5083-1d74">Every time a unit casts a spell using the Lore of Darkness place a token next to the unit. When an enemy units hits this unit with an attack (for any reason) you may remove the token. The hit automatically misses. At the start of each of your magic phases (before rolling winds of magic) remove any un-used tokens from your unit.</characteristic>
+                <characteristic name="Description" typeId="eace-a081-5083-1d74">Every time an enemy unit is targeted by a Hex spell place a curse token on them. When this unit successfully makes a Leadership test you may remove the curse token. Reduce the result of the Leadership check by D3. This may cause the unit to now fail the test. A unit may only have 1 curse token on it at a time. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1703,7 +1750,7 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
             <profile id="e1c5-7956-837d-43d8" name="0 - Distressing Visions " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Distressing Visions is a hex spell with a range of 24”. Increase the targets units leadership characteristic by 1, reduce their movement by 1 or reduce their Clash and Sustain by 2 until the start of the casting players next magic phase. If Distressing Visions was cast on a 10+ choose 2 affects rather than 1. </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Distressing Visions is a hex spell with a range of 24”. Increase the targets units leadership characteristic by 1, reduce their movement by 1 or reduce their Clash and Sustain by 2 until the start of the casting players next magic phase. If Distressing Visions was cast on a 10+ choose 2 affects rather than 1. A unit can only be affected by this spell once per phase. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1783,7 +1830,7 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
             <profile id="a0b5-597c-acbf-1ad2" name="5 - The Withering" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">9+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">The Withering is a hex spell with a range of 18”. Target unit has its stamina characteristic permanently reduced by 1 for the rest of the game. A unit can only be targeted by this spell once per battle. If The Withering was cast on a 15+ you may target D3 units within range. </characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">The Withering is a hex spell with a range of 12”. Target unit has its stamina characteristic permanently reduced by 1 for the rest of the game. A unit can only be targeted by this spell once per battle. If The Withering was cast on a 15+ increase the range to 18”</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1799,15 +1846,9 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
             <profile id="81f9-086c-8f50-e010" name="6 - Pit of Shades " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">10+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Pit of Shades is an endless spell that has a circular base with a diameter of 25mm. It has the following profile:
-Integrity	Resistance	Range	Pull
-0-5	4+	6”	6+
-6-9	4+	6”	5+
-10 (Start)	4+	12”	5+
-11-15	4+	12”	4+
-16-19	4+	18”	4+
-20	5+	18”	3+
-At the end of each magic phase roll 1D6 for each enemy unit with range. On the Pull value that unit immediately moves its movement distance directly towards the Pit of Shades (moving diagonally, ignoring normal restrictions). The dragged units will move around impassable terrain, friendly or enemy units by the shortest possible route. Move and roll for the closest units first.</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Pit of Shades is an endless spell that has a circular base with a diameter of 25mm and cannot move.
+
+At the end of each magic phase roll 1D6 for each enemy unit with 6”. On a 5+ that unit immediately moves 2” directly towards the Pit of Shades (moving diagonally, ignoring normal restrictions). The dragged units will move around impassable terrain, friendly or enemy units by the shortest possible route. Move the closest units first. No unit can end overlapping with another or the pit of shades. If a unit ends up in contact the Pit of Shades, it takes 1 point of stamina (do not roll defence saves).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1827,7 +1868,7 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
           <profiles>
             <profile id="a27e-e37f-237e-85a4" name="Lore Attribute - Soothing Voices" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
               <characteristics>
-                <characteristic name="Description" typeId="eace-a081-5083-1d74">If a friendly unit is targeting by a blessing spell from the Lore of Spirit, it automatically rallies and may perform a pivot of up to 180°. This may not allow it to change formation.</characteristic>
+                <characteristic name="Description" typeId="eace-a081-5083-1d74">If a blessing spell from the Lore of Spirt targets a friendly unit place a Blessing token on it. When that unit fails a Leadership test, you may remove the token to add D3 to the result of the units Leadership test. This may change the result to a pass. A unit may only have 1 Blessing token on it at any one time.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1859,7 +1900,7 @@ At the end of each magic phase roll 1D6 for each enemy unit with range. On the P
             <profile id="8322-c585-0e3b-7f01" name="1 - Exorcism" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
               <characteristics>
                 <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Exorcism is a blessing spell with a range of 18”. Target unit immediately removes the effects of a hex spell that it was being affect by. If Exorcism was cast on a 10+ you may remove the effects of a second hex spell on the target unit.</characteristic>
+                <characteristic name="Description" typeId="72cf-8299-671b-dd65">Exorcism is a blessing spell with a range of 18”. Target unit immediately removes the effects of a hex spell that it is under the effects of or may remove a token from the unit that was placed there by an enemy (not including Stamina Tokens). If Exorcism was cast on a 10+ you may remove the effects of a second hex spell on the target unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>

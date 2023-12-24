@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="8" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="9" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cd0a-e10c-e7e0-3455" name="Elven Spearmen" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -8,7 +8,7 @@
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
-            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
             <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
             <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
@@ -108,7 +108,7 @@ Wizard Level 4 (Lore of Light)</characteristic>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">9&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
-            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
             <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
             <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
@@ -149,11 +149,11 @@ Rough Riders	</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5+</characteristic>
             <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">4</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (18&quot;)
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (24&quot;)
 Volley Fire
 Sharpshooter</characteristic>
           </characteristics>
@@ -727,7 +727,8 @@ Wizard Level: 3 (Lore of Spirit)</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Ferocious Charge	
-Valiant</characteristic>
+Valiant
+Wizard Level: 1 (Lore of Spirit)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -742,6 +743,12 @@ Valiant</characteristic>
         <entryLink id="bece-8d3b-be3a-3620" name="Company" hidden="false" collective="false" import="true" targetId="7beb-7066-315d-f0ef" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8830-543d-63a1-549f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7d05-e14a-8119-78cb" name="Lore of Spirit" hidden="false" collective="false" import="true" targetId="1ccc-bdaa-71a0-ea26" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b755-551f-9c9f-62cb" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a59-eed8-bdbe-541f" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -794,7 +801,7 @@ Hatred</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5+</characteristic>
             <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -870,7 +877,7 @@ Range (12&quot;)</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
             <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">4</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -943,7 +950,7 @@ Wizard Level: 2 (Any Spell Lore)</characteristic>
       <profiles>
         <profile id="feda-0ddc-a7cd-3949" name="Magical Convergence" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
-            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">In the magic phase of a Covæhel player is the active player roll 3D6 when rolling for winds of magic and discard the lowest result. </characteristic>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">In the magic phase of a Covædhel player is the active player roll 3D6 when rolling for winds of magic and discard the lowest result. </characteristic>
           </characteristics>
         </profile>
       </profiles>

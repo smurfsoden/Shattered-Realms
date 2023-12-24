@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fff5-ec42-ab5c-977f" name="The Pyre" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fff5-ec42-ab5c-977f" name="The Pyre" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9ba9-f97f-d998-fcf2" name="King Dane Al-Khatour, The Everlasting Flame" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -61,7 +61,7 @@ Spell Smiter (2)</characteristic>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e885-dfd3-54c6-a9b8" name="Tyros the Firebrand Cataphracts" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e885-dfd3-54c6-a9b8" name="Tyros the Firebrand " publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c22f-d488-cf59-8820" type="max"/>
       </constraints>
@@ -117,12 +117,12 @@ Veteran</characteristic>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f0ff-640d-e27b-bddf" name="Urion the Spellthief" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f0ff-640d-e27b-bddf" name="Urien the Spell-Thief" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d5-fe98-067a-60ba" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8fe1-1eee-300d-d445" name="Urion the Spellthief" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+        <profile id="8fe1-1eee-300d-d445" name="Urien the Spell-Thief" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
@@ -211,9 +211,9 @@ Steady</characteristic>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c4b9-86d2-8a62-6e76" name="Drokir Drakewardens" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c4b9-86d2-8a62-6e76" name="Drokir Deepwardens" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="e351-ccd7-698e-fe9b" name="Drokir Drakewardens" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+        <profile id="e351-ccd7-698e-fe9b" name="Drokir Deepwardens" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
@@ -445,9 +445,9 @@ Range (12&quot;)</characteristic>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4351-3f80-62e2-e8e7" name="Drokir Cannon" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4351-3f80-62e2-e8e7" name="Drokir Bombard" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ef57-0ff1-1e67-9ff4" name="Drokir Cannon" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+        <profile id="ef57-0ff1-1e67-9ff4" name="Drokir Bombard" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">1</characteristic>
