@@ -398,7 +398,7 @@ Infantry Support: 0-1</characteristic>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="increment" field="dada-1761-7cfb-10b4" value="4.0">
+                <modifier type="increment" field="dada-1761-7cfb-10b4" value="5.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b547-2678-c1aa-d383" repeats="1" roundUp="false"/>
                   </repeats>
