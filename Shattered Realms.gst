@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="11" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="14" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="75cb-9d69-801f-1667" name="Shattered Realms Core Rulebook" shortName="Core Rules" publisher="Shattered Realms Core Rulebook" publicationDate="2022"/>
   </publications>
@@ -40,6 +40,13 @@
       <characteristicTypes>
         <characteristicType id="2b39-5912-d5e9-9700" name="Cast on"/>
         <characteristicType id="72cf-8299-671b-dd65" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="a040-38bc-fd69-4b7d" name="Range Weapon">
+      <characteristicTypes>
+        <characteristicType id="5ed0-eb41-2079-5a5c" name="Shots"/>
+        <characteristicType id="9414-4c57-41c7-1979" name="Ranged Attacks"/>
+        <characteristicType id="5d4d-50a4-55e3-38e6" name="Range"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -221,7 +228,7 @@
       <description>This unit counts as a level X wizard for the purposes of denying spells and generating power dice to dispel</description>
     </rule>
     <rule id="f676-efc9-df7a-a492" name="Stubborn" hidden="false">
-      <description>Ignores negative to Break test</description>
+      <description>Ignores negative to Break test from being over your stamina limit</description>
     </rule>
     <rule id="706a-0581-8431-26d1" name="Terrifiying Charge" hidden="false">
       <description>After a charge move has been completed by a unit. Take a leadership test. On a fail, that unit is at minus 1 to hit until the end of the active players turns.</description>

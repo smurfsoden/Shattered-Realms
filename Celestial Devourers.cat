@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="85e4-578d-a9b4-9d58" name="Celestial Devourers" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="3771-f01c-d9e0-0729" name="Mangers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="97ce-5f41-e199-f360" name="Mangers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">10&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (12&quot;)
+Fearless
+Rough RIders</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aa51-0b1c-5098-782f" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="6ac0-4e92-6fb4-7869" name="Rough Riders" hidden="false" targetId="ec66-b293-2fdb-6247" type="rule"/>
+        <infoLink id="0999-a645-b08e-be41" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="130e-6651-eccf-59db" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f68d-839c-6c97-288c" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ee-c36e-947b-27c6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc6c-c76f-d02b-0520" name="Victuals" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c93b-2b56-32c4-c5de" name="Victuals" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">9&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">-</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">-</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Fearless
+Ferocious Charge
+Lances
+Rough Riders</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6cb4-b505-a5a1-c6a3" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="058b-c1d2-218b-796b" name="Rough Riders" hidden="false" targetId="ec66-b293-2fdb-6247" type="rule"/>
+        <infoLink id="4d6c-e1a5-0f60-b5bd" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+        <infoLink id="a7c4-87c7-39d7-1eeb" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d994-4026-8180-4402" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b780-bab8-feb6-117c" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d8-c677-f784-4cef" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b861-2d98-7ee2-f6c9" name="Feasters" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f03e-07fc-385b-2a8b" name="Feasters" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">5&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">-</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">-</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Fearles
+Spear Wall</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="24e9-11b2-d6f6-1c96" name="Spear Wall" hidden="false" targetId="719f-c6a0-d88f-b530" type="rule"/>
+        <infoLink id="00cf-7338-4566-9ebf" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+        <infoLink id="33a9-2e84-50d5-84ce" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1c99-5175-50fd-927e" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a442-a621-857e-5a80" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b86-f586-d0ca-2f4c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="275b-00ac-763e-a45b" name="Gorgers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1d92-639e-4542-f1e0" name="Gorgers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">-</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">-</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Fearless
+Heavy Hitters</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="60b4-b35a-4699-5bd4" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="dc40-4d63-a28e-f9ad" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e84d-77ca-a53b-3f31" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0cc9-e9fb-b285-ee1e" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c5a-152f-c375-625f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f073-7eec-9e3c-77c0" name="Lizard Archers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d340-1a8b-e8db-31ad" name="Lizard Archers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">5</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Fearless
+Primary Volley
+Volley Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1ce6-98c8-d39d-bef9" name="Volley Fire" hidden="false" targetId="88c8-fd15-2ebc-ae06" type="rule"/>
+        <infoLink id="1054-44c9-c349-472b" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+        <infoLink id="34e9-4eae-582d-ea8e" name="Primary Volley" hidden="false" targetId="76ef-f7ca-32e2-0b61" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2428-e843-a146-6eb1" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6802-9595-d74b-6a2f" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a62-2adb-37c6-7166" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad91-29ef-e8a8-dad4" name="Lizard Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cd0f-d493-26a9-45f0" name="Lizard Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">-</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">-</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Fearless
+Ferocious Charge
+Lockstep</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bc33-ebe8-1e37-0dfc" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
+        <infoLink id="7eb2-ded6-afa3-005e" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+        <infoLink id="42b9-1ed7-3a42-49d6" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="168a-a5f4-4d1d-6afc" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f909-bb83-2de4-37de" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2bc-4f66-8942-3628" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1805-1c49-7076-fba2" name="Lizard Spearmen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2dbe-a960-6314-1b0c" name="Lizard Archers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">-</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">-</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Fearless
+Lockstep
+Spear Wall</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c66d-8989-5a6f-4f63" name="Spear Wall" hidden="false" targetId="719f-c6a0-d88f-b530" type="rule"/>
+        <infoLink id="62e2-caa5-43b5-ca28" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+        <infoLink id="b48b-4305-c740-3026" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0dcd-459e-b47c-0dd7" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="43b9-9f6b-8b3f-8961" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6884-9a1e-daa7-4006" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e12-019a-13f5-8072" name="Anks" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b6f4-db6f-da8d-2683" name="Anks" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">2+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)
+Collateral Damage
+Stubborn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="21c6-1154-3a6e-f890" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+        <infoLink id="eae6-db6c-e866-a800" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="a0a9-3ec3-c3c3-3d07" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c575-ca08-3e6d-5f42" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ec50-38c1-0d49-8f37" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eace-38d7-f248-75c9" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="faea-261a-f05e-d069" name="Brac" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8c43-d182-53fd-5e12" name="Brac" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">3&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">14</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage
+Heavy Hitters
+Stubborn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c693-39a1-3fa7-ed14" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+        <infoLink id="82cf-f934-aad0-5a4f" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="f931-2e42-d23b-ba50" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="82d5-81c8-f3a5-6602" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0141-8950-ad64-c96a" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a64-044c-b223-a710" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="141f-868d-5317-a86b" name="Brac With Balista" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f3c5-9c52-fd8b-6202" name="Brac With Balista" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">3&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">14</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">2</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">2+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)
+Collateral Damage
+Heavy Hitters
+Stubborn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="77d7-b5f4-185b-ed16" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+        <infoLink id="bb38-eee7-342a-68a1" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="1500-7052-937e-e4eb" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="70f0-272a-73d8-ad94" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="edd2-08cb-16e8-bfd6" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f697-0335-5311-6096" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bf5-1cb9-539f-a844" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b140-c0bd-fdef-5583" name="Tric" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e43d-0d5d-7941-b4e5" name="Tric" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage
+Fanatical
+Heavy Hitters
+Lances
+Stubborn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c2ef-67df-d7d4-8805" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="7248-1408-0100-6214" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="3d08-7b94-9436-edf5" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
+        <infoLink id="8a48-fb48-87df-e9f8" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="46b9-4ebc-3dae-3448" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="35cd-a6d6-6f22-a7a6" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e107-4643-7af3-44e7" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d648-9abe-9075-8c67" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15f5-d30c-af2c-d4c5" name="Gorb&apos;s Gorgers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf2d-7379-a292-77be" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7ede-a6f5-548f-9f94" name="Gorb&apos;s Gorgers" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">-</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">-</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Fearless
+Hatred
+Heavy Hitters</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6e02-ff5e-3b79-1c66" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
+        <infoLink id="d612-7298-4a9e-232e" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="39a2-9bb2-5ee7-ab44" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="115c-cc65-eee5-c336" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="35ee-67c4-d758-ab3a" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="739f-5d8a-89c7-cf0c" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="8ff6-91fe-e65e-d88b" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="c5d5-d658-fcb8-9002" name="Company" hidden="false" collective="false" import="true" targetId="007e-c464-536b-ff82" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="8f43-c972-86f8-e594" value="1.0">
+              <conditions>
+                <condition field="selections" scope="15f5-d30c-af2c-d4c5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f43-c972-86f8-e594" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="528b-6880-4d6d-52d9" name="Lore of Darkness" hidden="false" collective="false" import="true" targetId="a689-1ef0-e82e-c106" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ae6-6aeb-c771-9a55" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ef0-d7cf-6783-be90" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba6d-1ae8-19b0-78b4" name="Celestial Devourer&apos;s" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b08e-7d6b-5f97-8013" name="Faction Ability" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
+          <characteristics>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">Description</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="199a-5228-ea40-e68a" name="New CategoryLink" hidden="false" targetId="e353-3a9e-80d1-7fb9" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="007e-c464-536b-ff82" name="Company" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a462-7e39-c514-8cb9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="56f2-aeb2-6659-03d1" name="Company Types" hidden="false" collective="false" import="true" targetId="c28c-6d59-553b-3e7d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

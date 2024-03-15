@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="9" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="9" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cd0a-e10c-e7e0-3455" name="Elven Spearmen" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -546,17 +546,19 @@ Wizard Level: 2 (Lore of Metal)</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
-Bold	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Bold
 Hatred
+Lockstep
 Wizard Level: 2 (Lore of Water)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="a1f8-cbc0-4b12-2440" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
-        <infoLink id="3e6d-11df-73eb-8d17" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
-        <infoLink id="abd7-a6eb-8477-5ad8" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+        <infoLink id="3e6d-11df-73eb-8d17" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
+        <infoLink id="abd7-a6eb-8477-5ad8" name="Bold" hidden="false" targetId="d136-6738-e249-71f1" type="rule"/>
+        <infoLink id="247a-80d2-79d3-2233" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b5ff-5f87-93e4-672e" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>

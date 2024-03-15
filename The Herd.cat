@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c62b-8006-9c6b-a809" name="The Herd" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c62b-8006-9c6b-a809" name="The Herd" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="fa5f-f3e3-7280-6774" name="Apex" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -178,7 +178,7 @@ Veteran</characteristic>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74db-d5f3-971f-b35d" name="Erik  Hamunderson" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="74db-d5f3-971f-b35d" name="Erik Hamunderson" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5764-aace-156e-5614" type="max"/>
       </constraints>

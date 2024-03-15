@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="055e-634a-e7e1-f9a3" name="Warring Echoes" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="8e1b-c1c6-8e7c-b7a8" name="Warring Echoes" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3fa7-29dc-1551-fdea" name="Incursion" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
+          <characteristics>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">To be confirmed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="24ae-dc5f-9c53-a581" name="New CategoryLink" hidden="false" targetId="e353-3a9e-80d1-7fb9" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6159-5655-01d4-2d0f" name="Fallen Demons" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e7c3-519f-823d-3b65" name="Fallen Demons" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">2+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Enhanced Save
+Fly
+Ferocious Charge
+Veteran</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d1d9-c063-c9ba-7053" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="9435-c4a9-cae7-e2ff" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
+        <infoLink id="e58c-4006-9bf3-a5fe" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="06a0-04f0-8314-241e" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="780d-bcfb-06bb-e728" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2225-fdef-48a1-0c5d" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1e4c-54fd-f7c3-d4cf" name="Company" hidden="false" collective="false" import="true" targetId="ccf4-d623-66a2-3fba" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a8-3263-932d-4662" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b4f-ca42-5d1d-29ee" name="Winged Demons" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="392e-82bf-b699-9e66" name="Winged Demons" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">2+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Enhanced Save
+Fly
+Veteran</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eb6f-ebca-cd69-5601" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="1b69-5bb0-db4c-d7e7" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
+        <infoLink id="0e2a-9bf6-58a0-5140" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="ecc5-cc1f-55aa-010c" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9e68-54f7-20e5-1d3e" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="86c0-b704-1700-7e4b" name="Company" hidden="false" collective="false" import="true" targetId="ccf4-d623-66a2-3fba" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d7-9d30-1be3-2455" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0500-c3bf-9d55-b839" name="Lesser Demons" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1e8b-75fa-c521-fcd3" name="Lesser Demons" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">4</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">2+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">2</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">2+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Enhanced Save
+Veteran</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0869-88a2-91d5-ab5d" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="9f5e-63d1-f7bc-0d25" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="96ac-5045-21f5-f24c" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e4fa-558f-9df2-0d0e" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="de39-8fe0-33fb-3ead" name="Company" hidden="false" collective="false" import="true" targetId="ccf4-d623-66a2-3fba" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c05-8684-daed-5456" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fcf4-bacc-060f-e1db" name="Demon Commander" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8f01-2a7f-8617-bd95" name="Demon Commander" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">2+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">3</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (2)
+Commander
+Collateral Damage
+Heavy Hitters
+Enhanced Save
+Stubborn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2e72-95b4-4304-24d9" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="9db8-3e71-7367-55d1" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="11ca-e2d6-d950-3740" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
+        <infoLink id="c69c-e9e7-7895-8a64" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
+        <infoLink id="5437-6cf9-31fe-2241" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
+        <infoLink id="6f3d-2c40-1891-8d47" name="Commander" hidden="false" targetId="9748-55c9-00a5-8b41" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="04b7-add0-0a4f-1a5c" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b45c-d961-1a2a-13b8" name="Company" hidden="false" collective="false" import="true" targetId="ccf4-d623-66a2-3fba" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="f642-9092-d7a9-82eb" value="1.0">
+              <conditions>
+                <condition field="selections" scope="fcf4-bacc-060f-e1db" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f642-9092-d7a9-82eb" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d13a-a170-017a-8238" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="3e9e-1add-785a-fe9f" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3e9-2c56-de82-3b5e" name="Demon Lords" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="27bc-81be-ab9e-63c2" name="Demon Lords" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">2+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (2)
+Commander
+Enhanced Save
+Fly
+Ferocious Charge
+Veteran</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8d83-2400-9a57-2fc4" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="dd40-317d-6f0c-c208" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+        <infoLink id="a49c-2e95-6ca6-63f6" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+        <infoLink id="7120-1999-6bd8-2af1" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="d153-e37c-1525-589f" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
+        <infoLink id="bd3c-51a7-8b01-7624" name="Commander" hidden="false" targetId="9748-55c9-00a5-8b41" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0bdc-f9d0-7d99-5558" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f209-cbbe-aed2-652c" name="Company" hidden="false" collective="false" import="true" targetId="ccf4-d623-66a2-3fba" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="4287-f84a-4fda-0c05" value="1.0">
+              <conditions>
+                <condition field="selections" scope="f3e9-2c56-de82-3b5e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4287-f84a-4fda-0c05" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5ea2-5f94-636f-73cb" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="c51e-93db-ce37-9421" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b26c-d96b-ea46-881d" name="Deamonic War Beasts" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c3d5-f0d2-1182-d9ca" name="Demonic War Beasts" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Bloodthirsty
+Enhanced Save
+Fanatical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f02-5cda-7d39-675d" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="fb28-d4b7-3d44-a060" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
+        <infoLink id="9096-a9aa-a79f-dc54" name="Bloodthirsty" hidden="false" targetId="015f-e99b-9b7a-9e87" type="rule"/>
+        <infoLink id="a95d-b92d-0fc0-8506" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fcf2-78c1-e70a-5620" name="New CategoryLink" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5085-69c8-4251-13f0" name="Company" hidden="false" collective="false" import="true" targetId="ccf4-d623-66a2-3fba" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4336-4f31-47e6-4b40" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="ccf4-d623-66a2-3fba" name="Company" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c630-9151-53eb-707b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="603e-6331-2ca5-0c12" name="Company Types" hidden="false" collective="false" import="true" targetId="c28c-6d59-553b-3e7d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
