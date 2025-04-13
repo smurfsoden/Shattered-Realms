@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8029-6969-2079-d54b" name="Hands of the Pantheon" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8029-6969-2079-d54b" name="Hands of the Pantheon" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="2fae-fff5-06b4-2817" name="Mithrah Alcheliana, The Pantheon" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -555,7 +555,7 @@ Terrifying Charge</characteristic>
       <profiles>
         <profile id="c909-8e2b-d2ca-d4fc" name="The Perfect Soliders" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
-            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">Units from a Hands of the Pantheon can countinue to make reactions even if another unit has failed a reaction in this phase. Furthermore, Hands of the Pantheon units do not suffer the -1 penalty to their leadership checks for each reaction performed after the first.</characteristic>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">Units from a Hands of the Pantheon increase their clash and sustain value by 1 whilst they are fresh.</characteristic>
           </characteristics>
         </profile>
       </profiles>
