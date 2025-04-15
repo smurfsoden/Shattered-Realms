@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9441-aa80-9992-75e6" name="Keltara" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9441-aa80-9992-75e6" name="Keltara" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b07e-1fe3-06af-7d23" name="Astrilius the Radiant" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -28,7 +28,7 @@ Wizard Level: 4 (Lore of Light)</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d026-1919-49c6-1c4a" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="d026-1919-49c6-1c4a" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="2e00-4750-fcdf-ae0b" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
         <infoLink id="3c9c-66d6-3e38-4071" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
         <infoLink id="f41c-5fd4-09bf-18cd" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
@@ -60,6 +60,7 @@ Wizard Level: 4 (Lore of Light)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="100.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b35a-dbd3-0db3-40e0" name="Inpelius the Brave" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -89,7 +90,7 @@ Wizard Level: 4 (Lore of Spirit)</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9f00-168d-adfa-1707" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="9f00-168d-adfa-1707" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="0b2a-8d63-103f-303c" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
         <infoLink id="04a8-90d1-6caa-6acd" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
         <infoLink id="3f26-a215-87f6-5adc" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
@@ -121,6 +122,7 @@ Wizard Level: 4 (Lore of Spirit)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="100.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b68a-f9d9-b026-0bb7" name="Dryads" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -155,6 +157,7 @@ Wizard Level: 4 (Lore of Spirit)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="871d-4646-5bef-6726" name="Harpies" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -177,7 +180,7 @@ Fly</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="203f-1de5-64cd-7152" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="203f-1de5-64cd-7152" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="f6ba-1a02-10c9-5fb9" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
         <infoLink id="66c6-5208-e214-9b67" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
       </infoLinks>
@@ -193,6 +196,7 @@ Fly</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="25.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bdf-715b-7a80-6a1f" name="Owlbears" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -229,6 +233,7 @@ Heavy Hitters</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4f5-82ba-2441-3b90" name="Centaur Militia" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -269,6 +274,7 @@ Rough Riders</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1bb-04a3-1578-1d08" name="Centaur Hunters" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -307,6 +313,7 @@ Volley Fire</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7bc-93bb-77ff-7f3b" name="Centaur Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -361,6 +368,7 @@ Rough Riders</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2430-098c-4e96-1639" name="Unicorns" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -400,6 +408,7 @@ Wizard Level: 1 (Lore of Light)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a84a-3faa-0545-95c6" name="Tree Giants" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -437,6 +446,7 @@ Wizard Level: 1 (Lore of Spirit)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ab9-df0c-5384-f69b" name="Old Oaky" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -476,6 +486,7 @@ Wizard Level: 2 (Lore of Spirit)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -497,41 +508,49 @@ Wizard Level: 2 (Lore of Spirit)</characteristic>
         <selectionEntry id="32fd-7361-149b-0e36" name="Lore of Spirit" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+            <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2840-9ed4-8e11-642f" name="Lore of Darkness" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+            <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2763-347a-8c96-39e9" name="Lore of Metal" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+            <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3d2b-db19-a5ad-20ab" name="Lore of Fire" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+            <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="59af-c67d-417b-45a1" name="Lore of Light" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+            <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3ccb-f460-c11f-f984" name="Lore of Lighting" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+            <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e3e5-8d4d-c54a-b9fa" name="Lore of Water" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+            <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1722-dbad-e43f-75f9" name="Lore of Air" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+            <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

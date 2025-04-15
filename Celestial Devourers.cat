@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="85e4-578d-a9b4-9d58" name="Celestial Devourers" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="85e4-578d-a9b4-9d58" name="Celestial Devourers" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="3771-f01c-d9e0-0729" name="Mangers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -14,14 +14,19 @@
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (12&quot;)
-Fearless
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Fearless
 Rough RIders</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5b08-8720-dc96-14db" name="Blowpipes" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="aa51-0b1c-5098-782f" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
         <infoLink id="6ac0-4e92-6fb4-7869" name="Rough Riders" hidden="false" targetId="ec66-b293-2fdb-6247" type="rule"/>
         <infoLink id="0999-a645-b08e-be41" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
       </infoLinks>
@@ -37,6 +42,7 @@ Rough RIders</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc6c-c76f-d02b-0520" name="Victuals" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -77,6 +83,7 @@ Rough Riders</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b861-2d98-7ee2-f6c9" name="Feasters" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -101,7 +108,7 @@ Spear Wall</characteristic>
       <infoLinks>
         <infoLink id="24e9-11b2-d6f6-1c96" name="Spear Wall" hidden="false" targetId="719f-c6a0-d88f-b530" type="rule"/>
         <infoLink id="00cf-7338-4566-9ebf" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
-        <infoLink id="33a9-2e84-50d5-84ce" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="33a9-2e84-50d5-84ce" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1c99-5175-50fd-927e" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="true"/>
@@ -115,6 +122,7 @@ Spear Wall</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="275b-00ac-763e-a45b" name="Gorgers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -151,6 +159,7 @@ Heavy Hitters</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f073-7eec-9e3c-77c0" name="Lizard Archers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -171,6 +180,13 @@ Primary Volley
 Volley Fire</characteristic>
           </characteristics>
         </profile>
+        <profile id="3a2c-334b-d140-f700" name="Archer Volley" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">5</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">4+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">18&quot;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="1ce6-98c8-d39d-bef9" name="Volley Fire" hidden="false" targetId="88c8-fd15-2ebc-ae06" type="rule"/>
@@ -189,6 +205,7 @@ Volley Fire</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad91-29ef-e8a8-dad4" name="Lizard Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -227,6 +244,7 @@ Lockstep</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1805-1c49-7076-fba2" name="Lizard Spearmen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -265,6 +283,7 @@ Spear Wall</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e12-019a-13f5-8072" name="Anks" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -285,10 +304,17 @@ Collateral Damage
 Stubborn</characteristic>
           </characteristics>
         </profile>
+        <profile id="f818-f2f2-3b47-3f00" name="Balista" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">24&quot;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="21c6-1154-3a6e-f890" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
-        <infoLink id="eae6-db6c-e866-a800" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="eae6-db6c-e866-a800" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="a0a9-3ec3-c3c3-3d07" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -303,6 +329,7 @@ Stubborn</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="faea-261a-f05e-d069" name="Brac" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -323,6 +350,13 @@ Heavy Hitters
 Stubborn</characteristic>
           </characteristics>
         </profile>
+        <profile id="05a6-94ac-ad26-e28c" name="Assorted Ranged Weapons" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">4+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c693-39a1-3fa7-ed14" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
@@ -341,6 +375,7 @@ Stubborn</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="80.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="141f-868d-5317-a86b" name="Brac With Balista" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -362,11 +397,18 @@ Heavy Hitters
 Stubborn</characteristic>
           </characteristics>
         </profile>
+        <profile id="fe36-55ef-7fcd-c4b8" name="Balista" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">2</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">1+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">24&quot;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="77d7-b5f4-185b-ed16" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
         <infoLink id="bb38-eee7-342a-68a1" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
-        <infoLink id="1500-7052-937e-e4eb" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="1500-7052-937e-e4eb" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="70f0-272a-73d8-ad94" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -381,6 +423,7 @@ Stubborn</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="90.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b140-c0bd-fdef-5583" name="Tric" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -403,6 +446,13 @@ Lances
 Stubborn</characteristic>
           </characteristics>
         </profile>
+        <profile id="320d-87a2-5281-8b91" name="Assorted Ranged Weapons" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3+</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">4+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c2ef-67df-d7d4-8805" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
@@ -423,6 +473,7 @@ Stubborn</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="70.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15f5-d30c-af2c-d4c5" name="Gorb&apos;s Gorgers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -456,6 +507,27 @@ Heavy Hitters</characteristic>
         <categoryLink id="115c-cc65-eee5-c336" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
         <categoryLink id="35ee-67c4-d758-ab3a" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c460-65b4-c395-34f4" name="Battalion" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5873-4f61-c1f6-9cdb" name="Infantry Battalion" hidden="false" collective="false" import="true" targetId="b547-2678-c1aa-d383" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8234-04e3-1305-e6b2" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8e85-de13-18a4-d8f5" name="Monster Units" hidden="false" collective="false" import="true" targetId="dd2a-8338-f19b-5ac9" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="edf8-85d3-1db4-0b35" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6ab2-18b8-9a38-f526" name="Universal Units" hidden="false" collective="false" import="true" targetId="f1f8-2bc4-f8ec-9db9" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="edfe-f34a-f67e-520a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="739f-5d8a-89c7-cf0c" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
           <categoryLinks>
@@ -474,15 +546,11 @@ Heavy Hitters</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f43-c972-86f8-e594" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="528b-6880-4d6d-52d9" name="Lore of Darkness" hidden="false" collective="false" import="true" targetId="a689-1ef0-e82e-c106" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ae6-6aeb-c771-9a55" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ef0-d7cf-6783-be90" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="bd8c-ea99-edaf-980a" name="Lore of Darkness" hidden="false" collective="false" import="true" targetId="a689-1ef0-e82e-c106" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="85.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba6d-1ae8-19b0-78b4" name="Celestial Devourer&apos;s" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -498,9 +566,78 @@ Heavy Hitters</characteristic>
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="77bd-3289-de8f-99c7" name="Cavalry Units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd8a-435c-b021-1378" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d5d4-e02c-983f-aaed" name="Mangers" hidden="false" collective="false" import="true" targetId="3771-f01c-d9e0-0729" type="selectionEntry"/>
+        <entryLink id="104b-a167-ecc9-e548" name="Victuals" hidden="false" collective="false" import="true" targetId="dc6c-c76f-d02b-0520" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd2a-8338-f19b-5ac9" name="Monster Units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9871-1fbc-93da-bb0a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6c70-b948-d916-8182" name="Anks" hidden="false" collective="false" import="true" targetId="6e12-019a-13f5-8072" type="selectionEntry"/>
+        <entryLink id="30e5-e18a-08b7-3ae4" name="Brac With Balista" hidden="false" collective="false" import="true" targetId="141f-868d-5317-a86b" type="selectionEntry"/>
+        <entryLink id="ab88-19af-d8f0-a746" name="Tric" hidden="false" collective="false" import="true" targetId="b140-c0bd-fdef-5583" type="selectionEntry"/>
+        <entryLink id="3c06-bb5d-4a59-ef03" name="Brac" hidden="false" collective="false" import="true" targetId="faea-261a-f05e-d069" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a282-ba02-6a6f-910c" name="Infantry Units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec3b-d435-f347-f3b9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e480-6b9a-5b27-cf80" name="Lizard Spearmen" hidden="false" collective="false" import="true" targetId="1805-1c49-7076-fba2" type="selectionEntry"/>
+        <entryLink id="130a-0441-3ef0-acfe" name="Lizard Warriors" hidden="false" collective="false" import="true" targetId="ad91-29ef-e8a8-dad4" type="selectionEntry"/>
+        <entryLink id="8d5c-210e-d7b6-8c02" name="Lizard Archers" hidden="false" collective="false" import="true" targetId="f073-7eec-9e3c-77c0" type="selectionEntry"/>
+        <entryLink id="7d76-ba0f-0d30-7f17" name="Feasters" hidden="false" collective="false" import="true" targetId="b861-2d98-7ee2-f6c9" type="selectionEntry"/>
+        <entryLink id="c8ca-334f-fe3a-517f" name="Gorgers" hidden="false" collective="false" import="true" targetId="275b-00ac-763e-a45b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1f8-2bc4-f8ec-9db9" name="Universal Units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0951-2f45-f35e-23d7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b22f-e410-cf89-061f" name="Mangers" hidden="false" collective="false" import="true" targetId="3771-f01c-d9e0-0729" type="selectionEntry"/>
+        <entryLink id="e55d-5a74-e520-cc33" name="Victuals" hidden="false" collective="false" import="true" targetId="dc6c-c76f-d02b-0520" type="selectionEntry"/>
+        <entryLink id="81b9-732c-05f3-cdcb" name="Feasters" hidden="false" collective="false" import="true" targetId="b861-2d98-7ee2-f6c9" type="selectionEntry"/>
+        <entryLink id="84db-fe57-c10c-aa86" name="Gorgers" hidden="false" collective="false" import="true" targetId="275b-00ac-763e-a45b" type="selectionEntry"/>
+        <entryLink id="0c9b-1b57-b557-313c" name="Lizard Archers" hidden="false" collective="false" import="true" targetId="f073-7eec-9e3c-77c0" type="selectionEntry"/>
+        <entryLink id="ab54-8351-3c09-a4bc" name="Lizard Spearmen" hidden="false" collective="false" import="true" targetId="1805-1c49-7076-fba2" type="selectionEntry"/>
+        <entryLink id="8dfc-7367-9998-86b9" name="Lizard Warriors" hidden="false" collective="false" import="true" targetId="ad91-29ef-e8a8-dad4" type="selectionEntry"/>
+        <entryLink id="376d-d65b-3be8-3b81" name="Anks" hidden="false" collective="false" import="true" targetId="6e12-019a-13f5-8072" type="selectionEntry"/>
+        <entryLink id="c360-257d-d842-a179" name="Brac" hidden="false" collective="false" import="true" targetId="faea-261a-f05e-d069" type="selectionEntry"/>
+        <entryLink id="5573-ad68-ea96-4090" name="Brac With Balista" hidden="false" collective="false" import="true" targetId="141f-868d-5317-a86b" type="selectionEntry"/>
+        <entryLink id="cebb-29a6-d5e6-d70e" name="Tric" hidden="false" collective="false" import="true" targetId="b140-c0bd-fdef-5583" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="007e-c464-536b-ff82" name="Company" hidden="false" collective="false" import="true">
       <constraints>

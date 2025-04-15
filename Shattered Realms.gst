@@ -14,8 +14,6 @@
         <characteristicType id="284f-60a6-2ff0-607e" name="Cl"/>
         <characteristicType id="54d6-39ab-3e85-1ad2" name="Su"/>
         <characteristicType id="4cbf-37a9-af12-c448" name="MA"/>
-        <characteristicType id="8b62-5fb5-bb67-1ea0" name="Sh"/>
-        <characteristicType id="1637-3d9c-19ee-036c" name="RA"/>
         <characteristicType id="9913-7593-75a8-6357" name="DS"/>
         <characteristicType id="76db-ac6b-3c97-f80c" name="St"/>
         <characteristicType id="65c2-fe73-3656-47fe" name="Ld"/>
@@ -84,7 +82,7 @@
         <categoryLink id="54ab-b5c2-b53e-97be" name="Artillery" hidden="false" targetId="44ae-0c2a-7543-24a6" primary="false"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="02b3-6dba-239b-bbb6" name="Standard Force Organisation" hidden="false">
+    <forceEntry id="02b3-6dba-239b-bbb6" name="Armies of the Shattered Realms" hidden="false">
       <categoryLinks>
         <categoryLink id="2797-3ce2-6b2a-ae91" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
         <categoryLink id="74c7-0b57-54db-a772" name="Faction Ability" hidden="false" targetId="e353-3a9e-80d1-7fb9" primary="false"/>
@@ -176,9 +174,6 @@
   <rules>
     <rule id="719f-c6a0-d88f-b530" name="Spear Wall" publicationId="75cb-9d69-801f-1667" hidden="false">
       <description>When a unit with Spear Wall is charged in its front arc it may reroll failed hit rolls in the following Combat Phase.</description>
-    </rule>
-    <rule id="f7ab-f58f-b075-c757" name="Armour Piercing (X)" hidden="false">
-      <description>Reduce enemy defence rolls by X from attacks made by a unit with Armour Piercing in the given attack type (Separate sources of Armour Piercing may stack to a maximum of -3)</description>
     </rule>
     <rule id="015f-e99b-9b7a-9e87" name="Bloodthirsty" hidden="false">
       <description>Must charge at the start of each movement phase if able</description>
@@ -429,6 +424,10 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a689-1ef0-e82e-c106" name="Lore of Darkness" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -486,6 +485,10 @@ At the end of each magic phase roll 1D6 for each enemy unit with 6”. On a 5+ t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9dc7-1de2-87d1-fe25" name="Lore of Fire" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -543,6 +546,10 @@ After Raging Inferno completes a move, roll three dice for every unit it moves o
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="91e8-dcfc-9654-28f2" name="Lore of Light" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -600,6 +607,10 @@ Each time the Searing white light moves any unit it passes over (friendly or ene
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5fb4-d61c-c160-b82a" name="Lore of Lightning" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -657,6 +668,10 @@ Enemy units with 6” of the Thunderclouds suffer a –1 penalty to any Leadersh
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f2cd-3ae0-1c96-b85c" name="Lore of Metal" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -715,6 +730,10 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1ccc-bdaa-71a0-ea26" name="Lore of Spirit" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -779,8 +798,6 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
                 <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
                 <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
                 <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5</characteristic>
-                <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-                <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
                 <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
                 <characteristic name="St" typeId="76db-ac6b-3c97-f80c">2</characteristic>
                 <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7</characteristic>
@@ -793,6 +810,10 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
           </infoLinks>
         </infoGroup>
       </infoGroups>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f52a-8c49-acda-8b6f" name="Lore of Water" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -852,6 +873,10 @@ Any movements (friendly or enemy) that are made through the Water Wall (includin
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1427,4 +1452,9 @@ Any movements (friendly or enemy) that are made through the Water Wall (includin
       </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="49d1-25b8-74eb-03af" name="Armour Piercing (X)" hidden="false">
+      <description>Reduce enemy defence rolls by X from attacks made by a unit with Armour Piercing in the given attack type (Separate sources of Armour Piercing may stack to a maximum of -3)</description>
+    </rule>
+  </sharedRules>
 </gameSystem>

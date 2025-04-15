@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fff5-ec42-ab5c-977f" name="The Pyre" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fff5-ec42-ab5c-977f" name="The Pyre" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9ba9-f97f-d998-fcf2" name="King Dane Al-Khatour, The Everlasting Flame" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -20,24 +20,55 @@
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (3)	
 Collateral Damage	
 Fearless	
-Heavy Hitters	
-Range (12&quot;)	
+Heavy Hitters
 Spell Smiter (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bc8a-6c7d-b5e6-c0aa" name="Golem Cannons" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="febf-eca6-00e3-a358" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="febf-eca6-00e3-a358" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="250b-7816-931c-a2ff" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
         <infoLink id="c0ff-9626-5fa6-57a3" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
         <infoLink id="47ed-4e2c-be3b-8458" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
-        <infoLink id="65a3-8606-bdb3-0a7c" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
         <infoLink id="a08d-8a38-45cb-55fe" name="Spell Smiter (X)" hidden="false" targetId="8b9c-1616-5104-a39b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c5e-ab6f-7ff7-ff47" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
         <categoryLink id="56c5-3a4b-d820-012c" name="War Machine" hidden="false" targetId="ec46-b709-bc88-858b" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8b1c-32b9-b665-fd0f" name="Battalion" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e4f5-d3b3-2870-2060" name="Universal Units" hidden="false" collective="false" import="true" targetId="bff3-9c0f-0478-0c4d" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd94-6310-4799-7c56" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="53d1-8c7f-b715-cba1" name="Infantry Units" hidden="false" collective="false" import="true" targetId="ca70-3e1e-5b63-3afe" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="afb8-98d3-1f2f-f5b5" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1258-740c-a1f1-ceb2" name="Artillery Units" hidden="false" collective="false" import="true" targetId="a405-c497-6ef0-7ed4" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8165-4f48-c7c7-04c4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3b87-107b-08d3-acfd" name="War Machine Units" hidden="false" collective="false" import="true" targetId="8029-ecdb-e7e4-c264" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d176-0d4c-f6b7-0fca" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4447-3806-59de-f6cf" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
           <categoryLinks>
@@ -51,6 +82,11 @@ Spell Smiter (2)</characteristic>
                 <condition field="selections" scope="9ba9-f97f-d998-fcf2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41c1-ae8b-47d5-3f53" type="min"/>
@@ -59,6 +95,7 @@ Spell Smiter (2)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="100.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e885-dfd3-54c6-a9b8" name="Tyros the Firebrand " publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -85,7 +122,7 @@ Veteran</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b247-4a47-f50e-ac3a" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="b247-4a47-f50e-ac3a" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="315e-0bfe-2c38-f7dd" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
         <infoLink id="ee11-0eb5-333e-9999" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
         <infoLink id="a9cc-4d84-abfb-fa75" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
@@ -94,6 +131,22 @@ Veteran</characteristic>
         <categoryLink id="f21d-6509-bbcc-7ef0" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
         <categoryLink id="6153-a78b-cab4-f64b" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e3a3-3daf-5062-5ac7" name="Battalion" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5a11-1189-6410-8bd5" name="Infantry Units" hidden="false" collective="false" import="true" targetId="ca70-3e1e-5b63-3afe" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d378-1b1a-e2a7-3417" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e048-ffdb-cd37-c3e6" name="Artillery Units" hidden="false" collective="false" import="true" targetId="a405-c497-6ef0-7ed4" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2078-2120-d71e-b1a2" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c55a-9e0c-5dc3-1fed" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
           <categoryLinks>
@@ -107,6 +160,11 @@ Veteran</characteristic>
                 <condition field="selections" scope="e885-dfd3-54c6-a9b8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b204-6a41-e8d2-9348" type="min"/>
@@ -115,6 +173,7 @@ Veteran</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0ff-640d-e27b-bddf" name="Urien the Spell-Thief" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -134,17 +193,22 @@ Veteran</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)	
-Primary Volley	
-Range (18&quot;)	
+Primary Volley
 Spell Smiter (4)	
 Steady</characteristic>
           </characteristics>
         </profile>
+        <profile id="b76f-4d58-b535-8bf6" name="Tuned Thunderguns" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">4</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">4+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">18&quot;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="294a-6689-1246-eaa9" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="294a-6689-1246-eaa9" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="dccb-2ef6-7bab-0fce" name="Primary Volley" hidden="false" targetId="76ef-f7ca-32e2-0b61" type="rule"/>
-        <infoLink id="a3e3-3bb0-f7b6-cb5f" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
         <infoLink id="a15e-19af-40e2-842b" name="Spell Smiter (X)" hidden="false" targetId="8b9c-1616-5104-a39b" type="rule"/>
         <infoLink id="7773-7f20-1ef3-b639" name="Steady" hidden="false" targetId="2ea1-8436-cbd6-7697" type="rule"/>
       </infoLinks>
@@ -152,6 +216,17 @@ Steady</characteristic>
         <categoryLink id="8bae-5c6a-bfa1-7ce7" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
         <categoryLink id="4d02-a35b-b753-9a06" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a3d-0510-3975-f6a3" name="Battalion" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4860-0cca-0485-5031" name="Universal Units" hidden="false" collective="false" import="true" targetId="bff3-9c0f-0478-0c4d" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4858-d890-57bc-b9d9" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="09c3-3a2c-ccf2-4aa6" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
           <categoryLinks>
@@ -165,6 +240,11 @@ Steady</characteristic>
                 <condition field="selections" scope="f0ff-640d-e27b-bddf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3093-7390-cdc2-b953" type="min"/>
@@ -173,6 +253,7 @@ Steady</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="555a-2634-79b4-a0fe" name="Drokir Legionary" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -202,6 +283,13 @@ Steady</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2e3b-c97e-11a1-e2d0" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfdb-6946-9965-1ee8" type="min"/>
           </constraints>
@@ -209,6 +297,7 @@ Steady</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4b9-86d2-8a62-6e76" name="Drokir Deepwardens" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -233,7 +322,7 @@ Veteran</characteristic>
       </profiles>
       <infoLinks>
         <infoLink id="ffe0-027c-4a4b-908a" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
-        <infoLink id="7035-bd29-a2f9-47e3" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="7035-bd29-a2f9-47e3" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="c131-e5bf-d2b4-1700" name="Tough Fighters" hidden="false" targetId="0df7-7fa7-2eb8-1475" type="rule"/>
         <infoLink id="0fe6-19b8-4b5f-c8b3" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
       </infoLinks>
@@ -242,6 +331,13 @@ Veteran</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2b42-d249-8d5c-4166" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c4-5d65-5191-76a8" type="min"/>
           </constraints>
@@ -249,6 +345,7 @@ Veteran</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="75.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64f2-309a-4ded-ece2" name="Drokir Rage-Blooded" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -272,7 +369,7 @@ Hatred</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3f8b-ab5d-2979-7046" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="3f8b-ab5d-2979-7046" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="10c8-031b-c87b-05f0" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
         <infoLink id="916d-cd29-478a-66e7" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
         <infoLink id="7a5c-2e4a-3319-9cce" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
@@ -282,6 +379,13 @@ Hatred</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="edf2-7482-0df3-f866" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="875f-f2b3-3eba-8359" type="min"/>
           </constraints>
@@ -289,6 +393,7 @@ Hatred</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0fce-4b2f-b433-0b7d" name="Drokir Cataphracts" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -311,7 +416,7 @@ Veteran</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="53ca-16c6-3356-616f" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="53ca-16c6-3356-616f" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="ead9-840f-c5de-3bb6" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
         <infoLink id="aab9-feb4-2967-fb67" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
       </infoLinks>
@@ -320,6 +425,13 @@ Veteran</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a851-23e5-81cd-47b2" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d40-2a10-50e9-220a" type="min"/>
           </constraints>
@@ -327,6 +439,7 @@ Veteran</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c66-8035-55a4-04a8" name="Drokir Crossbowmen" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -342,13 +455,18 @@ Veteran</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (18&quot;)	
-Steady</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Steady</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="851f-63d2-9c69-0179" name="Crossbows" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">2</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">18&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="54dd-4a6c-9a85-c7dc" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
         <infoLink id="893a-5815-d5e9-6354" name="Steady" hidden="false" targetId="2ea1-8436-cbd6-7697" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -356,6 +474,13 @@ Steady</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="918f-c02a-a67e-9947" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff2-a0ff-5bd6-42eb" type="min"/>
           </constraints>
@@ -363,6 +488,7 @@ Steady</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4208-1ab7-5d91-acef" name="Drokir Thunderbearers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -378,15 +504,20 @@ Steady</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)	
-Range (12&quot;)	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)
 Steady</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ec8-0f52-1803-148b" name="Thunderguns" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">4+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0ca6-044b-a46d-e5a2" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
-        <infoLink id="3266-74e7-e87b-e50e" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="0ca6-044b-a46d-e5a2" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="0905-bddb-826d-e93e" name="Steady" hidden="false" targetId="2ea1-8436-cbd6-7697" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -394,6 +525,13 @@ Steady</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9780-4ffc-5f51-8d4e" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc49-ed3b-eecb-aea7" type="min"/>
           </constraints>
@@ -401,6 +539,7 @@ Steady</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46c3-8685-b5cd-e4b3" name="Drokir Ancestor-Class War Golem" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -419,14 +558,19 @@ Steady</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (2)	
 Collateral Damage	
 Fearless	
-Heavy Hitters	
-Range (12&quot;)</characteristic>
+Heavy Hitters</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="30f2-898c-723a-a394" name="Golem Cannons" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">2</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">7+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bb77-5c75-7071-c2fa" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
-        <infoLink id="376e-99bf-c6f0-2621" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="bb77-5c75-7071-c2fa" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="11e3-1b83-3600-3d73" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
         <infoLink id="3419-5981-bf3d-49b8" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
         <infoLink id="5ae9-a9b3-645c-8c32" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
@@ -436,6 +580,13 @@ Range (12&quot;)</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3494-10f8-8ad5-05e8" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9238-0162-806f-42fe" type="min"/>
           </constraints>
@@ -443,6 +594,7 @@ Range (12&quot;)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="65.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4351-3f80-62e2-e8e7" name="Drokir Bombard" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -458,15 +610,20 @@ Range (12&quot;)</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)	
-Range (48&quot;)	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)
 Sharp Shooters</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fc33-7030-8704-5748" name="Bombard" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">48&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8a95-f0ba-9a08-ebfa" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
-        <infoLink id="9919-551b-a1b3-e120" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="8a95-f0ba-9a08-ebfa" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="3834-b111-d000-88a9" name="Sharpshooters" hidden="false" targetId="c342-3ab1-434d-edc6" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -474,6 +631,13 @@ Sharp Shooters</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e0d6-ab94-b67f-4263" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be6-961e-eb8a-a088" type="min"/>
           </constraints>
@@ -481,6 +645,7 @@ Sharp Shooters</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="40.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="887e-2204-7f65-426c" name="Drokir Firespiter" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
@@ -497,14 +662,19 @@ Sharp Shooters</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
-Collateral Damage	
-Range (24&quot;)</characteristic>
+Collateral Damage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fe0b-72a8-9b02-d692" name="Firespiter" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">4</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">4+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">18&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1ceb-702b-f2ad-087b" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
-        <infoLink id="017d-d058-3ea7-5b47" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="1ceb-702b-f2ad-087b" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="5da6-2304-4606-a732" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -512,6 +682,13 @@ Range (24&quot;)</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="515c-f4bf-0d3d-b413" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38d3-4d74-a693-6d7d" type="min"/>
           </constraints>
@@ -519,6 +696,7 @@ Range (24&quot;)</characteristic>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="35.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66c5-d266-b6fc-8972" name="The Pyre" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">
@@ -534,9 +712,147 @@ Range (24&quot;)</characteristic>
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c6c-5ad6-2e2a-c10a" name="Strum the Ironclad" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2697-b8bd-c717-3478" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8b40-bcdb-3696-c25b" name="Strum the Ironclad" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0"/>
+            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">2+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Lockstep
+Tough Fighters
+Veterans</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="63c3-aa94-320d-7c97" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
+        <infoLink id="c740-8794-1df4-fb04" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
+        <infoLink id="0788-3ca0-752b-1a7a" name="Tough Fighters" hidden="false" targetId="0df7-7fa7-2eb8-1475" type="rule"/>
+        <infoLink id="11dd-f8f8-14a0-f429" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f8bb-75f8-2e30-5e38" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="52cb-5b52-b21a-fa24" name="Infantry" hidden="false" targetId="0b00-57c4-47ed-c013" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0b63-b75c-c034-7ec9" name="Battalion" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c825-7a1d-44e2-1227" name="Universal Units" hidden="false" collective="false" import="true" targetId="bff3-9c0f-0478-0c4d" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ca1-2477-15b3-f67c" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6c8f-b696-6d4f-6f27" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="c821-561b-c989-7d62" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="8596-c1c9-5d7e-eb6c" name="Company" hidden="false" collective="false" import="true" targetId="b5ff-a9d0-a966-78a8" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="2e95-a77e-fcb7-c097" value="1.0">
+              <conditions>
+                <condition field="selections" scope="0c6c-5ad6-2e2a-c10a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e95-a77e-fcb7-c097" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="85.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="ca70-3e1e-5b63-3afe" name="Infantry Units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c60-4832-ae67-7aae" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="36b7-6eb4-00c8-f403" name="Drokir Rage-Blooded" hidden="false" collective="false" import="true" targetId="64f2-309a-4ded-ece2" type="selectionEntry"/>
+        <entryLink id="7eeb-43d3-6963-d76d" name="Drokir Legionary" hidden="false" collective="false" import="true" targetId="555a-2634-79b4-a0fe" type="selectionEntry"/>
+        <entryLink id="2b95-5c6e-7f91-c63e" name="Drokir Crossbowmen" hidden="false" collective="false" import="true" targetId="3c66-8035-55a4-04a8" type="selectionEntry"/>
+        <entryLink id="1823-11aa-6d9e-d03f" name="Drokir Cataphracts" hidden="false" collective="false" import="true" targetId="0fce-4b2f-b433-0b7d" type="selectionEntry"/>
+        <entryLink id="7e27-7bd1-2940-571e" name="Drokir Deepwardens" hidden="false" collective="false" import="true" targetId="c4b9-86d2-8a62-6e76" type="selectionEntry"/>
+        <entryLink id="6216-389b-d65a-2fc0" name="Drokir Thunderbearers" hidden="false" collective="false" import="true" targetId="4208-1ab7-5d91-acef" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8029-ecdb-e7e4-c264" name="War Machine Units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82cc-c39b-4857-5629" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="aa3e-89ca-85c3-9f68" name="Drokir Ancestor-Class War Golem" hidden="false" collective="false" import="true" targetId="46c3-8685-b5cd-e4b3" type="selectionEntry"/>
+        <entryLink id="3446-bf5e-f21f-4622" name="Drokir Ancestor-Class War Golem" hidden="false" collective="false" import="true" targetId="46c3-8685-b5cd-e4b3" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a405-c497-6ef0-7ed4" name="Artillery Units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4033-9c1b-5dc5-37d7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="0257-95f6-4226-e30e" name="Drokir Bombard" hidden="false" collective="false" import="true" targetId="4351-3f80-62e2-e8e7" type="selectionEntry"/>
+        <entryLink id="80f7-f4c2-8b54-763b" name="Drokir Firespiter" hidden="false" collective="false" import="true" targetId="887e-2204-7f65-426c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bff3-9c0f-0478-0c4d" name="Universal Units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4486-cbbc-16df-a76e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="77fc-b483-4a14-27ea" name="Drokir Rage-Blooded" hidden="false" collective="false" import="true" targetId="64f2-309a-4ded-ece2" type="selectionEntry"/>
+        <entryLink id="b1c5-2f3f-b2e0-08bf" name="Drokir Legionary" hidden="false" collective="false" import="true" targetId="555a-2634-79b4-a0fe" type="selectionEntry"/>
+        <entryLink id="9787-042a-a742-c5f0" name="Drokir Crossbowmen" hidden="false" collective="false" import="true" targetId="3c66-8035-55a4-04a8" type="selectionEntry"/>
+        <entryLink id="5428-ac63-f5fc-e0bf" name="Drokir Cataphracts" hidden="false" collective="false" import="true" targetId="0fce-4b2f-b433-0b7d" type="selectionEntry"/>
+        <entryLink id="8e4c-2649-ddcb-7260" name="Drokir Deepwardens" hidden="false" collective="false" import="true" targetId="c4b9-86d2-8a62-6e76" type="selectionEntry"/>
+        <entryLink id="81e4-3173-d5d2-616b" name="Drokir Thunderbearers" hidden="false" collective="false" import="true" targetId="4208-1ab7-5d91-acef" type="selectionEntry"/>
+        <entryLink id="7469-2b39-6dcf-7fa9" name="Drokir Bombard" hidden="false" collective="false" import="true" targetId="4351-3f80-62e2-e8e7" type="selectionEntry"/>
+        <entryLink id="217b-3a3a-1a99-eaca" name="Drokir Firespiter" hidden="false" collective="false" import="true" targetId="887e-2204-7f65-426c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b5ff-a9d0-a966-78a8" name="Company" hidden="false" collective="false" import="true">
       <constraints>

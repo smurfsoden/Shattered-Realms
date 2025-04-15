@@ -60,19 +60,24 @@ Spear Wall</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
-Range (24&quot;)	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)
 Sharp Shooters	
 Veteran	
 Volley Fire
 Wizard Level 4 (Lore of Light)</characteristic>
           </characteristics>
         </profile>
+        <profile id="2bef-b144-acc3-741f" name="Magical Volly" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">5</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">24&quot;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ee6b-bc84-2a16-d74c" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
         <infoLink id="ebe3-2f40-dcc8-a854" name="Volley Fire" hidden="false" targetId="88c8-fd15-2ebc-ae06" type="rule"/>
-        <infoLink id="811a-5575-4741-34ac" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="811a-5575-4741-34ac" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="6244-b4c1-26ae-ad0d" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
         <infoLink id="f718-b7bc-97ca-90f5" name="Sharpshooters" hidden="false" targetId="c342-3ab1-434d-edc6" type="rule"/>
       </infoLinks>
@@ -191,14 +196,19 @@ Rough Riders	</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (24&quot;)
-Volley Fire
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Volley Fire
 Sharpshooter</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c4e-ff43-b77e-a832" name="Archer Volley" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">4</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">24&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2e3d-8242-6f0f-2799" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
         <infoLink id="c859-28a8-779e-5b5a" name="Volley Fire" hidden="false" targetId="88c8-fd15-2ebc-ae06" type="rule"/>
         <infoLink id="4d8a-d235-62c5-cf59" name="Sharpshooters" hidden="false" targetId="c342-3ab1-434d-edc6" type="rule"/>
       </infoLinks>
@@ -287,18 +297,23 @@ Heavy Hitters</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Range (48&quot;)	
-Armour Piercing (Ranged) (2)	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)	
 Collateral Damage	
 Enhanced Save	
 Fearless	
 Wizard Level: 3 (Lore of Air)</characteristic>
           </characteristics>
         </profile>
+        <profile id="2d04-b054-7ec6-2eca" name="Dragon Breath" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">6</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">5+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">48&quot;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3748-bbf3-6839-2e75" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
-        <infoLink id="b21a-38f2-2881-6dbf" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="b21a-38f2-2881-6dbf" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="d8ee-fbaa-6059-85fc" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
         <infoLink id="4765-ffbf-a1ca-1814" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
         <infoLink id="e743-041e-6c4d-8676" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
@@ -458,14 +473,19 @@ Wizard Level: 2 (Lore of Lighting)</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)	
 Collateral Damage	
 Enhanced Save	
-Fearless	
-Range (48&quot;)</characteristic>
+Fearless</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="77de-46a2-8a27-2d12" name="Magical Barrage of the Covædhel" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">8</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">48&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1bb3-7dfc-c325-43ae" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
-        <infoLink id="37f9-151c-e879-c09c" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="37f9-151c-e879-c09c" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="4a8e-ea0d-515e-9754" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
         <infoLink id="ccb7-0561-1a34-145b" name="Fearless" hidden="false" targetId="082b-cf49-c48d-5dd9" type="rule"/>
         <infoLink id="877d-e0ae-8932-eb25" name="Enhanced Save" hidden="false" targetId="27e9-47a4-f4e7-aaa2" type="rule"/>
@@ -615,7 +635,7 @@ Wizard Level: 2 (Lore of Metal)</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="030f-9c32-3a83-6c38" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="030f-9c32-3a83-6c38" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="a7bb-75f1-773c-f0b4" name="Bold" hidden="false" targetId="d136-6738-e249-71f1" type="rule"/>
         <infoLink id="5d61-c88d-f2e0-b768" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
       </infoLinks>
@@ -692,7 +712,7 @@ Wizard Level: 2 (Lore of Water)</characteristic>
         <infoLink id="a1f8-cbc0-4b12-2440" name="Lockstep" hidden="false" targetId="b846-bac4-8b85-835e" type="rule"/>
         <infoLink id="3e6d-11df-73eb-8d17" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
         <infoLink id="abd7-a6eb-8477-5ad8" name="Bold" hidden="false" targetId="d136-6738-e249-71f1" type="rule"/>
-        <infoLink id="247a-80d2-79d3-2233" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="247a-80d2-79d3-2233" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b5ff-5f87-93e4-672e" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
@@ -970,7 +990,7 @@ Hatred</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5fb8-d4f3-3763-2130" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="5fb8-d4f3-3763-2130" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="c3a8-d2d7-ea0f-d5c0" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -997,7 +1017,7 @@ Hatred</characteristic>
     </selectionEntry>
     <selectionEntry id="e472-9e84-1e02-ed26" name="Elven Crossbows" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8474-3a4b-a055-6358" name="Elven Archers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+        <profile id="8474-3a4b-a055-6358" name="Elven Crossbows" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
@@ -1009,14 +1029,19 @@ Hatred</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
-Primary Volly	
-Range (12&quot;)</characteristic>
+Primary Volly	</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f578-1478-7841-42c5" name="Crossbows" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">18&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0690-7a41-939b-5f6e" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
-        <infoLink id="1ba2-6672-9275-a30a" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
+        <infoLink id="1ba2-6672-9275-a30a" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="07b2-0c47-7142-115c" name="Primary Volley" hidden="false" targetId="76ef-f7ca-32e2-0b61" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1055,15 +1080,20 @@ Range (12&quot;)</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
-Fly	
-Range (12&quot;)</characteristic>
+Fly</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6d0f-ff51-4054-f597" name="Enchanted Shortbows" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">2</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="2f3e-9313-e140-8e78" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
-        <infoLink id="d1b4-3ba8-3687-9e6f" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
-        <infoLink id="8904-4b3d-0762-189c" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="d1b4-3ba8-3687-9e6f" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0248-2dc6-f708-bfe7" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
@@ -1100,8 +1130,14 @@ Range (12&quot;)</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Primary Volly	
-Range (12&quot;)</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Primary Volly	</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ca59-09b6-913f-a4b6" name="Hand Bows" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">4</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1147,15 +1183,20 @@ Range (12&quot;)</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
-Collateral Damage	
-Range (48&quot;)	
+Collateral Damage
 Wizard Level: 2 (Any Spell Lore)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df18-f037-bcfa-7855" name="Magical Volley" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
+          <characteristics>
+            <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
+            <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">48&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ee65-ec5e-16db-70cb" name="Armour Piercing (X)" hidden="false" targetId="f7ab-f58f-b075-c757" type="rule"/>
-        <infoLink id="e04b-8723-897d-ffb5" name="Range (X)" hidden="false" targetId="4e3e-07d9-eecd-d9d5" type="rule"/>
+        <infoLink id="ee65-ec5e-16db-70cb" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="ea55-2418-a69e-e955" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1194,7 +1235,7 @@ Wizard Level: 2 (Any Spell Lore)</characteristic>
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
-        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
