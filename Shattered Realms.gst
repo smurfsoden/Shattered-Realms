@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="15" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="17" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="75cb-9d69-801f-1667" name="Shattered Realms Core Rulebook" shortName="Core Rules" publisher="Shattered Realms Core Rulebook" publicationDate="2022"/>
   </publications>
@@ -171,95 +171,6 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
-  <rules>
-    <rule id="719f-c6a0-d88f-b530" name="Spear Wall" publicationId="75cb-9d69-801f-1667" hidden="false">
-      <description>When a unit with Spear Wall is charged in its front arc it may reroll failed hit rolls in the following Combat Phase.</description>
-    </rule>
-    <rule id="015f-e99b-9b7a-9e87" name="Bloodthirsty" hidden="false">
-      <description>Must charge at the start of each movement phase if able</description>
-    </rule>
-    <rule id="d136-6738-e249-71f1" name="Bold" hidden="false">
-      <description>Re-roll failed Leadership Tests</description>
-    </rule>
-    <rule id="afdd-2dba-162c-08f0" name="Collateral Damage" hidden="false">
-      <description>A unit that receives a point of stamina from an attack with this rule will suffer a -1 penalty to the next break test makes in this turn (Cumulative to a maximum of -3)</description>
-    </rule>
-    <rule id="0f8b-b988-470a-4913" name="Conscript" hidden="false">
-      <description>Roll an additional dice when making leadership checks and discard the highest</description>
-    </rule>
-    <rule id="9748-55c9-00a5-8b41" name="Commander" hidden="false">
-      <description>Allows a unit that is not unique to be taken as the Commander of a battalion.</description>
-    </rule>
-    <rule id="27e9-47a4-f4e7-aaa2" name="Enhanced Save" hidden="false">
-      <description>The defence saves of this unit cannot be modified by the Armour Piercing special rule</description>
-    </rule>
-    <rule id="c4ff-cc37-b904-b86e" name="Fanatical" hidden="false">
-      <description>Grants both the Ferocious Charge and Terrifying Charge special rules.</description>
-    </rule>
-    <rule id="082b-cf49-c48d-5dd9" name="Fearless" hidden="false">
-      <description>Automatically passes Break tests</description>
-    </rule>
-    <rule id="92cb-46c0-0e90-a3f8" name="Ferocious Charge" hidden="false">
-      <description>Re-roll hit rolls when charging</description>
-    </rule>
-    <rule id="11f8-4592-7848-3a9b" name="Fly" hidden="false">
-      <description>When performing a normal movement or charge you may increase its movement value to 12&quot; and ignore interviewing terrain or models (friendly or enemy) provided it does not end the move on an enemy unit or impassable terrain. You cannot march when using fly.</description>
-    </rule>
-    <rule id="f0c1-ad27-e692-713d" name="Hatred" hidden="false">
-      <description>Re-roll hit rolls when using clash value in a combat</description>
-    </rule>
-    <rule id="ed7a-f5a2-e608-1257" name="Heavy Hitters" hidden="false">
-      <description>Increase the amount of stamina points you dealt to the enemy by 1 in a turn of combat for the purposes of determining a combat result</description>
-    </rule>
-    <rule id="ee57-a912-d8b9-c00a" name="Lances" hidden="false">
-      <description>Grants Armour Piercing (1) on the turn in which this unit charged or counter charged</description>
-    </rule>
-    <rule id="b846-bac4-8b85-835e" name="Lockstep" hidden="false">
-      <description>Re-roll failed defence saves if you have no casualties</description>
-    </rule>
-    <rule id="76ef-f7ca-32e2-0b61" name="Primary Volley" hidden="false">
-      <description>Add 1 to hit rolls on the units first Ranged attack</description>
-    </rule>
-    <rule id="4e3e-07d9-eecd-d9d5" name="Range (X)" hidden="false">
-      <description>May make ranged attacks of up to X&quot;</description>
-    </rule>
-    <rule id="c342-3ab1-434d-edc6" name="Sharpshooters" hidden="false">
-      <description>May re-roll any failed hits when making ranged attacks</description>
-    </rule>
-    <rule id="8b9c-1616-5104-a39b" name="Spell Smiter (X)" hidden="false">
-      <description>This unit counts as a level X wizard for the purposes of denying spells and generating power dice to dispel</description>
-    </rule>
-    <rule id="f676-efc9-df7a-a492" name="Stubborn" hidden="false">
-      <description>Ignores negative to Break test from being over your stamina limit</description>
-    </rule>
-    <rule id="706a-0581-8431-26d1" name="Terrifiying Charge" hidden="false">
-      <description>After a charge move has been completed by a unit. Take a leadership test. On a fail, that unit is at minus 1 to hit until the end of the active players turns.</description>
-    </rule>
-    <rule id="bac5-6f9b-dd4e-1a03" name="Untested" hidden="false">
-      <description>At the start of the game roll 1D6. On a 1 or 2, reduce the units stamina limit by 1 for the rest of the game. On a 5 or 6, increase the units stamina limit by 1 for the rest of the game. On a 3 or 4 nothing happens</description>
-    </rule>
-    <rule id="ff0e-f196-2843-7cdc" name="Valiant" hidden="false">
-      <description>May re roll 1 failed break test per game</description>
-    </rule>
-    <rule id="7705-4a46-9b37-3418" name="Veteran" hidden="false">
-      <description>Roll an additional dice when making leadership checks and discard the lowest</description>
-    </rule>
-    <rule id="88c8-fd15-2ebc-ae06" name="Volley Fire" hidden="false">
-      <description>May increase the maximum range of their ranged attacks by 6&quot; but suffer a -1 to hit penalty. This may also be used to ignore intervening models/ units when determining line of sight.</description>
-    </rule>
-    <rule id="ec66-b293-2fdb-6247" name="Rough Riders" hidden="false">
-      <description>Ignore the Rough Special Rule on scenery you move over</description>
-    </rule>
-    <rule id="0f74-9aa9-96b0-a56d" name="Magic Resistance (X)" hidden="false">
-      <description>Add X to your defence saves against hits caused by direct damage or magic missile spells to a maximum of +2</description>
-    </rule>
-    <rule id="0df7-7fa7-2eb8-1475" name="Tough Fighters" hidden="false">
-      <description>May re-roll any failed hits when making melee attacks</description>
-    </rule>
-    <rule id="2ea1-8436-cbd6-7697" name="Steady" hidden="false">
-      <description>Automatically passes the first Break Test the unit is required to make</description>
-    </rule>
-  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="ff40-f524-3ce0-6ae7" name="Commander" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -1455,6 +1366,93 @@ Any movements (friendly or enemy) that are made through the Water Wall (includin
   <sharedRules>
     <rule id="49d1-25b8-74eb-03af" name="Armour Piercing (X)" hidden="false">
       <description>Reduce enemy defence rolls by X from attacks made by a unit with Armour Piercing in the given attack type (Separate sources of Armour Piercing may stack to a maximum of -3)</description>
+    </rule>
+    <rule id="015f-e99b-9b7a-9e87" name="Bloodthirsty" hidden="false">
+      <description>Must charge at the start of each movement phase if able</description>
+    </rule>
+    <rule id="d136-6738-e249-71f1" name="Bold" hidden="false">
+      <description>Re-roll failed Leadership Tests</description>
+    </rule>
+    <rule id="afdd-2dba-162c-08f0" name="Collateral Damage" hidden="false">
+      <description>A unit that receives a point of stamina from an attack with this rule will suffer a -1 penalty to the next break test makes in this turn (Cumulative to a maximum of -3)</description>
+    </rule>
+    <rule id="8f87-acbd-4c72-a9a3" name="Commander" hidden="false">
+      <description>Allows a unit that is not unique to be taken as the Commander of a battalion.</description>
+    </rule>
+    <rule id="0f8b-b988-470a-4913" name="Conscript" hidden="false">
+      <description>Roll an additional dice when making leadership checks and discard the highest</description>
+    </rule>
+    <rule id="27e9-47a4-f4e7-aaa2" name="Enhanced Save" hidden="false">
+      <description>The defence saves of this unit cannot be modified by the Armour Piercing special rule</description>
+    </rule>
+    <rule id="c4ff-cc37-b904-b86e" name="Fanatical" hidden="false">
+      <description>Grants both the Ferocious Charge and Terrifying Charge special rules.</description>
+    </rule>
+    <rule id="082b-cf49-c48d-5dd9" name="Fearless" hidden="false">
+      <description>Automatically passes Break tests</description>
+    </rule>
+    <rule id="92cb-46c0-0e90-a3f8" name="Ferocious Charge" hidden="false">
+      <description>Re-roll hit rolls when charging</description>
+    </rule>
+    <rule id="11f8-4592-7848-3a9b" name="Fly" hidden="false">
+      <description>When performing a normal movement or charge you may increase its movement value to 12&quot; and ignore interviewing terrain or models (friendly or enemy) provided it does not end the move on an enemy unit or impassable terrain. You cannot march when using fly.</description>
+    </rule>
+    <rule id="f0c1-ad27-e692-713d" name="Hatred" hidden="false">
+      <description>Re-roll hit rolls when using clash value in a combat</description>
+    </rule>
+    <rule id="ed7a-f5a2-e608-1257" name="Heavy Hitters" hidden="false">
+      <description>Increase the amount of stamina points you dealt to the enemy by 1 in a turn of combat for the purposes of determining a combat result</description>
+    </rule>
+    <rule id="ee57-a912-d8b9-c00a" name="Lances" hidden="false">
+      <description>Grants Armour Piercing (1) on the turn in which this unit charged or counter charged</description>
+    </rule>
+    <rule id="b846-bac4-8b85-835e" name="Lockstep" hidden="false">
+      <description>Re-roll failed defence saves if you have no casualties</description>
+    </rule>
+    <rule id="0f74-9aa9-96b0-a56d" name="Magic Resistance (X)" hidden="false">
+      <description>Add X to your defence saves against hits caused by direct damage or magic missile spells to a maximum of +2</description>
+    </rule>
+    <rule id="76ef-f7ca-32e2-0b61" name="Primary Volley" hidden="false">
+      <description>Add 1 to hit rolls on the units first Ranged attack</description>
+    </rule>
+    <rule id="4e3e-07d9-eecd-d9d5" name="Range (X)" hidden="false">
+      <description>May make ranged attacks of up to X&quot;</description>
+    </rule>
+    <rule id="ec66-b293-2fdb-6247" name="Rough Riders" hidden="false">
+      <description>Ignore the Rough Special Rule on scenery you move over</description>
+    </rule>
+    <rule id="c342-3ab1-434d-edc6" name="Sharpshooters" hidden="false">
+      <description>May re-roll any failed hits when making ranged attacks</description>
+    </rule>
+    <rule id="719f-c6a0-d88f-b530" name="Spear Wall" publicationId="75cb-9d69-801f-1667" hidden="false">
+      <description>When a unit with Spear Wall is charged in its front arc it may reroll failed hit rolls in the following Combat Phase.</description>
+    </rule>
+    <rule id="8b9c-1616-5104-a39b" name="Spell Smiter (X)" hidden="false">
+      <description>This unit counts as a level X wizard for the purposes of denying spells and generating power dice to dispel</description>
+    </rule>
+    <rule id="2ea1-8436-cbd6-7697" name="Steady" hidden="false">
+      <description>Automatically passes the first Break Test the unit is required to make</description>
+    </rule>
+    <rule id="f676-efc9-df7a-a492" name="Stubborn" hidden="false">
+      <description>Ignores negative to Break test from being over your stamina limit</description>
+    </rule>
+    <rule id="706a-0581-8431-26d1" name="Terrifiying Charge" hidden="false">
+      <description>After a charge move has been completed by a unit. Take a leadership test. On a fail, that unit is at minus 1 to hit until the end of the active players turns.</description>
+    </rule>
+    <rule id="0df7-7fa7-2eb8-1475" name="Tough Fighters" hidden="false">
+      <description>May re-roll any failed hits when making melee attacks</description>
+    </rule>
+    <rule id="bac5-6f9b-dd4e-1a03" name="Untested" hidden="false">
+      <description>At the start of the game roll 1D6. On a 1 or 2, reduce the units stamina limit by 1 for the rest of the game. On a 5 or 6, increase the units stamina limit by 1 for the rest of the game. On a 3 or 4 nothing happens</description>
+    </rule>
+    <rule id="ff0e-f196-2843-7cdc" name="Valiant" hidden="false">
+      <description>May re roll 1 failed break test per game</description>
+    </rule>
+    <rule id="7705-4a46-9b37-3418" name="Veteran" hidden="false">
+      <description>Roll an additional dice when making leadership checks and discard the lowest</description>
+    </rule>
+    <rule id="88c8-fd15-2ebc-ae06" name="Volley Fire" hidden="false">
+      <description>May increase the maximum range of their ranged attacks by 6&quot; but suffer a -1 to hit penalty. This may also be used to ignore intervening models/ units when determining line of sight.</description>
     </rule>
   </sharedRules>
 </gameSystem>

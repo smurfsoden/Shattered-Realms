@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7d9-3bf6-e646-75c2" name="Nomads of Gaius" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f7d9-3bf6-e646-75c2" name="Nomads of Gaius" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="542b-2809-baa0-0d13" name="Ogre Freebellies" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -9,8 +9,6 @@
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -54,8 +52,6 @@
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">9</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
@@ -130,8 +126,6 @@ Veteran</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
@@ -223,8 +217,6 @@ Veteran</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">14</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -301,8 +293,6 @@ Stubborn</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">9</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -375,8 +365,6 @@ Wizard Level: 2 (Lore of Lighting)</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">7</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -451,8 +439,6 @@ Sharp Shooters</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -495,8 +481,6 @@ Ferocious Charge</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">11</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -539,8 +523,6 @@ Heavy Hitters</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -585,8 +567,6 @@ Lances</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">10</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">6+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">7+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">10+</characteristic>
@@ -624,8 +604,6 @@ Lances</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">7</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -675,8 +653,6 @@ Ferocious Charge	</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">0</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -723,8 +699,6 @@ Lances</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">2</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -778,8 +752,6 @@ Stubborn</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">3</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">2</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -827,8 +799,6 @@ Stubborn</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">3</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">2</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -895,8 +865,6 @@ Stubborn</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">16</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0"/>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">7+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">8</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">4+</characteristic>

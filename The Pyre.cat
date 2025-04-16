@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fff5-ec42-ab5c-977f" name="The Pyre" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fff5-ec42-ab5c-977f" name="The Pyre" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9ba9-f97f-d998-fcf2" name="King Dane Al-Khatour, The Everlasting Flame" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -9,11 +9,9 @@
         <profile id="5c87-7156-79c2-13c6" name="King Dane Al-Khatour, The Everlasting Flame" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
@@ -106,11 +104,9 @@ Spell Smiter (2)</characteristic>
         <profile id="234a-85d8-5855-c1c8" name="Tyros the Firebrand Cataphracts" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
@@ -184,11 +180,9 @@ Veteran</characteristic>
         <profile id="8fe1-1eee-300d-d445" name="Urien the Spell-Thief" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
-            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">4</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">4</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">3</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -261,11 +255,9 @@ Steady</characteristic>
         <profile id="8da6-4082-335a-4405" name="Drokir Legionary" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -305,11 +297,9 @@ Steady</characteristic>
         <profile id="e351-ccd7-698e-fe9b" name="Drokir Deepwardens" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">2+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
@@ -353,11 +343,9 @@ Veteran</characteristic>
         <profile id="e5b2-fff9-25b1-9b24" name="Drokir Rage-Blooded" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">5&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">9</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">3</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -401,11 +389,9 @@ Hatred</characteristic>
         <profile id="f8bd-e786-e65f-3d76" name="Drokir Cataphracts" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">0</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -447,11 +433,9 @@ Veteran</characteristic>
         <profile id="ba89-a148-bc45-48e1" name="Drokir Crossbowmen" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">4</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
-            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">2</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -496,11 +480,9 @@ Veteran</characteristic>
         <profile id="c487-61ea-d30f-e753" name="Drokir Thunderbearers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">4</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -547,11 +529,9 @@ Steady</characteristic>
         <profile id="96ea-3e02-1fe7-8b07" name="Drokir Ancestor-Class War Golem" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">2</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
@@ -602,11 +582,9 @@ Heavy Hitters</characteristic>
         <profile id="ef57-0ff1-1e67-9ff4" name="Drokir Bombard" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">1</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">1</characteristic>
-            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">3</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">3+</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">2</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">2</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
@@ -653,11 +631,9 @@ Sharp Shooters</characteristic>
         <profile id="d9cd-0be5-225b-0e38" name="Drokir Firespiter" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">1</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">1</characteristic>
-            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0">6</characteristic>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c">4+</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">2</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">2</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">6+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">3</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
@@ -725,9 +701,7 @@ Collateral Damage</characteristic>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
-            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
-            <characteristic name="Sh" typeId="8b62-5fb5-bb67-1ea0"/>
-            <characteristic name="RA" typeId="1637-3d9c-19ee-036c"/>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">2+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
