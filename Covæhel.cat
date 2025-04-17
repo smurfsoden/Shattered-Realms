@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="11" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="12" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cd0a-e10c-e7e0-3455" name="Elven Spearmen" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -84,17 +84,17 @@ Wizard Level 4 (Lore of Light)</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="8876-cc8f-3cb4-4ee7" name="Battalion" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="5df6-bfc7-b259-80d6" name="Artillery Units" hidden="false" collective="false" import="true" targetId="d17d-cb3d-27c1-db02" type="selectionEntry">
+            <entryLink id="5df6-bfc7-b259-80d6" name="2 Artillery Units" hidden="false" collective="false" import="true" targetId="d17d-cb3d-27c1-db02" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1923-d3b4-3180-5dd7" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="f3e3-27f4-59b8-aa0e" name="Universal Units" hidden="false" collective="false" import="true" targetId="59c3-3baa-377b-09ca" type="selectionEntry">
+            <entryLink id="f3e3-27f4-59b8-aa0e" name="1 Universal Units" hidden="false" collective="false" import="true" targetId="59c3-3baa-377b-09ca" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0099-8a17-c3c9-a4cf" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="29c1-73e4-1acc-ebc2" name="Infantry Units" hidden="false" collective="false" import="true" targetId="719c-4e72-f1a8-d03d" type="selectionEntry">
+            <entryLink id="29c1-73e4-1acc-ebc2" name="3 Infantry Units" hidden="false" collective="false" import="true" targetId="719c-4e72-f1a8-d03d" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a06c-cdb2-f429-8892" type="max"/>
               </constraints>
@@ -324,7 +324,7 @@ Wizard Level: 3 (Lore of Air)</characteristic>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="515e-e228-3ea4-f911" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="7d4e-0861-e2c1-65fa" name="Universal Units" hidden="false" collective="false" import="true" targetId="59c3-3baa-377b-09ca" type="selectionEntry">
+            <entryLink id="7d4e-0861-e2c1-65fa" name="1 Universal Unit" hidden="false" collective="false" import="true" targetId="59c3-3baa-377b-09ca" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="295d-7e6f-ba72-b5a3" type="max"/>
               </constraints>
@@ -402,7 +402,7 @@ Wizard Level: 2 (Lore of Lighting)</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="b837-d301-71c0-5b67" name="Battalion" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="1544-cf87-a934-12d0" name="Cavalry Units" hidden="false" collective="false" import="true" targetId="af70-9f91-782e-f0e0" type="selectionEntry">
+            <entryLink id="1544-cf87-a934-12d0" name="4 Cavalry Units" hidden="false" collective="false" import="true" targetId="af70-9f91-782e-f0e0" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="7c3f-15ed-d524-78a7" type="max"/>
               </constraints>
@@ -481,7 +481,7 @@ Fearless</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="e4ac-3e34-8da6-786b" name="Battalion" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="e555-bd99-cdab-1bb6" name="Universal Units" hidden="false" collective="false" import="true" targetId="59c3-3baa-377b-09ca" type="selectionEntry">
+            <entryLink id="e555-bd99-cdab-1bb6" name="6 Universal Units" hidden="false" collective="false" import="true" targetId="59c3-3baa-377b-09ca" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a0-1345-a5a5-8bdb" type="max"/>
               </constraints>
@@ -555,7 +555,7 @@ Wizard Level 1 (Lore of Fire)</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="037e-131e-3305-68b4" name="Battalion" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="c2eb-738a-94bf-dddc" name="Infantry Units" hidden="false" collective="false" import="true" targetId="719c-4e72-f1a8-d03d" type="selectionEntry">
+            <entryLink id="c2eb-738a-94bf-dddc" name="4 Infantry Units" hidden="false" collective="false" import="true" targetId="719c-4e72-f1a8-d03d" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82bb-8202-2a8a-579c" type="max"/>
               </constraints>
@@ -626,7 +626,7 @@ Wizard Level: 2 (Lore of Metal)</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="7996-5af1-3524-22cc" name="Battalion" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="b05a-8e61-61c3-54d3" name="Infantry Units" hidden="false" collective="false" import="true" targetId="719c-4e72-f1a8-d03d" type="selectionEntry">
+            <entryLink id="b05a-8e61-61c3-54d3" name="2 Infantry Units" hidden="false" collective="false" import="true" targetId="719c-4e72-f1a8-d03d" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11cb-53ce-ae2d-677a" type="max"/>
               </constraints>
@@ -699,12 +699,12 @@ Wizard Level: 2 (Lore of Water)</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="a54f-c928-a10d-499a" name="Battalion" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="9fa8-0b77-54e7-dbf8" name="Cavalry Units" hidden="false" collective="false" import="true" targetId="af70-9f91-782e-f0e0" type="selectionEntry">
+            <entryLink id="9fa8-0b77-54e7-dbf8" name="1 Cavalry Unit" hidden="false" collective="false" import="true" targetId="af70-9f91-782e-f0e0" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a2-2d47-7faa-2a2c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3577-ede3-26f9-6012" name="Infantry Units" hidden="false" collective="false" import="true" targetId="719c-4e72-f1a8-d03d" type="selectionEntry">
+            <entryLink id="3577-ede3-26f9-6012" name="2 Infantry Units" hidden="false" collective="false" import="true" targetId="719c-4e72-f1a8-d03d" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebf5-5603-2724-5655" type="max"/>
               </constraints>
@@ -775,17 +775,17 @@ Wizard Level: 4 (Lore of Darkness)</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="4675-a123-623b-7667" name="Battalion" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="9f46-04bc-d70e-655b" name="Monster Units" hidden="false" collective="false" import="true" targetId="e592-a58a-9ec3-20e6" type="selectionEntry">
+            <entryLink id="9f46-04bc-d70e-655b" name="2 Monster Units" hidden="false" collective="false" import="true" targetId="e592-a58a-9ec3-20e6" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea69-9f5f-06ca-a7df" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="1479-e6f9-aa29-681f" name="Cavalry Units" hidden="false" collective="false" import="true" targetId="af70-9f91-782e-f0e0" type="selectionEntry">
+            <entryLink id="1479-e6f9-aa29-681f" name="1 Cavalry Unit" hidden="false" collective="false" import="true" targetId="af70-9f91-782e-f0e0" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="ffc0-4507-00b8-cdac" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="ac96-27bb-ca0c-b95c" name="Universal Units" hidden="false" collective="false" import="true" targetId="59c3-3baa-377b-09ca" type="selectionEntry">
+            <entryLink id="ac96-27bb-ca0c-b95c" name="1 Universal Unit" hidden="false" collective="false" import="true" targetId="59c3-3baa-377b-09ca" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e97-7d0b-881c-cfdb" type="max"/>
               </constraints>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4e65-9913-8077-f339" name="Free Kingdoms" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4e65-9913-8077-f339" name="Free Kingdoms" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="2f11-5133-59e7-da93" name="Ser Chronus&apos; Steam Chariott " publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -15,7 +15,7 @@
             <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (2)	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Ranged) (1)	
 Fanatical	
 Magic Resistance (1)
 Sharp Shooters	
@@ -25,7 +25,7 @@ Stubborn</characteristic>
         <profile id="1d65-e531-e524-a4f2" name="Steam Guns" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
           <characteristics>
             <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">5</characteristic>
-            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">2+</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
             <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">12&quot;</characteristic>
           </characteristics>
         </profile>
@@ -499,48 +499,6 @@ Hatred</characteristic>
         <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ee9-bb74-9ee6-bfdd" name="Winged Lancers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="6eba-caa3-8c63-fbe8" name="Winged Lancers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
-          <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
-            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">5+</characteristic>
-            <characteristic name="DS" typeId="9913-7593-75a8-6357">5+</characteristic>
-            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
-            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">7+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Primary Volley	
-Range (12&quot;)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="5898-29e7-d60e-cdba" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
-        <infoLink id="3af0-58db-88a9-2d88" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="65cb-fdc3-0433-b10c" name="New CategoryLink" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="a70d-97fc-9084-caf1" name="Company" hidden="false" collective="false" import="true" targetId="ece9-541e-4120-7590" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3214-53e8-233b-cfa7" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="30.0"/>
-        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="fc06-f01a-7931-8c02" name="Mounted Handgunners" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e2af-de4e-eda0-6aac" name="Mounted Handgunners " publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
@@ -760,7 +718,7 @@ Terrifying Charge</characteristic>
         <profile id="d46b-41bb-68dd-01e0" name="Long Cannon" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
           <characteristics>
             <characteristic name="Shots" typeId="5ed0-eb41-2079-5a5c">3</characteristic>
-            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">2+</characteristic>
+            <characteristic name="Ranged Attacks" typeId="9414-4c57-41c7-1979">3+</characteristic>
             <characteristic name="Range" typeId="5d4d-50a4-55e3-38e6">48&quot;</characteristic>
           </characteristics>
         </profile>
@@ -1060,6 +1018,129 @@ Lances</characteristic>
         <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7c86-dfca-ad6f-3ec4" name="Winged Lancers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ad69-dfb9-1782-e0c8" name="Winged Lancers" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Ferocious Charge
+Lances</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec1d-d1b5-4147-4065" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="2972-4c40-009a-4f0e" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7f3a-1653-dd94-15c5" name="New CategoryLink" hidden="false" targetId="8737-330e-057e-db66" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a839-d278-7a99-f49a" name="Company" hidden="false" collective="false" import="true" targetId="ece9-541e-4120-7590" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f7-5df7-6b67-94b6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="45.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eded-5d52-21fd-9db3" name="Lezlek&apos;s Lancers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a4-76d6-e3df-f54a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c493-ebc8-3aab-8a46" name="Lezlek&apos;s Lancers" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
+          <characteristics>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">11</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">9</characteristic>
+            <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
+            <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Ferocious Charge
+Lances
+Veteran</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a72a-8fa7-79c8-c3e9" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
+        <infoLink id="1ad6-d07d-3240-839b" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
+        <infoLink id="2505-eaef-1fbb-20ef" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="c59a-22ac-2cf7-66b6" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7f59-ad26-f51a-57e7" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
+        <categoryLink id="b675-6add-e26e-0dea" name="Cavalry" hidden="false" targetId="8737-330e-057e-db66" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6253-d150-85bf-5ffb" name="Battalion" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="360a-1961-4d2e-05c0" name="Cavalry Units" hidden="false" collective="false" import="true" targetId="c427-b2ff-4072-87fb" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4910-0723-9ebc-320d" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c392-5081-fa2c-bae0" name="Universal Units" hidden="false" collective="false" import="true" targetId="1e01-6c3a-ab5b-d8d6" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d914-f914-803c-16fd" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8cdc-3a02-cb3e-3036" name="War Machine Units" hidden="false" collective="false" import="true" targetId="38eb-6ca2-476f-8f0a" type="selectionEntry">
+              <constraints>
+                <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="559b-b16c-f9c8-6050" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1624-0e49-39aa-babc" name="Commander" hidden="false" collective="false" import="true" targetId="ff40-f524-3ce0-6ae7" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="3428-b307-1881-9f49" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="c3c2-1a37-0d35-1dfd" name="Company" hidden="false" collective="false" import="true" targetId="ece9-541e-4120-7590" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="0ec5-ce96-7b91-1198" value="1.0">
+              <conditions>
+                <condition field="selections" scope="eded-5d52-21fd-9db3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff40-f524-3ce0-6ae7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b3-6dba-239b-bbb6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ec5-ce96-7b91-1198" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="75.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="c427-b2ff-4072-87fb" name="Cavalry Units" hidden="false" collective="false" import="true" type="upgrade">
@@ -1068,8 +1149,8 @@ Lances</characteristic>
       </constraints>
       <entryLinks>
         <entryLink id="869a-e314-ec12-8d57" name="Mounted Handgunners" hidden="false" collective="false" import="true" targetId="fc06-f01a-7931-8c02" type="selectionEntry"/>
-        <entryLink id="7770-e101-f857-ad56" name="Mounted Gunners " hidden="false" collective="false" import="true" targetId="a096-cf33-c733-5e75" type="selectionEntry"/>
-        <entryLink id="d26f-ea7d-1005-96b7" name="Winged Lancers" hidden="false" collective="false" import="true" targetId="8ee9-bb74-9ee6-bfdd" type="selectionEntry"/>
+        <entryLink id="7770-e101-f857-ad56" name="Winged Lancers" hidden="false" collective="false" import="true" targetId="7c86-dfca-ad6f-3ec4" type="selectionEntry"/>
+        <entryLink id="790d-391e-3b85-6e48" name="Mounted Gunners " hidden="false" collective="false" import="true" targetId="a096-cf33-c733-5e75" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
@@ -1117,7 +1198,7 @@ Lances</characteristic>
         <entryLink id="9a6c-01b0-d2af-c839" name="Halberdiers" hidden="false" collective="false" import="true" targetId="1f11-1d54-c433-8ff7" type="selectionEntry"/>
         <entryLink id="ba7c-469b-1c1b-626b" name="Gunners" hidden="false" collective="false" import="true" targetId="20c5-2e80-12e7-166a" type="selectionEntry"/>
         <entryLink id="2d12-d50a-43de-b886" name="Greatswords " hidden="false" collective="false" import="true" targetId="dfe8-8d51-db77-db21" type="selectionEntry"/>
-        <entryLink id="b543-2159-adda-4483" name="Winged Lancers" hidden="false" collective="false" import="true" targetId="8ee9-bb74-9ee6-bfdd" type="selectionEntry"/>
+        <entryLink id="b543-2159-adda-4483" name="Winged Lancers" hidden="false" collective="false" import="true" targetId="7c86-dfca-ad6f-3ec4" type="selectionEntry"/>
         <entryLink id="ed41-b1b2-e0e9-f7c2" name="Mounted Handgunners" hidden="false" collective="false" import="true" targetId="fc06-f01a-7931-8c02" type="selectionEntry"/>
         <entryLink id="f75a-d248-d2f1-af8a" name="Mounted Gunners " hidden="false" collective="false" import="true" targetId="a096-cf33-c733-5e75" type="selectionEntry"/>
         <entryLink id="de44-1f9c-f94e-9adc" name="Organ Gun" hidden="false" collective="false" import="true" targetId="b06d-0e87-a235-5238" type="selectionEntry"/>

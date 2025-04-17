@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8029-6969-2079-d54b" name="Hands of the Pantheon" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8029-6969-2079-d54b" name="Hands of the Pantheon" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="2fae-fff5-06b4-2817" name="Mithrah Alcheliana, The Pantheon" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -15,7 +15,7 @@
             <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (2)	
 Collateral Damage	
 Enhanced Save	
 Fanatical	
@@ -112,7 +112,8 @@ Wizard Level: 4 (Lore of Metal)</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Collateral Damage	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
+Collateral Damage	
 Hatred	
 Lances	
 Wizard Level: 2 (Lore of Metal)</characteristic>
@@ -123,6 +124,7 @@ Wizard Level: 2 (Lore of Metal)</characteristic>
         <infoLink id="814f-6b85-480b-2e8c" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
         <infoLink id="0377-6711-5eff-3580" name="Hatred" hidden="false" targetId="f0c1-ad27-e692-713d" type="rule"/>
         <infoLink id="63e2-46b6-0b5d-0bbf" name="Lances" hidden="false" targetId="ee57-a912-d8b9-c00a" type="rule"/>
+        <infoLink id="1f5c-2475-0f89-8cfd" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d10f-20dd-829e-48d5" name="Unique" hidden="false" targetId="6174-6f39-5c1d-861e" primary="true"/>
@@ -322,8 +324,8 @@ Tough Fighters</characteristic>
         <profile id="b702-f36b-88e2-0c22" name="Crusaders" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">5&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">4</characteristic>
@@ -353,7 +355,7 @@ Tough Fighters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="55.0"/>
         <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
@@ -395,7 +397,7 @@ Tough Fighters</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="286d-46b9-4a79-8989" value="50.0"/>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="60.0"/>
         <cost name="Units" typeId="4010-91bf-c3c8-2179" value="1.0"/>
       </costs>
     </selectionEntry>
@@ -631,16 +633,16 @@ Lances</characteristic>
         <profile id="592d-fd71-24e5-f0c2" name="Forge Titan" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
             <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
-            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
+            <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
             <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
             <characteristic name="St" typeId="76db-ac6b-3c97-f80c">6</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">6+</characteristic>
-            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)	
+            <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (2)	
 Collateral Damage	
 Heavy Hitters
-Terrifying Charge</characteristic>
+Fanatical</characteristic>
           </characteristics>
         </profile>
         <profile id="81f1-c225-2fb4-74cc" name="Assorted Ranged Weapons" hidden="false" typeId="a040-38bc-fd69-4b7d" typeName="Range Weapon">
@@ -655,7 +657,7 @@ Terrifying Charge</characteristic>
         <infoLink id="823b-bd49-9709-f362" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
         <infoLink id="fed5-90ad-76cb-7f27" name="Armour Piercing (X)" hidden="false" targetId="49d1-25b8-74eb-03af" type="rule"/>
         <infoLink id="770c-fb77-93a5-f5ee" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
-        <infoLink id="e24f-8bf5-c629-5208" name="Terrifiying Charge" hidden="false" targetId="706a-0581-8431-26d1" type="rule"/>
+        <infoLink id="e24f-8bf5-c629-5208" name="Fanatical" hidden="false" targetId="c4ff-cc37-b904-b86e" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6ac8-e5c0-4bab-7b00" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="true"/>
@@ -683,7 +685,7 @@ Terrifying Charge</characteristic>
       <profiles>
         <profile id="c909-8e2b-d2ca-d4fc" name="The Perfect Soliders" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
-            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">Units from a Hands of the Pantheon increase their clash and sustain value by 1 whilst they are fresh.</characteristic>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">Ignore the -1 to hit penalty for units being broken.</characteristic>
           </characteristics>
         </profile>
       </profiles>

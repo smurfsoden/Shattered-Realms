@@ -1454,5 +1454,8 @@ Any movements (friendly or enemy) that are made through the Water Wall (includin
     <rule id="88c8-fd15-2ebc-ae06" name="Volley Fire" hidden="false">
       <description>May increase the maximum range of their ranged attacks by 6&quot; but suffer a -1 to hit penalty. This may also be used to ignore intervening models/ units when determining line of sight.</description>
     </rule>
+    <rule id="d99e-7486-9ddb-f3b7" name="Ranger" hidden="false">
+      <description>Ignore the penalties to moving and shooting</description>
+    </rule>
   </sharedRules>
 </gameSystem>

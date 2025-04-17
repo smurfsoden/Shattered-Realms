@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="85e4-578d-a9b4-9d58" name="Celestial Devourers" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="85e4-578d-a9b4-9d58" name="Celestial Devourers" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="3771-f01c-d9e0-0729" name="Mangers" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -486,17 +486,17 @@ Heavy Hitters</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="c460-65b4-c395-34f4" name="Battalion" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="5873-4f61-c1f6-9cdb" name="Infantry Battalion" hidden="false" collective="false" import="true" targetId="b547-2678-c1aa-d383" type="selectionEntry">
+            <entryLink id="5873-4f61-c1f6-9cdb" name="2 Infantry Battalion" hidden="false" collective="false" import="true" targetId="b547-2678-c1aa-d383" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8234-04e3-1305-e6b2" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="8e85-de13-18a4-d8f5" name="Monster Units" hidden="false" collective="false" import="true" targetId="dd2a-8338-f19b-5ac9" type="selectionEntry">
+            <entryLink id="8e85-de13-18a4-d8f5" name="3 Monster Units" hidden="false" collective="false" import="true" targetId="dd2a-8338-f19b-5ac9" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="edf8-85d3-1db4-0b35" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6ab2-18b8-9a38-f526" name="Universal Units" hidden="false" collective="false" import="true" targetId="f1f8-2bc4-f8ec-9db9" type="selectionEntry">
+            <entryLink id="6ab2-18b8-9a38-f526" name="1 Universal Unit" hidden="false" collective="false" import="true" targetId="f1f8-2bc4-f8ec-9db9" type="selectionEntry">
               <constraints>
                 <constraint field="4010-91bf-c3c8-2179" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="edfe-f34a-f67e-520a" type="max"/>
               </constraints>
