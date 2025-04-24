@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4e65-9913-8077-f339" name="Free Kingdoms" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4e65-9913-8077-f339" name="Free Kingdoms" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="2f11-5133-59e7-da93" name="Ser Chronus&apos; Steam Chariott " publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -752,7 +752,7 @@ Terrifying Charge</characteristic>
       <profiles>
         <profile id="5c58-7fe1-2a4a-09e7" name="Rifle Drills" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
-            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">If a Free Kingdoms unit moves less than or equal to half of it&apos;s maximum characteristics it can ignore the -1 to hit penalty when making shooting attacks. </characteristic>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">If a Free Kingdoms unit moves less than or equal to half of its maximum movement characteristics it can ignore the -1 to hit penalty when making shooting attacks. This does not affect Artillery units.</characteristic>
           </characteristics>
         </profile>
       </profiles>

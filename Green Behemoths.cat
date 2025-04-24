@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e71-89d5-f4b2-9a0f" name="Green Behemoths" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e71-89d5-f4b2-9a0f" name="Green Behemoths" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="df0a-963e-9104-fbc8" name="Green Behemoths" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -686,12 +686,12 @@ Enhanced Save</characteristic>
       <profiles>
         <profile id="69a3-78fd-3820-2cf6" name="Rhazgul the Dragonborn" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">10&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
-            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">14</characteristic>
+            <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">15</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
-            <characteristic name="DS" typeId="9913-7593-75a8-6357">4+</characteristic>
-            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">5</characteristic>
+            <characteristic name="DS" typeId="9913-7593-75a8-6357">3+</characteristic>
+            <characteristic name="St" typeId="76db-ac6b-3c97-f80c">7</characteristic>
             <characteristic name="Ld" typeId="65c2-fe73-3656-47fe">5+</characteristic>
             <characteristic name="Special Rules" typeId="c552-bb93-6e00-c36b">Armour Piercing (Melee) (1)
 Collteral Damage

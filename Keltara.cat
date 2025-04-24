@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9441-aa80-9992-75e6" name="Keltara" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9441-aa80-9992-75e6" name="Keltara" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b07e-1fe3-06af-7d23" name="Astrilius the Radiant" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -8,7 +8,7 @@
       <profiles>
         <profile id="760d-0604-9ac0-e7b2" name="Astrilius the Radiant" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
@@ -92,7 +92,7 @@ Wizard Level: 4 (Lore of Light)</characteristic>
       <profiles>
         <profile id="7028-8f52-2af1-becd" name="Inpelius the Brave" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">10</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">7</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">3+</characteristic>
@@ -213,7 +213,7 @@ Wizard Level: 4 (Lore of Spirit)</characteristic>
       <profiles>
         <profile id="f562-f3d1-2dbe-5390" name="Harpies" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">6</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">5</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
@@ -727,12 +727,16 @@ Tough Fighters</characteristic>
     </selectionEntry>
     <selectionEntry id="4df3-6550-c9ca-4945" name="Keltara" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f9e3-cb13-9894-a6f8" name="Nature Finds the Way" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
+        <profile id="f9e3-cb13-9894-a6f8" name="Nature Finds a Way" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
             <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">Before rolling for imitative at the start of each turn after the first. You may remove dice from your pool of imitative dice. For each dice removed you may remove a unit from the battlefield and replace them wholly within 3” of a natural terrain feature or board edge further than 1” from all enemy units. </characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="286d-46b9-4a79-8989" value="0.0"/>
+        <cost name="Units" typeId="4010-91bf-c3c8-2179" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>

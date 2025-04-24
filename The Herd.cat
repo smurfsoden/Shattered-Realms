@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c62b-8006-9c6b-a809" name="The Herd" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c62b-8006-9c6b-a809" name="The Herd" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="fa5f-f3e3-7280-6774" name="Apex" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1170,7 +1170,7 @@ Volley Fire</characteristic>
       <profiles>
         <profile id="b21c-565d-4dc1-5418" name="Beacon of Power" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
-            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">None Monster units may add +1 to their Leadership rolls whilst they are within either:
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">Non-Monster units may add +1 to their Leadership rolls whilst they are within either:
 3&quot; of a friendly Hill Giant unit
 6&quot; of a Friendly Ice Giant unit
 9&quot; of a Friendly Fire Giant unit

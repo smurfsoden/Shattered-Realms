@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="12" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c86c-3f2c-4882-c23d" name="Covæhel" revision="15" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cd0a-e10c-e7e0-3455" name="Elven Spearmen" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -278,7 +278,7 @@ Heavy Hitters</characteristic>
       <profiles>
         <profile id="2000-c63a-8342-b83d" name="Amlunganel, Dragon Queen" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">8&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">12</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">8</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
@@ -1038,7 +1038,7 @@ Primary Volly	</characteristic>
       <profiles>
         <profile id="9ef9-f523-f7fb-ec56" name="Hawk Warriors" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">4&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">10&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">7</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">4+</characteristic>
@@ -1188,7 +1188,7 @@ Wizard Level: 2 (Any Spell Lore)</characteristic>
       <profiles>
         <profile id="feda-0ddc-a7cd-3949" name="Magical Convergence" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
-            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">A Covædhel Wizard unit make make 2 Magic Actions each activation.</characteristic>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">A Covædhel Wizard unit may make 2 Magic Actions during each of its activations.</characteristic>
           </characteristics>
         </profile>
       </profiles>

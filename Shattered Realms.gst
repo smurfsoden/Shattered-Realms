@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="17" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e54-e87a-9e70-ac74" name="Shattered Realms" revision="18" battleScribeVersion="2.03" authorName="Soden Games" authorContact="sodengames@outlook.co.uk" authorUrl="https://charliesoden.wixsite.com/sodengames" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="75cb-9d69-801f-1667" name="Shattered Realms Core Rulebook" shortName="Core Rules" publisher="Shattered Realms Core Rulebook" publicationDate="2022"/>
   </publications>
@@ -294,19 +294,19 @@ Infantry Support: 0-1</characteristic>
         <profile id="5276-39d9-7ad2-ae04" name="1 - Chilling Bite " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Chilling Bite is a hex spell with a range of 48”. It may not march until the start of your next magic phase. If Chilling Winds was cast on a 10+, you may target two enemy units.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Chilling Bite is a hex spell with a range of 48”. If successfully cast roll a D6. If this is greater than the unit&apos;s movement value it gains a stumble marker. During this round you may remove the stumble marker to force your opponent to re-roll a single dice result from that unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="f1a1-621d-2664-faf9" name="2 - Howling Gale " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">6+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Howling Gale is a hex spell with a range of 18”. At the start of the controlling players movement, magic and shooting phase, the target unit must take a Leadership test. If they fail, they may not make an action in that phase.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Howling Gale is a hex spell with a range of 48”. Target takes a leadership test. When the unit next activates it may not perform a march move or charge action.</characteristic>
           </characteristics>
         </profile>
         <profile id="d7ae-04c2-554e-6cae" name="3 - Guiding Winds " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">7+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Guiding Winds is a blessing spell with a range of 18”. Target unit increases the range of their ranged attacks by 6” and +1 to hit rolls made in the following shooting phase. If Guiding Winds was cast on a 12+ the range of their ranged attacks is increased by 12” and may add +2 to their hit rolls.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Guiding Winds is a blessing spell with a range of 12”. During its next ranged attack the unit may add 2 to hit rolls. </characteristic>
           </characteristics>
         </profile>
         <profile id="1d37-a9b1-df8b-d8c9" name="4 - Calming Zephyr " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -331,7 +331,7 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
         </profile>
         <profile id="b278-20d4-5ae5-7a01" name="Lore Attribute - Turbulence" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="eace-a081-5083-1d74">If a spell is successfully cast from the Lore of Air that targets an enemy unit with the fly special rule suffer D3 hits (roll defence saves). </characteristic>
+            <characteristic name="Description" typeId="eace-a081-5083-1d74">If a spell is successfully cast from the Lore of Air that targets an enemy unit with the fly special rule it suffer D3 hits (roll defence saves). </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -355,13 +355,13 @@ If a friendly unit moves in base contact with one of the two Transporting Vortex
         <profile id="f7d1-9a5d-08e9-50d3" name="1 - Shadow Step" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Shadow Step is a blessing spell with a range of 18”. Target unit may perform a movement as if it was the main stage of the movement phase (so may not make a charge move).</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Shadow Step is a blessing spell which affects the caster. Target unit may perform a movement action. </characteristic>
           </characteristics>
         </profile>
         <profile id="37f4-e73b-112e-f785" name="2 - Enfeebling Foe " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">6+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Enfeebling Foe is a hex spell with a range of 24”. The target unit suffers a -1 to hit penalty to any attacks it makes until the start of the casting players next magic phase.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Enfeebling Foe is a hex spell with a range of 24”. The target unit suffers a -1 to hit penalty to any attacks it makes until the end of the round.</characteristic>
           </characteristics>
         </profile>
         <profile id="bacb-fa20-bbe5-fe05" name="3 - Death’s Shadow " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -392,7 +392,7 @@ At the end of each magic phase roll 1D6 for each enemy unit with 6”. On a 5+ t
         </profile>
         <profile id="f754-d98b-7d15-2626" name="Lore Attribute - Smoke and Mirrors" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="eace-a081-5083-1d74">Every time an enemy unit is targeted by a Hex spell place a curse token on them. When this unit successfully makes a Leadership test you may remove the curse token. Reduce the result of the Leadership check by D3. This may cause the unit to now fail the test. A unit may only have 1 curse token on it at a time. </characteristic>
+            <characteristic name="Description" typeId="eace-a081-5083-1d74">Every time an enemy unit is targeted by a Hex spell place a curse token on them. A unit may only have 1 curse token on it at a time. Remove Curse token to force unit to re-roll a leadership test.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -410,19 +410,19 @@ At the end of each magic phase roll 1D6 for each enemy unit with 6”. On a 5+ t
         <profile id="4a2e-e716-07b7-8956" name="0 - Fire Ball" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Fireball is a magic missile with a range of 18”. If successfully cast, make D3 shooting attacks against the target unit that have a ranged accuracy of 4+. If the spell was cast on a 10+ it contains D6 attacks. If it was cast on an 18+ it contains D3+3 attacks. </characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Fireball is a magic missile with a range of 18”. If successfully cast, make D3 shooting attacks against the target unit that have a ranged accuracy of 4+. If the spell was cast on a 10+ it makes D6 attacks. If it was cast on an 18+ it makes D3+3 attacks. </characteristic>
           </characteristics>
         </profile>
         <profile id="9efe-5fba-5c39-0b56" name="1 - Cascading Fire Cloak " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Cascading Fire Cloak is a direct damage spell. At the start of any phase, you may target one enemy unit in base contact, and it immediately suffers 1 point of stamina.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Cascading Fire Cloak is a direct damage spell. One unit in base contact suffers D3 hits. If Cascading Fire Cloak was cast on a 10+, the unit takes D6 hits instead. </characteristic>
           </characteristics>
         </profile>
         <profile id="5b53-ebfd-471d-82da" name="2 - Flaming Weapon " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">6+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Flaming Weapon is a blessing spell with a range of 12”. Until the start of your next magic phase, attacks made by either the target unit’s ranged or melee attacks (you must choose which) have the Armour Piercing (1) special rule. If the spell is cast on a 11+ you may target a second unit in range. </characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Flaming Weapon is a blessing spell with a range of 12”. In the next attack action performed by target unit, the attack gains the Armour Piercing (1) special rule. If the spell is cast on a 11+ you may target a second unit in range. </characteristic>
           </characteristics>
         </profile>
         <profile id="6fc6-2487-9693-0fbb" name="3 - Fire Blade " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -434,7 +434,7 @@ At the end of each magic phase roll 1D6 for each enemy unit with 6”. On a 5+ t
         <profile id="5a5d-bd58-9345-2019" name="4 - Flaming Torrent " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">8+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Flaming Torrent is a direct damage spell with a range of 18”. Roll a number of dice equal to the target units stamina characteristic. For each roll of a 3+ the unit takes one hit (roll for defence saves). </characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Flaming Torrent is a direct damage spell with a range of 18”. Roll a number of dice equal to the target units stamina characteristic. For each roll of a 3+ the unit takes one hit (roll for defence saves).  </characteristic>
           </characteristics>
         </profile>
         <profile id="2fa5-851e-8970-a81a" name="5 - Ring of Fire" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -446,14 +446,14 @@ At the end of each magic phase roll 1D6 for each enemy unit with 6”. On a 5+ t
         <profile id="12af-6ab9-bbfd-2cfc" name="6 - Raging Inferno" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">10+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Raging Inferno is an endless spell with a radius of 32mm and can move 6” at the end of each magic phase.
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Raging Inferno is an endless spell with a radius of 32mm and can move 6” at the end of each round.
 
 After Raging Inferno completes a move, roll three dice for every unit it moves over. On a 3+ the unit takes a hit (roll for defence saves).</characteristic>
           </characteristics>
         </profile>
         <profile id="b0cc-4e98-bb82-39b4" name="Lore Attribute - Kindling" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="eace-a081-5083-1d74">If a wizard successfully cast a spell from the Lore of Fire, add 1 to the result of the next spell they cast from the Lore of Fire (this may be in a different magic phase). If a cast is failed or dispelled, lose this bonus.</characteristic>
+            <characteristic name="Description" typeId="eace-a081-5083-1d74">If a wizard successfully cast a spell from the Lore of Fire, it may make a second magic action but may only cast Fire Ball. In addition, it does not add its wizard level to the casting roll. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -501,7 +501,7 @@ After Raging Inferno completes a move, roll three dice for every unit it moves o
         <profile id="1904-d280-79c0-bacd" name="5 - Lightspeed" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">9+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Lightspeed is a blessing spell with a range of 24”. The target units may charge as if it were the movement phase. If Lightspeed was cast on a 15+ also increase the units Clash and Sustain by 3.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Lightspeed is a blessing spell with a range of 24”. The target units may make a Charge action if it is not engaged. If Lightspeed was cast on a 15+ also increase the units Clash and Sustain by 3 until the end of the round.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ad6-1bc1-fa4d-81ed" name="6 - Searing White Light " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -605,13 +605,13 @@ Enemy units with 6” of the Thunderclouds suffer a –1 penalty to any Leadersh
         <profile id="3592-2284-81c7-e50d" name="2 - Sharpened Blades " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">6+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Sharpened Blades is a blessing spell with a range of 18”. Target unit adds +1 to any hit rolls for melee attacks until the start of your next magic phase. If Sharpened Blades is cast on an 11+, +2 to hit instead. </characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Sharpened Blades is a blessing spell with a range of 18”. Target unit adds +1 to any hit rolls for melee attacks until the end of the round. If Sharpened Blades is cast on an 11+, +2 to hit instead. </characteristic>
           </characteristics>
         </profile>
         <profile id="0222-47f6-2359-7381" name="3 - Enhanced Armour " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">7+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Enhanced Armour is a blessing spell with a range of 6”. The target unit gains the Enhanced Saves rule until the start of your next magic phase.  If Enhanced Armour was cast on a 12+ increase the range to 12”.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Enhanced Armour is a blessing spell with a range of 6”. The target unit gains the Enhanced Saves rule until the end of the round.  If Enhanced Armour was cast on a 12+ increase the range to 12”.</characteristic>
           </characteristics>
         </profile>
         <profile id="b478-9103-7058-ef77" name="4 - Burden of Steel " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -655,7 +655,7 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
         <profile id="6816-a2ea-5f98-b8b1" name="0 - Reinforce the Mind " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">5+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Reinforce the Mind is a blessing spell with a range of 18”. Target unit adds +1 to Leadership tests until the start of the next magic phase.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Reinforce the Mind is a blessing spell with a range of 18”. Target unit adds +1 to Leadership tests until the end of the turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="2ed6-1f3d-8b4d-9a33" name="1 - Exorcism" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -667,13 +667,13 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
         <profile id="c7bc-7ccd-1f89-345e" name="2 - Distracting Visions" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">6+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Distracting Visions is a hex spell with a range of 24”. Target unit suffers a penalty of -1 to hit rolls until the start of the casting player’s next magic phase.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Distracting Visions is a hex spell with a range of 24”. Target unit suffers a penalty of -1 to hit rolls until the start of the end of the turn</characteristic>
           </characteristics>
         </profile>
         <profile id="e34b-164e-8bee-8eb7" name="3 - Inspiring Visage " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">7+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Inspiring Visage is a blessing spell with a range of 6”. Whilst friendly units are within the targets range add 1 to their hit rolls. If Inspiring Visage was cast on a 12+ increase the spells range to 12”.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Inspiring Visage is a blessing spell that targets the caster’s unit. Add 1 to their hit rolls until the end of the turn. If Inspiring Visage was cast on a 12+ it also affects friendly units within 6” of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="3c01-e186-851b-dd7e" name="4 - Voices of Doubt" hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -753,13 +753,13 @@ Line of sight cannot be drawn through the slab shield following usual rules for 
         <profile id="4336-a53b-94fb-ce7b" name="3 - Low Fog " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">7+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Low Fog is a hex spell with a range of 24”. Target unit may only hit on a natural roll of a 6 with any ranged attacks until the start of your next magic phase. If the spell is cast on a 12+ increase the range of the spell to 48”. </characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Low Fog is a hex spell with a range of 24”. Target unit may only hit on a natural roll of a 6 with any ranged attacks until the end of the turn If the spell is cast on a 12+ increase the range of the spell to 48”. </characteristic>
           </characteristics>
         </profile>
         <profile id="8bb7-ffd3-ab06-327b" name="4 - Tidal Surge " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
           <characteristics>
             <characteristic name="Cast on" typeId="2b39-5912-d5e9-9700">8+</characteristic>
-            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Tidal Surge is a blessing with a range of 8”. Target unit increases its movement and clash value by 1 until the start of your next magic phase. If the spell cast on a 13+ increase the movement and clash value of the unit by 2 instead.</characteristic>
+            <characteristic name="Description" typeId="72cf-8299-671b-dd65">Tidal Surge is a blessing with a range of 8”. Target unit increases its movement and clash value by 1 until the end of the turn. If the spell cast on a 13+ increase the movement and clash value of the unit by 2 instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="8814-ef81-dd92-a9dc" name="5 - Flash Flood " hidden="false" typeId="23b3-ca0c-1133-c416" typeName="Spells">
@@ -780,7 +780,7 @@ Any movements (friendly or enemy) that are made through the Water Wall (includin
         </profile>
         <profile id="2d72-728b-d136-3b29" name="Lore Attribute - Resurgence" hidden="false" typeId="423c-ddf7-09cb-ef5d" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="eace-a081-5083-1d74">If a spell from the Lore of Water is successfully cast and more than 1 power dice was used to cast the spell return 1 power dice to your casting pool.</characteristic>
+            <characteristic name="Description" typeId="eace-a081-5083-1d74">If a spell from the Lore of Water is successfully cast roll 1 D6 and add the result to the magic pool.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1368,7 +1368,7 @@ Any movements (friendly or enemy) that are made through the Water Wall (includin
       <description>Reduce enemy defence rolls by X from attacks made by a unit with Armour Piercing in the given attack type (Separate sources of Armour Piercing may stack to a maximum of -3)</description>
     </rule>
     <rule id="015f-e99b-9b7a-9e87" name="Bloodthirsty" hidden="false">
-      <description>Must charge at the start of each movement phase if able</description>
+      <description>Must charge at the start of each activation if able</description>
     </rule>
     <rule id="d136-6738-e249-71f1" name="Bold" hidden="false">
       <description>Re-roll failed Leadership Tests</description>
@@ -1395,7 +1395,7 @@ Any movements (friendly or enemy) that are made through the Water Wall (includin
       <description>Re-roll hit rolls when charging</description>
     </rule>
     <rule id="11f8-4592-7848-3a9b" name="Fly" hidden="false">
-      <description>When performing a normal movement or charge you may increase its movement value to 12&quot; and ignore interviewing terrain or models (friendly or enemy) provided it does not end the move on an enemy unit or impassable terrain. You cannot march when using fly.</description>
+      <description>When performing a normal movement or charge you may ignore interviewing terrain or units (friendly or enemy) provided it does not end the move on top of a unit or impassable terrain. </description>
     </rule>
     <rule id="f0c1-ad27-e692-713d" name="Hatred" hidden="false">
       <description>Re-roll hit rolls when using clash value in a combat</description>
@@ -1452,7 +1452,7 @@ Any movements (friendly or enemy) that are made through the Water Wall (includin
       <description>Roll an additional dice when making leadership checks and discard the lowest</description>
     </rule>
     <rule id="88c8-fd15-2ebc-ae06" name="Volley Fire" hidden="false">
-      <description>May increase the maximum range of their ranged attacks by 6&quot; but suffer a -1 to hit penalty. This may also be used to ignore intervening models/ units when determining line of sight.</description>
+      <description>May increase the maximum range of their ranged attacks by 6&quot; but suffer a -1 to hit penalty. This may also be used to ignore intervening units or terrain when determining line of sight.</description>
     </rule>
     <rule id="d99e-7486-9ddb-f3b7" name="Ranger" hidden="false">
       <description>Ignore the penalties to moving and shooting</description>

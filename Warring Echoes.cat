@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="055e-634a-e7e1-f9a3" name="Warring Echoes" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="055e-634a-e7e1-f9a3" name="Warring Echoes" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e54-e87a-9e70-ac74" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8e1b-c1c6-8e7c-b7a8" name="Warring Echoes" publicationId="75cb-9d69-801f-1667" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3fa7-29dc-1551-fdea" name="Incursion" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="646c-e14e-ec78-cef1" typeName="Faction Ability">
           <characteristics>
-            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">To be confirmed</characteristic>
+            <characteristic name="Faction Ability" typeId="bf4f-a7e5-f469-45ae">At the start of each turn you may remove any number of units from the battlefield. These units count as being destroyed but generate demon points for each unit removed in this way. Demons points cannot be lost until they are spent by the Warring Echoes player. 
+
+Unit	Points
+Lesser Demons	1
+Winged Demons	1
+Demonic War Beasts	1
+Fallen Demons	2
+(Non-General) Demon Lords	2
+
+You may spend demon points in the following ways:
+•	Points (Various) In the Reserves sub-phase place one fresh unit of demons anywhere on the board more than 9” from any enemy units. Spend a number of demon points equal to the points that unit would generate.
+
+•	Points: 1 After a friendly commander unit activates, one unit on the battlefield in line of sight to the commander takes 5 hits (roll for defence). If the unit is within your deployment zone, instead take 10. If they are within your opponent’s deployment zone, instead take 3. 
+
+•	Points: 1 At the start of a friendly Wizard units’ activation, Roll 3 dice and add them to your magic pool.
+
+•	Points: 1 At the start of the Melee phase. Give any unit Armour Piercing (Melee) (1)
+
+•	Points: 2 At the end of the round, before moving to the next rounds initiative phase. Remove all stamina points assigned to one unit. They are now fresh. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -69,7 +87,7 @@ Veteran</characteristic>
       <profiles>
         <profile id="392e-82bf-b699-9e66" name="Winged Demons" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">7&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">5</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">4</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">2+</characteristic>
@@ -189,7 +207,6 @@ Wizard Level 4: Lore of Spirit</characteristic>
         <infoLink id="11ca-e2d6-d950-3740" name="Stubborn" hidden="false" targetId="f676-efc9-df7a-a492" type="rule"/>
         <infoLink id="c69c-e9e7-7895-8a64" name="Heavy Hitters" hidden="false" targetId="ed7a-f5a2-e608-1257" type="rule"/>
         <infoLink id="5437-6cf9-31fe-2241" name="Collateral Damage" hidden="false" targetId="afdd-2dba-162c-08f0" type="rule"/>
-        <infoLink id="6f3d-2c40-1891-8d47" name="Commander" hidden="false" targetId="9748-55c9-00a5-8b41" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="04b7-add0-0a4f-1a5c" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="false"/>
@@ -240,7 +257,7 @@ Wizard Level 4: Lore of Spirit</characteristic>
       <profiles>
         <profile id="27bc-81be-ab9e-63c2" name="Demon Lords" publicationId="75cb-9d69-801f-1667" hidden="false" typeId="4d0c-8080-b2da-9708" typeName="Unit">
           <characteristics>
-            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">6&quot;</characteristic>
+            <characteristic name="Mv" typeId="58ee-d984-837d-1a98">9&quot;</characteristic>
             <characteristic name="Cl" typeId="284f-60a6-2ff0-607e">8</characteristic>
             <characteristic name="Su" typeId="54d6-39ab-3e85-1ad2">6</characteristic>
             <characteristic name="MA" typeId="4cbf-37a9-af12-c448">2+</characteristic>
@@ -262,7 +279,6 @@ Veteran</characteristic>
         <infoLink id="a49c-2e95-6ca6-63f6" name="Veteran" hidden="false" targetId="7705-4a46-9b37-3418" type="rule"/>
         <infoLink id="7120-1999-6bd8-2af1" name="Ferocious Charge" hidden="false" targetId="92cb-46c0-0e90-a3f8" type="rule"/>
         <infoLink id="d153-e37c-1525-589f" name="Fly" hidden="false" targetId="11f8-4592-7848-3a9b" type="rule"/>
-        <infoLink id="bd3c-51a7-8b01-7624" name="Commander" hidden="false" targetId="9748-55c9-00a5-8b41" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0bdc-f9d0-7d99-5558" name="Monster" hidden="false" targetId="58da-637c-e127-2ebb" primary="false"/>
